@@ -124,21 +124,30 @@ function setupEventListeners() {
 }
 
 function setupTouchFeedback() {
-    // Use event delegation on document for iOS Safari compatibility
+    // Apply styles directly via JavaScript for iOS Safari
     document.addEventListener('touchstart', (e) => {
         const btn = e.target.closest('.btn-secondary, .btn-primary, .btn-icon');
         if (btn) {
-            btn.classList.remove('pressed');
-            void btn.offsetWidth;
-            btn.classList.add('pressed');
+            btn.style.transform = 'scale(0.92)';
+            btn.style.opacity = '0.8';
         }
     }, { passive: true });
 
-    document.addEventListener('animationend', (e) => {
-        if (e.target.classList.contains('pressed')) {
-            e.target.classList.remove('pressed');
+    document.addEventListener('touchend', (e) => {
+        const btn = e.target.closest('.btn-secondary, .btn-primary, .btn-icon');
+        if (btn) {
+            btn.style.transform = '';
+            btn.style.opacity = '';
         }
-    });
+    }, { passive: true });
+
+    document.addEventListener('touchcancel', (e) => {
+        const btn = e.target.closest('.btn-secondary, .btn-primary, .btn-icon');
+        if (btn) {
+            btn.style.transform = '';
+            btn.style.opacity = '';
+        }
+    }, { passive: true });
 }
 
 // ========================================
