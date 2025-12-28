@@ -25,18 +25,30 @@
             </header>
 
             <div class="progress-section">
-                <label for="lesson-select">Выберите урок:</label>
-                <div class="lesson-select-wrapper">
-                    <select id="lesson-select">
-                        <option value="1">שיעור 1 — Алфавит (стр. 18-25)</option>
-                        <option value="2">שיעור 2 — Местоимения (стр. 26-37)</option>
-                        <option value="3">שיעור 3 — Числа (стр. 38-51)</option>
-                        <option value="4">שיעור 4 — Притяжательные (стр. 52-65)</option>
-                        <option value="5" selected>שיעור 5 — Семья (стр. 66-74)</option>
-                    </select>
-                    <button id="update-progress" class="btn-secondary">Обновить</button>
+                <label>Выберите уроки:</label>
+                <div class="lesson-checkboxes" id="lesson-checkboxes">
+                    <label class="lesson-checkbox">
+                        <input type="checkbox" value="1" checked>
+                        <span>שיעור 1 — Алфавит (18-25)</span>
+                    </label>
+                    <label class="lesson-checkbox">
+                        <input type="checkbox" value="2" checked>
+                        <span>שיעור 2 — Местоимения (26-37)</span>
+                    </label>
+                    <label class="lesson-checkbox">
+                        <input type="checkbox" value="3" checked>
+                        <span>שיעור 3 — Числа (38-51)</span>
+                    </label>
+                    <label class="lesson-checkbox">
+                        <input type="checkbox" value="4" checked>
+                        <span>שיעור 4 — Притяжат. (52-65)</span>
+                    </label>
+                    <label class="lesson-checkbox">
+                        <input type="checkbox" value="5" checked>
+                        <span>שיעור 5 — Семья (66-74)</span>
+                    </label>
                 </div>
-                <p class="lesson-hint" id="lesson-hint">Включает уроки 1-5</p>
+                <button id="update-progress" class="btn-secondary">Применить</button>
             </div>
 
             <div class="stats">

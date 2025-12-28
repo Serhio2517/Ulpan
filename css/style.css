@@ -114,34 +114,43 @@ body {
     color: var(--text-secondary);
 }
 
-.lesson-select-wrapper {
+.lesson-checkboxes {
     display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
+}
+
+.lesson-checkbox {
+    display: flex;
+    align-items: center;
     gap: var(--spacing-sm);
-}
-
-.lesson-select-wrapper select {
-    flex: 1;
-    padding: var(--spacing-md);
-    font-size: 1rem;
-    font-weight: 500;
+    padding: var(--spacing-sm) var(--spacing-md);
     background: var(--bg-card);
-    border: 2px solid transparent;
     border-radius: var(--radius-md);
-    color: var(--text-primary);
     cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.15s;
+}
+
+.lesson-checkbox:active {
+    background: var(--bg-secondary);
+}
+
+.lesson-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--accent);
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.lesson-checkbox span {
     font-family: 'Inter', 'Noto Sans Hebrew', sans-serif;
-}
-
-.lesson-select-wrapper select:focus {
-    outline: none;
-    border-color: var(--accent);
-}
-
-.lesson-hint {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    margin-top: var(--spacing-sm);
-    text-align: center;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .stats {

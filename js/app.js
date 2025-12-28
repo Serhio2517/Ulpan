@@ -8,7 +8,7 @@
 
 const state = {
     vocabulary: [],
-    currentLesson: 5,
+    selectedLessons: [1, 2, 3, 4, 5],
     availableWords: [],
     learnedWordIds: [],
     currentWord: null,
@@ -31,8 +31,7 @@ const elements = {
     writingScreen: document.getElementById('writing-screen'),
 
     // Home
-    lessonSelect: document.getElementById('lesson-select'),
-    lessonHint: document.getElementById('lesson-hint'),
+    lessonCheckboxes: document.getElementById('lesson-checkboxes'),
     updateProgress: document.getElementById('update-progress'),
     availableWords: document.getElementById('available-words'),
     learnedWords: document.getElementById('learned-words'),
@@ -89,23 +88,21 @@ function loadProgress() {
     const saved = localStorage.getItem('ulpanProgress');
     if (saved) {
         const progress = JSON.parse(saved);
-        state.currentLesson = progress.currentLesson || 5;
+        state.selectedLessons = progress.selectedLessons || [1, 2, 3, 4, 5];
         state.learnedWordIds = progress.learnedWordIds || [];
     }
-    elements.lessonSelect.value = state.currentLesson;
-    updateLessonHint();
+    // Update checkboxes to match saved state
+    const checkboxes = elements.lessonCheckboxes.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(cb => {
+        cb.checked = state.selectedLessons.includes(parseInt(cb.value));
+    });
 }
 
 function saveProgress() {
     localStorage.setItem('ulpanProgress', JSON.stringify({
-        currentLesson: state.currentLesson,
+        selectedLessons: state.selectedLessons,
         learnedWordIds: state.learnedWordIds
     }));
-}
-
-function updateLessonHint() {
-    const lesson = state.currentLesson;
-    elements.lessonHint.textContent = `Включает уроки 1-${lesson}`;
 }
 
 // ========================================
@@ -189,20 +186,24 @@ function showScreen(screenName) {
 // ========================================
 
 function handleUpdateProgress() {
-    const newLesson = parseInt(elements.lessonSelect.value);
-    if (newLesson >= 1 && newLesson <= 5) {
-        state.currentLesson = newLesson;
-        updateLessonHint();
-        saveProgress();
-        updateStats();
+    // Get selected lessons from checkboxes
+    const checkboxes = elements.lessonCheckboxes.querySelectorAll('input[type="checkbox"]:checked');
+    state.selectedLessons = Array.from(checkboxes).map(cb => parseInt(cb.value));
+
+    if (state.selectedLessons.length === 0) {
+        alert('Выберите хотя бы один урок!');
+        return;
     }
+
+    saveProgress();
+    updateStats();
 }
 
 function updateStats() {
-    // Filter words by lesson (include all lessons up to selected)
+    // Filter words by selected lessons
     state.availableWords = state.vocabulary.filter(w => {
-        const wordLesson = w.lesson || (w.type === 'verb' ? w.lesson : 0);
-        return wordLesson > 0 && wordLesson <= state.currentLesson;
+        const wordLesson = w.lesson || 0;
+        return wordLesson > 0 && state.selectedLessons.includes(wordLesson);
     });
     const learnedCount = state.learnedWordIds.length;
 
