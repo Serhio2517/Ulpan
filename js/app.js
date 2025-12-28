@@ -118,6 +118,40 @@ function setupEventListeners() {
 
     // Keyboard
     elements.keyboard.addEventListener('click', handleKeyPress);
+
+    // iOS Safari touch feedback fix
+    // :active doesn't work on iOS without touch event handlers
+    setupTouchFeedback();
+}
+
+// iOS Safari touch feedback
+function setupTouchFeedback() {
+    const buttons = document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon, .key, .option-btn');
+
+    buttons.forEach(btn => {
+        btn.addEventListener('touchstart', function (e) {
+            this.classList.add('pressed');
+        }, { passive: true });
+
+        btn.addEventListener('touchend', function (e) {
+            this.classList.remove('pressed');
+        }, { passive: true });
+
+        btn.addEventListener('touchcancel', function (e) {
+            this.classList.remove('pressed');
+        }, { passive: true });
+    });
+
+    // Also handle dynamically created buttons (like quiz options)
+    document.addEventListener('touchstart', function (e) {
+        const btn = e.target.closest('.option-btn, .key');
+        if (btn) btn.classList.add('pressed');
+    }, { passive: true });
+
+    document.addEventListener('touchend', function (e) {
+        const btn = e.target.closest('.option-btn, .key');
+        if (btn) btn.classList.remove('pressed');
+    }, { passive: true });
 }
 
 // ========================================

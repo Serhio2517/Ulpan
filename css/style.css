@@ -13,24 +13,24 @@
     --error: #f87171;
     --text-primary: #ffffff;
     --text-secondary: #a1a1aa;
-    
+
     /* Typography */
     --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-hebrew: 'Noto Sans Hebrew', 'David Libre', serif;
-    
+
     /* Spacing */
     --spacing-xs: 4px;
     --spacing-sm: 8px;
     --spacing-md: 16px;
     --spacing-lg: 24px;
     --spacing-xl: 32px;
-    
+
     /* Border Radius */
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 16px;
     --radius-full: 9999px;
-    
+
     /* Safe area for iPhone notch */
     --safe-area-top: env(safe-area-inset-top, 0px);
     --safe-area-bottom: env(safe-area-inset-bottom, 0px);
@@ -43,7 +43,8 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     overflow: hidden;
 }
@@ -179,8 +180,10 @@ body {
     margin-top: auto;
 }
 
-.btn-primary:active {
-    transform: scale(0.98);
+.btn-primary:active,
+.btn-primary.pressed {
+    transform: scale(0.97);
+    opacity: 0.9;
 }
 
 .btn-secondary {
@@ -195,9 +198,11 @@ body {
     transition: background 0.15s;
 }
 
-.btn-secondary:active {
+.btn-secondary:active,
+.btn-secondary.pressed {
     background: var(--accent);
     color: white;
+    transform: scale(0.97);
 }
 
 .btn-icon {
@@ -264,8 +269,10 @@ body {
     justify-content: center;
 }
 
-.option-btn:active {
+.option-btn:active,
+.option-btn.pressed {
     transform: scale(0.97);
+    background: var(--bg-card);
 }
 
 .option-btn.correct {
@@ -430,9 +437,19 @@ body {
 }
 
 @keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    75% { transform: translateX(5px); }
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
 }
 
 /* ========================================
@@ -470,8 +487,10 @@ body {
     transition: background 0.1s;
 }
 
-.key:active {
+.key:active,
+.key.pressed {
     background: var(--accent);
+    transform: scale(0.95);
 }
 
 .key.backspace {
@@ -487,12 +506,12 @@ body {
     .hebrew-word {
         font-size: 4rem;
     }
-    
+
     .key {
         min-width: 40px;
         height: 52px;
     }
-    
+
     .letter-slot {
         width: 48px;
         height: 60px;
@@ -503,7 +522,7 @@ body {
     .screen {
         padding: var(--spacing-xl);
     }
-    
+
     .card-image {
         aspect-ratio: 4/3;
     }
