@@ -124,30 +124,50 @@ function setupEventListeners() {
 }
 
 function setupTouchFeedback() {
-    // Apply styles directly via JavaScript for iOS Safari
+    // Press effect handler
+    function applyPress(btn) {
+        btn.style.transform = 'scale(0.92)';
+        btn.style.opacity = '0.8';
+    }
+
+    function releasePress(btn) {
+        btn.style.transform = '';
+        btn.style.opacity = '';
+    }
+
+    function getButton(e) {
+        return e.target.closest('.btn-secondary, .btn-primary, .btn-icon');
+    }
+
+    // Touch events (mobile)
     document.addEventListener('touchstart', (e) => {
-        const btn = e.target.closest('.btn-secondary, .btn-primary, .btn-icon');
-        if (btn) {
-            btn.style.transform = 'scale(0.92)';
-            btn.style.opacity = '0.8';
-        }
+        const btn = getButton(e);
+        if (btn) applyPress(btn);
     }, { passive: true });
 
     document.addEventListener('touchend', (e) => {
-        const btn = e.target.closest('.btn-secondary, .btn-primary, .btn-icon');
-        if (btn) {
-            btn.style.transform = '';
-            btn.style.opacity = '';
-        }
+        const btn = getButton(e);
+        if (btn) releasePress(btn);
     }, { passive: true });
 
     document.addEventListener('touchcancel', (e) => {
-        const btn = e.target.closest('.btn-secondary, .btn-primary, .btn-icon');
-        if (btn) {
-            btn.style.transform = '';
-            btn.style.opacity = '';
-        }
+        const btn = getButton(e);
+        if (btn) releasePress(btn);
     }, { passive: true });
+
+    // Mouse events (desktop)
+    document.addEventListener('mousedown', (e) => {
+        const btn = getButton(e);
+        if (btn) applyPress(btn);
+    });
+
+    document.addEventListener('mouseup', () => {
+        document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon').forEach(releasePress);
+    });
+
+    document.addEventListener('mouseleave', () => {
+        document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon').forEach(releasePress);
+    });
 }
 
 // ========================================
