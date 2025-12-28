@@ -1,0 +1,144 @@
+{
+    "words": [
+        {
+            "id": 1,
+            "hebrew": "שָׁלוֹם",
+            "transcription": "шало́м",
+            "translation": "мир, привет",
+            "page": 5,
+            "lesson": 1,
+            "image": "images/shalom.webp"
+        },
+        {
+            "id": 2,
+            "hebrew": "תּוֹדָה",
+            "transcription": "тода́",
+            "translation": "спасибо",
+            "page": 7,
+            "lesson": 1,
+            "image": "images/toda.webp"
+        },
+        {
+            "id": 3,
+            "hebrew": "כֵּן",
+            "transcription": "кен",
+            "translation": "да",
+            "page": 8,
+            "lesson": 1,
+            "image": "images/ken.webp"
+        },
+        {
+            "id": 4,
+            "hebrew": "לֹא",
+            "transcription": "ло",
+            "translation": "нет",
+            "page": 8,
+            "lesson": 1,
+            "image": "images/lo.webp"
+        },
+        {
+            "id": 5,
+            "hebrew": "מָה",
+            "transcription": "ма",
+            "translation": "что",
+            "page": 10,
+            "lesson": 1,
+            "image": "images/ma.webp"
+        },
+        {
+            "id": 6,
+            "hebrew": "מִי",
+            "transcription": "ми",
+            "translation": "кто",
+            "page": 10,
+            "lesson": 1,
+            "image": "images/mi.webp"
+        },
+        {
+            "id": 7,
+            "hebrew": "אֲנִי",
+            "transcription": "ани́",
+            "translation": "я",
+            "page": 12,
+            "lesson": 2,
+            "image": "images/ani.webp"
+        },
+        {
+            "id": 8,
+            "hebrew": "אַתָּה",
+            "transcription": "ата́",
+            "translation": "ты (м.р.)",
+            "page": 12,
+            "lesson": 2,
+            "image": "images/ata.webp"
+        },
+        {
+            "id": 9,
+            "hebrew": "אַתְּ",
+            "transcription": "ат",
+            "translation": "ты (ж.р.)",
+            "page": 12,
+            "lesson": 2,
+            "image": "images/at.webp"
+        },
+        {
+            "id": 10,
+            "hebrew": "הוּא",
+            "transcription": "hу",
+            "translation": "он",
+            "page": 14,
+            "lesson": 2,
+            "image": "images/hu.webp"
+        },
+        {
+            "id": 11,
+            "hebrew": "הִיא",
+            "transcription": "hи",
+            "translation": "она",
+            "page": 14,
+            "lesson": 2,
+            "image": "images/hi.webp"
+        },
+        {
+            "id": 12,
+            "hebrew": "סֵפֶר",
+            "transcription": "се́фер",
+            "translation": "книга",
+            "page": 18,
+            "lesson": 3,
+            "image": "images/sefer.webp"
+        },
+        {
+            "id": 13,
+            "hebrew": "עֵט",
+            "transcription": "эт",
+            "translation": "ручка",
+            "page": 18,
+            "lesson": 3,
+            "image": "images/et.webp"
+        },
+        {
+            "id": 14,
+            "hebrew": "מַחְבֶּרֶת",
+            "transcription": "мах̣бе́рет",
+            "translation": "тетрадь",
+            "page": 18,
+            "lesson": 3,
+            "image": "images/machberet.webp"
+        },
+        {
+            "id": 15,
+            "hebrew": "שֻׁלְחָן",
+            "transcription": "шульх̣а́н",
+            "translation": "стол",
+            "page": 20,
+            "lesson": 3,
+            "image": "images/shulchan.webp"
+        }
+    ],
+    "metadata": {
+        "totalPages": 264,
+        "totalLessons": 22,
+        "version": "1.0"
+    }
+}

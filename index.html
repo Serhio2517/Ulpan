@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Ulpan Helper — Учим иврит</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Главный экран -->
+        <div id="home-screen" class="screen active">
+            <header class="header">
+                <h1>🇮🇱 Ulpan Helper</h1>
+                <p class="subtitle">Учим иврит по учебнику</p>
+            </header>
+
+            <div class="progress-section">
+                <label for="page-input">Пройдено страниц:</label>
+                <div class="page-input-wrapper">
+                    <input type="number" id="page-input" min="1" max="264" value="20">
+                    <button id="update-progress" class="btn-secondary">Обновить</button>
+                </div>
+            </div>
+
+            <div class="stats">
+                <div class="stat-card">
+                    <span class="stat-value" id="available-words">0</span>
+                    <span class="stat-label">Доступно слов</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value" id="learned-words">0</span>
+                    <span class="stat-label">Изучено</span>
+                </div>
+            </div>
+
+            <button id="start-btn" class="btn-primary">▶ НАЧАТЬ</button>
+        </div>
+
+        <!-- Экран выбора перевода -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <button id="back-home" class="btn-icon">←</button>
+                <span id="quiz-progress">1 / 10</span>
+            </div>
+
+            <div class="hebrew-word" id="hebrew-display"></div>
+
+            <div class="options-grid" id="options-container">
+                <!-- Варианты ответов будут добавлены через JS -->
+            </div>
+        </div>
+
+        <!-- Карточка результата -->
+        <div id="result-screen" class="screen">
+            <div class="result-status" id="result-status">✓ ПРАВИЛЬНО!</div>
+
+            <div class="card-image" id="card-image">
+                <div class="placeholder-image">🖼️</div>
+            </div>
+
+            <div class="card-content">
+                <div class="hebrew-word large" id="result-hebrew"></div>
+                <div class="transcription" id="result-transcription"></div>
+                <div class="translation" id="result-translation"></div>
+            </div>
+
+            <div class="result-actions">
+                <button id="writing-btn" class="btn-secondary">✏️ НАПИСАНИЕ</button>
+                <button id="next-btn" class="btn-primary">ДАЛЕЕ ➜</button>
+            </div>
+        </div>
+
+        <!-- Режим написания -->
+        <div id="writing-screen" class="screen">
+            <div class="writing-header">
+                <button id="back-result" class="btn-icon">←</button>
+                <span>Напишите слово</span>
+            </div>
+
+            <div class="card-image small" id="writing-image">
+                <div class="placeholder-image">🖼️</div>
+            </div>
+
+            <div class="transcription large" id="writing-transcription"></div>
+
+            <div class="writing-area">
+                <div class="letter-slots" id="letter-slots">
+                    <!-- Слоты для букв будут добавлены через JS -->
+                </div>
+            </div>
+
+            <div class="hebrew-keyboard" id="keyboard">
+                <div class="keyboard-row">
+                    <button class="key" data-letter="א">א</button>
+                    <button class="key" data-letter="ב">ב</button>
+                    <button class="key" data-letter="ג">ג</button>
+                    <button class="key" data-letter="ד">ד</button>
+                    <button class="key" data-letter="ה">ה</button>
+                    <button class="key" data-letter="ו">ו</button>
+                    <button class="key" data-letter="ז">ז</button>
+                    <button class="key" data-letter="ח">ח</button>
+                    <button class="key" data-letter="ט">ט</button>
+                </div>
+                <div class="keyboard-row">
+                    <button class="key" data-letter="י">י</button>
+                    <button class="key" data-letter="כ">כ</button>
+                    <button class="key" data-letter="ל">ל</button>
+                    <button class="key" data-letter="מ">מ</button>
+                    <button class="key" data-letter="נ">נ</button>
+                    <button class="key" data-letter="ס">ס</button>
+                    <button class="key" data-letter="ע">ע</button>
+                    <button class="key" data-letter="פ">פ</button>
+                    <button class="key" data-letter="צ">צ</button>
+                </div>
+                <div class="keyboard-row">
+                    <button class="key" data-letter="ק">ק</button>
+                    <button class="key" data-letter="ר">ר</button>
+                    <button class="key" data-letter="ש">ש</button>
+                    <button class="key" data-letter="ת">ת</button>
+                    <button class="key" data-letter="ך">ך</button>
+                    <button class="key" data-letter="ם">ם</button>
+                    <button class="key" data-letter="ן">ן</button>
+                    <button class="key" data-letter="ף">ף</button>
+                    <button class="key" data-letter="ץ">ץ</button>
+                </div>
+                <div class="keyboard-row">
+                    <button class="key backspace" id="backspace-btn">⌫</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

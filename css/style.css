@@ -1,0 +1,510 @@
+/* ========================================
+   Ulpan Helper — Mobile-First Styles
+   ======================================== */
+
+:root {
+    /* Colors */
+    --bg-primary: #0f0f1a;
+    --bg-secondary: #1a1a2e;
+    --bg-card: #252542;
+    --accent: #6366f1;
+    --accent-hover: #818cf8;
+    --success: #4ade80;
+    --error: #f87171;
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1aa;
+    
+    /* Typography */
+    --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-hebrew: 'Noto Sans Hebrew', 'David Libre', serif;
+    
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-full: 9999px;
+    
+    /* Safe area for iPhone notch */
+    --safe-area-top: env(safe-area-inset-top, 0px);
+    --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: var(--font-ui);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+#app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--safe-area-top);
+    padding-bottom: var(--safe-area-bottom);
+}
+
+/* ========================================
+   Screens
+   ======================================== */
+
+.screen {
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    padding: var(--spacing-lg);
+    overflow-y: auto;
+}
+
+.screen.active {
+    display: flex;
+}
+
+/* ========================================
+   Home Screen
+   ======================================== */
+
+.header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.header h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-xs);
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.progress-section {
+    background: var(--bg-secondary);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.progress-section label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: var(--spacing-sm);
+    color: var(--text-secondary);
+}
+
+.page-input-wrapper {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.page-input-wrapper input {
+    flex: 1;
+    padding: var(--spacing-md);
+    font-size: 1.25rem;
+    font-weight: 600;
+    background: var(--bg-card);
+    border: 2px solid transparent;
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.page-input-wrapper input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    text-align: center;
+}
+
+.stat-value {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* ========================================
+   Buttons
+   ======================================== */
+
+.btn-primary {
+    width: 100%;
+    padding: var(--spacing-lg);
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, var(--accent), #8b5cf6);
+    border: none;
+    border-radius: var(--radius-lg);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+    margin-top: auto;
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+.btn-secondary {
+    padding: var(--spacing-md) var(--spacing-lg);
+    font-size: 1rem;
+    font-weight: 500;
+    background: var(--bg-card);
+    border: 2px solid var(--accent);
+    border-radius: var(--radius-md);
+    color: var(--accent);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.btn-secondary:active {
+    background: var(--accent);
+    color: white;
+}
+
+.btn-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 1.5rem;
+    background: var(--bg-secondary);
+    border: none;
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+/* ========================================
+   Quiz Screen
+   ======================================== */
+
+.quiz-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-xl);
+}
+
+#quiz-progress {
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.hebrew-word {
+    font-family: var(--font-hebrew);
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    direction: rtl;
+    margin-bottom: var(--spacing-xl);
+    line-height: 1.4;
+}
+
+.hebrew-word.large {
+    font-size: 2.5rem;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+    flex: 1;
+}
+
+.option-btn {
+    padding: var(--spacing-lg);
+    font-size: 1rem;
+    font-weight: 500;
+    background: var(--bg-secondary);
+    border: 2px solid transparent;
+    border-radius: var(--radius-lg);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.2s;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option-btn:active {
+    transform: scale(0.97);
+}
+
+.option-btn.correct {
+    background: var(--success);
+    border-color: var(--success);
+    color: #052e16;
+}
+
+.option-btn.wrong {
+    background: var(--error);
+    border-color: var(--error);
+    color: #450a0a;
+}
+
+/* ========================================
+   Result Screen
+   ======================================== */
+
+.result-status {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.result-status.success {
+    background: rgba(74, 222, 128, 0.2);
+    color: var(--success);
+}
+
+.result-status.error {
+    background: rgba(248, 113, 113, 0.2);
+    color: var(--error);
+}
+
+.card-image {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--spacing-lg);
+    overflow: hidden;
+}
+
+.card-image.small {
+    aspect-ratio: 16/7;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.placeholder-image {
+    font-size: 4rem;
+    opacity: 0.3;
+}
+
+.card-content {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.transcription {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.transcription.large {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.translation {
+    font-size: 1.1rem;
+    color: var(--accent);
+}
+
+.result-actions {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-top: auto;
+}
+
+.result-actions .btn-secondary {
+    flex: 1;
+}
+
+.result-actions .btn-primary {
+    flex: 1;
+    margin-top: 0;
+}
+
+/* ========================================
+   Writing Screen
+   ======================================== */
+
+.writing-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.writing-header span {
+    font-weight: 500;
+}
+
+.writing-area {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.letter-slots {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: var(--spacing-sm);
+    direction: rtl;
+}
+
+.letter-slot {
+    width: 44px;
+    height: 56px;
+    background: var(--bg-secondary);
+    border: 2px solid var(--bg-card);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-hebrew);
+    font-size: 1.75rem;
+    transition: all 0.2s;
+}
+
+.letter-slot.active {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+
+.letter-slot.correct {
+    background: var(--success);
+    border-color: var(--success);
+    color: #052e16;
+}
+
+.letter-slot.wrong {
+    background: var(--error);
+    border-color: var(--error);
+    color: #450a0a;
+    animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+/* ========================================
+   Hebrew Keyboard
+   ======================================== */
+
+.hebrew-keyboard {
+    background: var(--bg-secondary);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    margin-top: auto;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+}
+
+.keyboard-row:last-child {
+    margin-bottom: 0;
+}
+
+.key {
+    min-width: 36px;
+    height: 48px;
+    font-family: var(--font-hebrew);
+    font-size: 1.25rem;
+    background: var(--bg-card);
+    border: none;
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: background 0.1s;
+}
+
+.key:active {
+    background: var(--accent);
+}
+
+.key.backspace {
+    min-width: 80px;
+    font-size: 1.5rem;
+}
+
+/* ========================================
+   Responsive Adjustments
+   ======================================== */
+
+@media (min-width: 414px) {
+    .hebrew-word {
+        font-size: 4rem;
+    }
+    
+    .key {
+        min-width: 40px;
+        height: 52px;
+    }
+    
+    .letter-slot {
+        width: 48px;
+        height: 60px;
+    }
+}
+
+@media (min-height: 800px) {
+    .screen {
+        padding: var(--spacing-xl);
+    }
+    
+    .card-image {
+        aspect-ratio: 4/3;
+    }
+}
