@@ -118,6 +118,27 @@ function setupEventListeners() {
 
     // Keyboard
     elements.keyboard.addEventListener('click', handleKeyPress);
+
+    // iOS Safari: enable touch feedback for buttons
+    setupTouchFeedback();
+}
+
+function setupTouchFeedback() {
+    const buttons = document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon');
+
+    buttons.forEach(btn => {
+        btn.addEventListener('touchstart', () => {
+            btn.classList.add('pressed');
+        }, { passive: true });
+
+        btn.addEventListener('touchend', () => {
+            setTimeout(() => btn.classList.remove('pressed'), 100);
+        }, { passive: true });
+
+        btn.addEventListener('touchcancel', () => {
+            btn.classList.remove('pressed');
+        }, { passive: true });
+    });
 }
 
 // ========================================

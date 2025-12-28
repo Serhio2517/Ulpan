@@ -179,8 +179,10 @@ body {
     margin-top: auto;
 }
 
-.btn-primary:active {
+.btn-primary:active,
+.btn-primary.pressed {
     transform: scale(0.98);
+    filter: brightness(0.9);
 }
 
 .btn-secondary {
@@ -212,6 +214,13 @@ body {
     border-radius: var(--radius-md);
     color: var(--text-primary);
     cursor: pointer;
+    transition: transform 0.1s, background 0.1s;
+}
+
+.btn-icon:active,
+.btn-icon.pressed {
+    transform: scale(0.9);
+    background: var(--bg-card);
 }
 
 /* ========================================
