@@ -124,49 +124,47 @@ function setupEventListeners() {
 }
 
 function setupTouchFeedback() {
-    // Press effect handler
-    function applyPress(btn) {
-        btn.style.transform = 'scale(0.92)';
-        btn.style.opacity = '0.8';
+    const buttons = document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon');
+
+    function pressButton(btn) {
+        // Force repaint for iOS Safari
+        requestAnimationFrame(() => {
+            btn.style.transform = 'scale(0.92)';
+            btn.style.opacity = '0.8';
+        });
     }
 
-    function releasePress(btn) {
+    function releaseButton(btn) {
         btn.style.transform = '';
         btn.style.opacity = '';
     }
 
-    function getButton(e) {
-        return e.target.closest('.btn-secondary, .btn-primary, .btn-icon');
-    }
+    buttons.forEach(btn => {
+        // Touch events for iOS
+        btn.addEventListener('touchstart', function(e) {
+            pressButton(this);
+        }, { passive: true });
 
-    // Touch events (mobile)
-    document.addEventListener('touchstart', (e) => {
-        const btn = getButton(e);
-        if (btn) applyPress(btn);
-    }, { passive: true });
+        btn.addEventListener('touchend', function() {
+            releaseButton(this);
+        }, { passive: true });
 
-    document.addEventListener('touchend', (e) => {
-        const btn = getButton(e);
-        if (btn) releasePress(btn);
-    }, { passive: true });
+        btn.addEventListener('touchcancel', function() {
+            releaseButton(this);
+        }, { passive: true });
 
-    document.addEventListener('touchcancel', (e) => {
-        const btn = getButton(e);
-        if (btn) releasePress(btn);
-    }, { passive: true });
+        // Mouse events for desktop
+        btn.addEventListener('mousedown', function() {
+            pressButton(this);
+        });
 
-    // Mouse events (desktop)
-    document.addEventListener('mousedown', (e) => {
-        const btn = getButton(e);
-        if (btn) applyPress(btn);
-    });
+        btn.addEventListener('mouseup', function() {
+            releaseButton(this);
+        });
 
-    document.addEventListener('mouseup', () => {
-        document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon').forEach(releasePress);
-    });
-
-    document.addEventListener('mouseleave', () => {
-        document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon').forEach(releasePress);
+        btn.addEventListener('mouseleave', function() {
+            releaseButton(this);
+        });
     });
 }
 

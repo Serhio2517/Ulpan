@@ -175,8 +175,11 @@ body {
     border-radius: var(--radius-lg);
     color: white;
     cursor: pointer;
-    transition: transform 0.15s, box-shadow 0.15s;
+    transition: transform 0.15s, opacity 0.15s;
     margin-top: auto;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .btn-primary.pressed {
@@ -193,7 +196,10 @@ body {
     border-radius: var(--radius-md);
     color: var(--accent);
     cursor: pointer;
-    transition: background 0.15s, transform 0.1s, box-shadow 0.1s;
+    transition: transform 0.15s, opacity 0.15s;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .btn-secondary.pressed {
@@ -212,7 +218,10 @@ body {
     border-radius: var(--radius-md);
     color: var(--text-primary);
     cursor: pointer;
-    transition: transform 0.1s, background 0.1s;
+    transition: transform 0.15s, opacity 0.15s;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .btn-icon.pressed {
