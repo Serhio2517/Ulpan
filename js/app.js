@@ -268,12 +268,14 @@ function showQuizWord() {
 function generateOptions(correctWord) {
     const options = [correctWord];
 
-    // Get distractors from nearby pages
-    const candidates = state.availableWords.filter(w => w.id !== correctWord.id);
+    // Get distractors from ALL vocabulary (not just selected lessons)
+    // This ensures we always have enough options
+    const candidates = state.vocabulary.filter(w => w.id !== correctWord.id && w.translation);
     const shuffled = shuffleArray(candidates);
 
-    // Take 7 distractors
-    for (let i = 0; i < 7 && i < shuffled.length; i++) {
+    // Take 7 distractors (or as many as available)
+    const numDistractors = Math.min(7, shuffled.length);
+    for (let i = 0; i < numDistractors; i++) {
         options.push(shuffled[i]);
     }
 
