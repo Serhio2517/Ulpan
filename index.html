@@ -24,31 +24,37 @@
                 <p class="subtitle">Учим иврит по учебнику</p>
             </header>
 
-            <div class="progress-section">
-                <label>Выберите уроки:</label>
-                <div class="lesson-checkboxes" id="lesson-checkboxes">
-                    <label class="lesson-checkbox">
-                        <input type="checkbox" value="1" checked>
-                        <span>שיעור 1 — Алфавит (18-25)</span>
-                    </label>
-                    <label class="lesson-checkbox">
-                        <input type="checkbox" value="2" checked>
-                        <span>שיעור 2 — Местоимения (26-37)</span>
-                    </label>
-                    <label class="lesson-checkbox">
-                        <input type="checkbox" value="3" checked>
-                        <span>שיעור 3 — Числа (38-51)</span>
-                    </label>
-                    <label class="lesson-checkbox">
-                        <input type="checkbox" value="4" checked>
-                        <span>שיעור 4 — Притяжат. (52-65)</span>
-                    </label>
-                    <label class="lesson-checkbox">
-                        <input type="checkbox" value="5" checked>
-                        <span>שיעור 5 — Семья (66-74)</span>
-                    </label>
+            <div class="lesson-selector">
+                <div class="lesson-summary" id="lesson-summary">
+                    <span class="lesson-label">Уроки:</span>
+                    <span class="lesson-list" id="lesson-list">1, 2, 3, 4, 5</span>
+                    <button id="select-lessons-btn" class="btn-secondary btn-small">Выбрать</button>
                 </div>
-                <button id="update-progress" class="btn-secondary">Применить</button>
+                <div class="lesson-picker hidden" id="lesson-picker">
+                    <div class="lesson-checkboxes" id="lesson-checkboxes">
+                        <label class="lesson-checkbox">
+                            <input type="checkbox" value="1" checked>
+                            <span>1 — Алфавит</span>
+                        </label>
+                        <label class="lesson-checkbox">
+                            <input type="checkbox" value="2" checked>
+                            <span>2 — Местоимения</span>
+                        </label>
+                        <label class="lesson-checkbox">
+                            <input type="checkbox" value="3" checked>
+                            <span>3 — Числа</span>
+                        </label>
+                        <label class="lesson-checkbox">
+                            <input type="checkbox" value="4" checked>
+                            <span>4 — Притяжат.</span>
+                        </label>
+                        <label class="lesson-checkbox">
+                            <input type="checkbox" value="5" checked>
+                            <span>5 — Семья</span>
+                        </label>
+                    </div>
+                    <button id="apply-lessons-btn" class="btn-secondary">Применить</button>
+                </div>
             </div>
 
             <div class="stats">

@@ -100,18 +100,45 @@ body {
     font-size: 0.9rem;
 }
 
-.progress-section {
+/* Lesson Selector */
+.lesson-selector {
     background: var(--bg-secondary);
-    padding: var(--spacing-lg);
+    padding: var(--spacing-md);
     border-radius: var(--radius-lg);
     margin-bottom: var(--spacing-lg);
 }
 
-.progress-section label {
-    display: block;
-    font-weight: 500;
-    margin-bottom: var(--spacing-sm);
+.lesson-summary {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+}
+
+.lesson-label {
+    font-weight: 600;
     color: var(--text-secondary);
+}
+
+.lesson-list {
+    flex: 1;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.btn-small {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.85rem;
+}
+
+.lesson-picker {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--bg-card);
+}
+
+.lesson-picker.hidden {
+    display: none;
 }
 
 .lesson-checkboxes {
@@ -134,7 +161,7 @@ body {
 }
 
 .lesson-checkbox:active {
-    background: var(--bg-secondary);
+    background: var(--bg-primary);
 }
 
 .lesson-checkbox input[type="checkbox"] {
@@ -146,11 +173,7 @@ body {
 }
 
 .lesson-checkbox span {
-    font-family: 'Inter', 'Noto Sans Hebrew', sans-serif;
     color: var(--text-primary);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .stats {

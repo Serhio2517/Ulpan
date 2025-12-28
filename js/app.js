@@ -32,7 +32,10 @@ const elements = {
 
     // Home
     lessonCheckboxes: document.getElementById('lesson-checkboxes'),
-    updateProgress: document.getElementById('update-progress'),
+    lessonList: document.getElementById('lesson-list'),
+    lessonPicker: document.getElementById('lesson-picker'),
+    selectLessonsBtn: document.getElementById('select-lessons-btn'),
+    applyLessonsBtn: document.getElementById('apply-lessons-btn'),
     availableWords: document.getElementById('available-words'),
     learnedWords: document.getElementById('learned-words'),
     startBtn: document.getElementById('start-btn'),
@@ -96,6 +99,8 @@ function loadProgress() {
     checkboxes.forEach(cb => {
         cb.checked = state.selectedLessons.includes(parseInt(cb.value));
     });
+    // Update lesson list display
+    elements.lessonList.textContent = state.selectedLessons.sort((a, b) => a - b).join(', ');
 }
 
 function saveProgress() {
@@ -110,8 +115,9 @@ function saveProgress() {
 // ========================================
 
 function setupEventListeners() {
-    // Home
-    elements.updateProgress.addEventListener('click', handleUpdateProgress);
+    // Home - Lesson selector
+    elements.selectLessonsBtn.addEventListener('click', toggleLessonPicker);
+    elements.applyLessonsBtn.addEventListener('click', applyLessons);
     elements.startBtn.addEventListener('click', startSession);
     elements.backHome.addEventListener('click', () => showScreen('home'));
 
@@ -185,7 +191,11 @@ function showScreen(screenName) {
 // Progress Management
 // ========================================
 
-function handleUpdateProgress() {
+function toggleLessonPicker() {
+    elements.lessonPicker.classList.toggle('hidden');
+}
+
+function applyLessons() {
     // Get selected lessons from checkboxes
     const checkboxes = elements.lessonCheckboxes.querySelectorAll('input[type="checkbox"]:checked');
     state.selectedLessons = Array.from(checkboxes).map(cb => parseInt(cb.value));
@@ -194,6 +204,12 @@ function handleUpdateProgress() {
         alert('Выберите хотя бы один урок!');
         return;
     }
+
+    // Update the summary display
+    elements.lessonList.textContent = state.selectedLessons.sort((a, b) => a - b).join(', ');
+
+    // Collapse the picker
+    elements.lessonPicker.classList.add('hidden');
 
     saveProgress();
     updateStats();
