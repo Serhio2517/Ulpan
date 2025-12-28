@@ -124,47 +124,22 @@ function setupEventListeners() {
 }
 
 function setupTouchFeedback() {
+    // CSS :active handles most cases with ontouchstart="" on body
+    // This is a JavaScript fallback for edge cases
     const buttons = document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon');
 
-    function pressButton(btn) {
-        // Force repaint for iOS Safari
-        requestAnimationFrame(() => {
-            btn.style.transform = 'scale(0.92)';
-            btn.style.opacity = '0.8';
-        });
-    }
-
-    function releaseButton(btn) {
-        btn.style.transform = '';
-        btn.style.opacity = '';
-    }
-
     buttons.forEach(btn => {
-        // Touch events for iOS
-        btn.addEventListener('touchstart', function(e) {
-            pressButton(this);
+        btn.addEventListener('touchstart', function() {
+            this.classList.add('pressed');
         }, { passive: true });
 
         btn.addEventListener('touchend', function() {
-            releaseButton(this);
+            this.classList.remove('pressed');
         }, { passive: true });
 
         btn.addEventListener('touchcancel', function() {
-            releaseButton(this);
+            this.classList.remove('pressed');
         }, { passive: true });
-
-        // Mouse events for desktop
-        btn.addEventListener('mousedown', function() {
-            pressButton(this);
-        });
-
-        btn.addEventListener('mouseup', function() {
-            releaseButton(this);
-        });
-
-        btn.addEventListener('mouseleave', function() {
-            releaseButton(this);
-        });
     });
 }
 
