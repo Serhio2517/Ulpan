@@ -124,11 +124,10 @@ function setupEventListeners() {
 }
 
 function setupTouchFeedback() {
-    // CSS :active handles most cases with ontouchstart="" on body
-    // This is a JavaScript fallback for edge cases
     const buttons = document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon');
 
     buttons.forEach(btn => {
+        // Touch events (mobile)
         btn.addEventListener('touchstart', function() {
             this.classList.add('pressed');
         }, { passive: true });
@@ -140,6 +139,19 @@ function setupTouchFeedback() {
         btn.addEventListener('touchcancel', function() {
             this.classList.remove('pressed');
         }, { passive: true });
+
+        // Mouse events (desktop)
+        btn.addEventListener('mousedown', function() {
+            this.classList.add('pressed');
+        });
+
+        btn.addEventListener('mouseup', function() {
+            this.classList.remove('pressed');
+        });
+
+        btn.addEventListener('mouseleave', function() {
+            this.classList.remove('pressed');
+        });
     });
 }
 
