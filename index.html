@@ -25,11 +25,18 @@
             </header>
 
             <div class="progress-section">
-                <label for="page-input">Пройдено страниц:</label>
-                <div class="page-input-wrapper">
-                    <input type="number" id="page-input" min="1" max="264" value="20">
+                <label for="lesson-select">Выберите урок:</label>
+                <div class="lesson-select-wrapper">
+                    <select id="lesson-select">
+                        <option value="1">שיעור 1 — Алфавит (стр. 18-25)</option>
+                        <option value="2">שיעור 2 — Местоимения (стр. 26-37)</option>
+                        <option value="3">שיעור 3 — Числа (стр. 38-51)</option>
+                        <option value="4">שיעור 4 — Притяжательные (стр. 52-65)</option>
+                        <option value="5" selected>שיעור 5 — Семья (стр. 66-74)</option>
+                    </select>
                     <button id="update-progress" class="btn-secondary">Обновить</button>
                 </div>
+                <p class="lesson-hint" id="lesson-hint">Включает уроки 1-5</p>
             </div>
 
             <div class="stats">

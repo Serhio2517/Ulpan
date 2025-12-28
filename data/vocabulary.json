@@ -1,2951 +1,1241 @@
 {
   "metadata": {
     "source": "Ulpan Ivrit Vol. 1 by Tsipi Ben-Ami",
-    "totalWords": 324,
+    "pages": "1-60",
     "lessons": {
       "1": {
         "start": 18,
         "end": 25,
-        "name": "שיעור 1 - האותיות"
+        "name": "שיעור 1 — Алфавит и приветствия"
       },
       "2": {
         "start": 26,
         "end": 37,
-        "name": "שיעור 2 - אני, אתה, היא"
+        "name": "שיעור 2 — Местоимения, глаголы"
       },
       "3": {
         "start": 38,
         "end": 51,
-        "name": "שיעור 3 - מספרים"
+        "name": "שיעור 3 — Числа, множ. число"
       },
       "4": {
         "start": 52,
         "end": 65,
-        "name": "שיעור 4 - שלי, שלך"
+        "name": "שיעור 4 — Притяжательные"
       },
       "5": {
         "start": 66,
         "end": 74,
-        "name": "שיעור 5 - משפחה"
+        "name": "שיעור 5 — Семья"
       }
-    }
+    },
+    "totalWords": 150,
+    "verifiedVia": "Glosbe.com, IRIS dictionary"
   },
   "words": [
     {
       "id": 1,
       "hebrew": "שָׁלוֹם",
       "transcription": "шало́м",
-      "translation": "мир, привет",
-      "english": "",
+      "translation": "мир, привет, до свидания",
       "lesson": 1,
-      "page": 18
+      "page": 18,
+      "category": "приветствия"
     },
     {
       "id": 2,
       "hebrew": "כֵּן",
       "transcription": "кен",
       "translation": "да",
-      "english": "",
       "lesson": 1,
-      "page": 19
+      "page": 19,
+      "category": "служебные"
     },
     {
       "id": 3,
       "hebrew": "לֹא",
       "transcription": "ло",
       "translation": "нет, не",
-      "english": "",
       "lesson": 1,
-      "page": 19
+      "page": 19,
+      "category": "служебные"
     },
     {
       "id": 4,
       "hebrew": "מָה",
       "transcription": "ма",
       "translation": "что",
-      "english": "",
       "lesson": 1,
-      "page": 20
+      "page": 20,
+      "category": "вопросы"
     },
     {
       "id": 5,
       "hebrew": "מִי",
       "transcription": "ми",
       "translation": "кто",
-      "english": "",
       "lesson": 1,
-      "page": 20
+      "page": 20,
+      "category": "вопросы"
     },
     {
       "id": 6,
       "hebrew": "אֵיפֹה",
       "transcription": "эйфо́",
       "translation": "где",
-      "english": "",
       "lesson": 1,
-      "page": 21
+      "page": 21,
+      "category": "вопросы"
     },
     {
       "id": 7,
       "hebrew": "מֵאַיִן",
       "transcription": "меа́йин",
       "translation": "откуда",
-      "english": "",
       "lesson": 1,
-      "page": 21
+      "page": 21,
+      "category": "вопросы"
     },
     {
       "id": 8,
       "hebrew": "אֲנִי",
       "transcription": "ани́",
       "translation": "я",
-      "english": "",
       "lesson": 2,
-      "page": 26
+      "page": 26,
+      "category": "местоимения"
     },
     {
       "id": 9,
       "hebrew": "אַתָּה",
       "transcription": "ата́",
       "translation": "ты (м.р.)",
-      "english": "",
       "lesson": 2,
-      "page": 26
+      "page": 26,
+      "category": "местоимения"
     },
     {
       "id": 10,
       "hebrew": "אַתְּ",
       "transcription": "ат",
       "translation": "ты (ж.р.)",
-      "english": "",
       "lesson": 2,
-      "page": 26
+      "page": 26,
+      "category": "местоимения"
     },
     {
       "id": 11,
       "hebrew": "הוּא",
       "transcription": "hу",
       "translation": "он",
-      "english": "",
       "lesson": 2,
-      "page": 26
+      "page": 26,
+      "category": "местоимения"
     },
     {
       "id": 12,
       "hebrew": "הִיא",
       "transcription": "hи",
       "translation": "она",
-      "english": "",
       "lesson": 2,
-      "page": 26
+      "page": 26,
+      "category": "местоимения"
     },
     {
       "id": 13,
       "hebrew": "תַּיָּיר",
       "transcription": "тайя́р",
       "translation": "турист",
-      "english": "",
       "lesson": 2,
-      "page": 27
+      "page": 27,
+      "category": "существительные"
     },
     {
       "id": 14,
       "hebrew": "תַּיֶּירֶת",
       "transcription": "тайе́рет",
       "translation": "туристка",
-      "english": "",
       "lesson": 2,
-      "page": 27
+      "page": 27,
+      "category": "существительные"
     },
     {
       "id": 15,
-      "hebrew": "עוֹלֶה חָדָש",
+      "hebrew": "עוֹלֶה חָדָשׁ",
       "transcription": "оле́ хада́ш",
       "translation": "новый репатриант",
-      "english": "",
       "lesson": 2,
-      "page": 27
+      "page": 27,
+      "category": "существительные"
     },
     {
       "id": 16,
       "hebrew": "עוֹלָה חֲדָשָׁה",
       "transcription": "ола́ хадаша́",
       "translation": "новая репатриантка",
-      "english": "",
       "lesson": 2,
-      "page": 27
+      "page": 27,
+      "category": "существительные"
     },
     {
       "id": 17,
-      "hebrew": "לוֹמֵד",
-      "transcription": "ломе́д",
-      "translation": "учится (м.р.)",
-      "english": "",
+      "type": "verb",
+      "root": "ל.מ.ד",
+      "infinitive": "לִלְמוֹד",
+      "infinitive_transcription": "лильмо́д",
+      "translation": "учить, изучать",
+      "forms": {
+        "m_sg": {
+          "hebrew": "לוֹמֵד",
+          "transcription": "ломе́д"
+        },
+        "f_sg": {
+          "hebrew": "לוֹמֶדֶת",
+          "transcription": "ломе́дет"
+        },
+        "m_pl": {
+          "hebrew": "לוֹמְדִים",
+          "transcription": "ломди́м"
+        },
+        "f_pl": {
+          "hebrew": "לוֹמְדוֹת",
+          "transcription": "ломдо́т"
+        }
+      },
       "lesson": 2,
-      "page": 28
+      "page": 28,
+      "category": "глаголы"
     },
     {
       "id": 18,
-      "hebrew": "לוֹמֶדֶת",
-      "transcription": "ломе́дет",
-      "translation": "учится (ж.р.)",
-      "english": "",
+      "type": "verb",
+      "root": "ע.ב.ד",
+      "infinitive": "לַעֲבוֹד",
+      "infinitive_transcription": "лаавод́",
+      "translation": "работать",
+      "forms": {
+        "m_sg": {
+          "hebrew": "עוֹבֵד",
+          "transcription": "ове́д"
+        },
+        "f_sg": {
+          "hebrew": "עוֹבֶדֶת",
+          "transcription": "ове́дет"
+        },
+        "m_pl": {
+          "hebrew": "עוֹבְדִים",
+          "transcription": "овди́м"
+        },
+        "f_pl": {
+          "hebrew": "עוֹבְדוֹת",
+          "transcription": "овдо́т"
+        }
+      },
       "lesson": 2,
-      "page": 28
+      "page": 28,
+      "category": "глаголы"
     },
     {
       "id": 19,
-      "hebrew": "עוֹבֵד",
-      "transcription": "ове́д",
-      "translation": "работает (м.р.)",
-      "english": "",
+      "type": "verb",
+      "root": "ג.ו.ר",
+      "infinitive": "לָגוּר",
+      "infinitive_transcription": "лагу́р",
+      "translation": "жить, проживать",
+      "forms": {
+        "m_sg": {
+          "hebrew": "גָּר",
+          "transcription": "гар"
+        },
+        "f_sg": {
+          "hebrew": "גָּרָה",
+          "transcription": "гара́"
+        },
+        "m_pl": {
+          "hebrew": "גָּרִים",
+          "transcription": "гари́м"
+        },
+        "f_pl": {
+          "hebrew": "גָּרוֹת",
+          "transcription": "гаро́т"
+        }
+      },
       "lesson": 2,
-      "page": 28
+      "page": 29,
+      "category": "глаголы"
     },
     {
       "id": 20,
-      "hebrew": "עוֹבֶדֶת",
-      "transcription": "ове́дет",
-      "translation": "работает (ж.р.)",
-      "english": "",
-      "lesson": 2,
-      "page": 28
-    },
-    {
-      "id": 21,
-      "hebrew": "גָּר",
-      "transcription": "гар",
-      "translation": "живёт (м.р.)",
-      "english": "",
-      "lesson": 2,
-      "page": 29
-    },
-    {
-      "id": 22,
-      "hebrew": "גָּרָה",
-      "transcription": "гара́",
-      "translation": "живёт (ж.р.)",
-      "english": "",
-      "lesson": 2,
-      "page": 29
-    },
-    {
-      "id": 23,
       "hebrew": "עִבְרִית",
       "transcription": "иври́т",
       "translation": "иврит",
-      "english": "",
       "lesson": 2,
-      "page": 28
+      "page": 28,
+      "category": "существительные"
     },
     {
-      "id": 24,
+      "id": 21,
       "hebrew": "אוּלְפָּן",
       "transcription": "ульпа́н",
-      "translation": "ульпан",
-      "english": "",
+      "translation": "ульпан (школа иврита)",
       "lesson": 2,
-      "page": 28
+      "page": 28,
+      "category": "существительные"
     },
     {
-      "id": 25,
+      "id": 22,
       "hebrew": "מוֹרֶה",
       "transcription": "морэ́",
       "translation": "учитель",
-      "english": "",
       "lesson": 2,
-      "page": 29
+      "page": 29,
+      "category": "существительные"
     },
     {
-      "id": 26,
+      "id": 23,
       "hebrew": "מוֹרָה",
       "transcription": "мора́",
       "translation": "учительница",
-      "english": "",
       "lesson": 2,
-      "page": 29
+      "page": 29,
+      "category": "существительные"
     },
     {
-      "id": 27,
+      "id": 24,
       "hebrew": "תַּלְמִיד",
       "transcription": "тальми́д",
       "translation": "ученик",
-      "english": "",
       "lesson": 2,
-      "page": 29
+      "page": 29,
+      "category": "существительные"
     },
     {
-      "id": 28,
+      "id": 25,
       "hebrew": "תַּלְמִידָה",
       "transcription": "тальмида́",
       "translation": "ученица",
-      "english": "",
       "lesson": 2,
-      "page": 29
+      "page": 29,
+      "category": "существительные"
     },
     {
-      "id": 29,
+      "id": 26,
       "hebrew": "טוֹב",
       "transcription": "тов",
       "translation": "хороший",
-      "english": "",
       "lesson": 2,
-      "page": 30
+      "page": 30,
+      "category": "прилагательные"
     },
     {
-      "id": 30,
+      "id": 27,
       "hebrew": "טוֹבָה",
       "transcription": "това́",
       "translation": "хорошая",
-      "english": "",
       "lesson": 2,
-      "page": 30
+      "page": 30,
+      "category": "прилагательные"
     },
     {
-      "id": 31,
+      "id": 28,
       "hebrew": "מְאוֹד",
       "transcription": "мео́д",
       "translation": "очень",
-      "english": "",
       "lesson": 2,
-      "page": 30
+      "page": 30,
+      "category": "наречия"
     },
     {
-      "id": 32,
+      "id": 29,
       "hebrew": "עַכְשָׁו",
       "transcription": "ахша́в",
       "translation": "сейчас",
-      "english": "",
       "lesson": 2,
-      "page": 31
+      "page": 31,
+      "category": "наречия"
+    },
+    {
+      "id": 30,
+      "hebrew": "יִשְׂרָאֵל",
+      "transcription": "исраэ́ль",
+      "translation": "Израиль",
+      "lesson": 2,
+      "page": 27,
+      "category": "страны"
+    },
+    {
+      "id": 31,
+      "hebrew": "רוּסְיָה",
+      "transcription": "ру́сия",
+      "translation": "Россия",
+      "lesson": 2,
+      "page": 27,
+      "category": "страны"
+    },
+    {
+      "id": 32,
+      "hebrew": "אַנְגְלִיָה",
+      "transcription": "англи́я",
+      "translation": "Англия",
+      "lesson": 2,
+      "page": 27,
+      "category": "страны"
     },
     {
       "id": 33,
       "hebrew": "אֶחָד",
       "transcription": "эха́д",
       "translation": "один",
-      "english": "",
       "lesson": 3,
-      "page": 38
+      "page": 38,
+      "category": "числа"
     },
     {
       "id": 34,
       "hebrew": "שְׁנַיִם",
       "transcription": "шна́йим",
       "translation": "два",
-      "english": "",
       "lesson": 3,
-      "page": 38
+      "page": 38,
+      "category": "числа"
     },
     {
       "id": 35,
       "hebrew": "שָׁלוֹשׁ",
       "transcription": "шало́ш",
       "translation": "три",
-      "english": "",
       "lesson": 3,
-      "page": 38
+      "page": 38,
+      "category": "числа"
     },
     {
       "id": 36,
       "hebrew": "אַרְבַּע",
       "transcription": "а́рба",
       "translation": "четыре",
-      "english": "",
       "lesson": 3,
-      "page": 38
+      "page": 38,
+      "category": "числа"
     },
     {
       "id": 37,
       "hebrew": "חָמֵשׁ",
       "transcription": "хаме́ш",
       "translation": "пять",
-      "english": "",
       "lesson": 3,
-      "page": 38
+      "page": 38,
+      "category": "числа"
     },
     {
       "id": 38,
       "hebrew": "שֵׁשׁ",
       "transcription": "шеш",
       "translation": "шесть",
-      "english": "",
       "lesson": 3,
-      "page": 39
+      "page": 39,
+      "category": "числа"
     },
     {
       "id": 39,
       "hebrew": "שֶׁבַע",
       "transcription": "ше́ва",
       "translation": "семь",
-      "english": "",
       "lesson": 3,
-      "page": 39
+      "page": 39,
+      "category": "числа"
     },
     {
       "id": 40,
       "hebrew": "שְׁמוֹנֶה",
       "transcription": "шмонэ́",
       "translation": "восемь",
-      "english": "",
       "lesson": 3,
-      "page": 39
+      "page": 39,
+      "category": "числа"
     },
     {
       "id": 41,
       "hebrew": "תֵּשַׁע",
       "transcription": "тэ́ша",
       "translation": "девять",
-      "english": "",
       "lesson": 3,
-      "page": 39
+      "page": 39,
+      "category": "числа"
     },
     {
       "id": 42,
       "hebrew": "עֶשֶׂר",
       "transcription": "э́сэр",
       "translation": "десять",
-      "english": "",
       "lesson": 3,
-      "page": 39
+      "page": 39,
+      "category": "числа"
     },
     {
       "id": 43,
       "hebrew": "אֲנַחְנוּ",
       "transcription": "ана́хну",
       "translation": "мы",
-      "english": "",
       "lesson": 3,
-      "page": 40
+      "page": 40,
+      "category": "местоимения"
     },
     {
       "id": 44,
       "hebrew": "אַתֶּם",
       "transcription": "атэ́м",
       "translation": "вы (м.р.)",
-      "english": "",
       "lesson": 3,
-      "page": 40
+      "page": 40,
+      "category": "местоимения"
     },
     {
       "id": 45,
       "hebrew": "אַתֶּן",
       "transcription": "атэ́н",
       "translation": "вы (ж.р.)",
-      "english": "",
       "lesson": 3,
-      "page": 40
+      "page": 40,
+      "category": "местоимения"
     },
     {
       "id": 46,
       "hebrew": "הֵם",
       "transcription": "hэм",
       "translation": "они (м.р.)",
-      "english": "",
       "lesson": 3,
-      "page": 40
+      "page": 40,
+      "category": "местоимения"
     },
     {
       "id": 47,
       "hebrew": "הֵן",
       "transcription": "hэн",
       "translation": "они (ж.р.)",
-      "english": "",
       "lesson": 3,
-      "page": 40
+      "page": 40,
+      "category": "местоимения"
     },
     {
       "id": 48,
-      "hebrew": "שֶׁלִי",
-      "transcription": "шели́",
-      "translation": "мой/моя",
-      "english": "",
-      "lesson": 4,
-      "page": 52
+      "type": "verb",
+      "root": "נ.ס.ע",
+      "infinitive": "לִנְסוֹעַ",
+      "infinitive_transcription": "линсо́а",
+      "translation": "ехать",
+      "forms": {
+        "m_sg": {
+          "hebrew": "נוֹסֵעַ",
+          "transcription": "носэ́а"
+        },
+        "f_sg": {
+          "hebrew": "נוֹסַעַת",
+          "transcription": "носа́ат"
+        },
+        "m_pl": {
+          "hebrew": "נוֹסְעִים",
+          "transcription": "носъи́м"
+        },
+        "f_pl": {
+          "hebrew": "נוֹסְעוֹת",
+          "transcription": "носъо́т"
+        }
+      },
+      "lesson": 3,
+      "page": 42,
+      "category": "глаголы"
     },
     {
       "id": 49,
-      "hebrew": "שֶׁלְּךָ",
-      "transcription": "шельха́",
-      "translation": "твой (м.р.)",
-      "english": "",
-      "lesson": 4,
-      "page": 52
+      "type": "verb",
+      "root": "ה.ל.כ",
+      "infinitive": "לָלֶכֶת",
+      "infinitive_transcription": "лале́хет",
+      "translation": "идти, ходить",
+      "forms": {
+        "m_sg": {
+          "hebrew": "הוֹלֵךְ",
+          "transcription": "hоле́х"
+        },
+        "f_sg": {
+          "hebrew": "הוֹלֶכֶת",
+          "transcription": "hоле́хет"
+        },
+        "m_pl": {
+          "hebrew": "הוֹלְכִים",
+          "transcription": "hольхи́м"
+        },
+        "f_pl": {
+          "hebrew": "הוֹלְכוֹת",
+          "transcription": "hольхо́т"
+        }
+      },
+      "lesson": 3,
+      "page": 44,
+      "category": "глаголы"
     },
     {
       "id": 50,
-      "hebrew": "שֶׁלָּךְ",
-      "transcription": "шела́х",
-      "translation": "твой (ж.р.)",
-      "english": "",
+      "hebrew": "שֶׁלִי",
+      "transcription": "шели́",
+      "translation": "мой/моя/моё",
       "lesson": 4,
-      "page": 52
+      "page": 52,
+      "category": "притяжательные"
     },
     {
       "id": 51,
-      "hebrew": "שֶׁלּוֹ",
-      "transcription": "шело́",
-      "translation": "его",
-      "english": "",
+      "hebrew": "שֶׁלְּךָ",
+      "transcription": "шельха́",
+      "translation": "твой (м.р.)",
       "lesson": 4,
-      "page": 52
+      "page": 52,
+      "category": "притяжательные"
     },
     {
       "id": 52,
-      "hebrew": "שֶׁלָּהּ",
-      "transcription": "шела́",
-      "translation": "её",
-      "english": "",
+      "hebrew": "שֶׁלָּךְ",
+      "transcription": "шела́х",
+      "translation": "твой (ж.р.)",
       "lesson": 4,
-      "page": 52
+      "page": 52,
+      "category": "притяжательные"
     },
     {
       "id": 53,
-      "hebrew": "בַּיִת",
-      "transcription": "ба́йит",
-      "translation": "дом",
-      "english": "",
+      "hebrew": "שֶׁלּוֹ",
+      "transcription": "шело́",
+      "translation": "его",
       "lesson": 4,
-      "page": 53
+      "page": 52,
+      "category": "притяжательные"
     },
     {
       "id": 54,
-      "hebrew": "מְכוֹנִית",
-      "transcription": "мехони́т",
-      "translation": "машина",
-      "english": "",
+      "hebrew": "שֶׁלָּהּ",
+      "transcription": "шелла́",
+      "translation": "её",
       "lesson": 4,
-      "page": 54
+      "page": 52,
+      "category": "притяжательные"
     },
     {
       "id": 55,
-      "hebrew": "תִּיק",
-      "transcription": "тик",
-      "translation": "сумка",
-      "english": "",
+      "hebrew": "שֶׁלָּנוּ",
+      "transcription": "шела́ну",
+      "translation": "наш",
       "lesson": 4,
-      "page": 54
+      "page": 53,
+      "category": "притяжательные"
     },
     {
       "id": 56,
-      "hebrew": "כֶּסֶף",
-      "transcription": "кэ́сэф",
-      "translation": "деньги",
-      "english": "",
+      "hebrew": "שֶׁלָּכֶם",
+      "transcription": "шелахэ́м",
+      "translation": "ваш (м.р.)",
       "lesson": 4,
-      "page": 55
+      "page": 53,
+      "category": "притяжательные"
     },
     {
       "id": 57,
-      "hebrew": "מַפְתֵּחַ",
-      "transcription": "мафтэ́ах",
-      "translation": "ключ",
-      "english": "",
+      "hebrew": "שֶׁלָּהֶם",
+      "transcription": "шелаhэ́м",
+      "translation": "их (м.р.)",
       "lesson": 4,
-      "page": 55
+      "page": 53,
+      "category": "притяжательные"
     },
     {
       "id": 58,
-      "hebrew": "עֲבוֹדָה",
-      "transcription": "авода́",
-      "translation": "работа",
-      "english": "",
+      "hebrew": "בַּיִת",
+      "transcription": "ба́йит",
+      "translation": "дом",
       "lesson": 4,
-      "page": 56
+      "page": 54,
+      "category": "существительные"
     },
     {
       "id": 59,
-      "hebrew": "מִשְׁפָּחָה",
-      "transcription": "мишпаха́",
-      "translation": "семья",
-      "english": "",
-      "lesson": 5,
-      "page": 66
+      "hebrew": "מְכוֹנִית",
+      "transcription": "мехони́т",
+      "translation": "машина, автомобиль",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
     },
     {
       "id": 60,
-      "hebrew": "אָב",
-      "transcription": "ав",
-      "translation": "отец",
-      "english": "",
-      "lesson": 5,
-      "page": 67
+      "hebrew": "תִּיק",
+      "transcription": "тик",
+      "translation": "сумка, портфель",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
     },
     {
       "id": 61,
-      "hebrew": "אֵם",
-      "transcription": "эм",
-      "translation": "мать",
-      "english": "",
-      "lesson": 5,
-      "page": 67
+      "hebrew": "כֶּסֶף",
+      "transcription": "кэ́сэф",
+      "translation": "деньги",
+      "lesson": 4,
+      "page": 55,
+      "category": "существительные"
     },
     {
       "id": 62,
-      "hebrew": "אַבָּא",
-      "transcription": "а́ба",
-      "translation": "папа",
-      "english": "",
-      "lesson": 5,
-      "page": 67
+      "hebrew": "מַפְתֵּחַ",
+      "transcription": "мафтэ́ах",
+      "translation": "ключ",
+      "lesson": 4,
+      "page": 55,
+      "category": "существительные"
     },
     {
       "id": 63,
-      "hebrew": "אִמָּא",
-      "transcription": "и́ма",
-      "translation": "мама",
-      "english": "",
-      "lesson": 5,
-      "page": 67
+      "hebrew": "מַפְתְּחוֹת",
+      "transcription": "мафтехо́т",
+      "translation": "ключи",
+      "lesson": 4,
+      "page": 55,
+      "category": "существительные"
     },
     {
       "id": 64,
-      "hebrew": "בֵּן",
-      "transcription": "бен",
-      "translation": "сын",
-      "english": "",
-      "lesson": 5,
-      "page": 68
+      "hebrew": "עֲבוֹדָה",
+      "transcription": "авода́",
+      "translation": "работа",
+      "lesson": 4,
+      "page": 56,
+      "category": "существительные"
     },
     {
       "id": 65,
-      "hebrew": "בַּת",
-      "transcription": "бат",
-      "translation": "дочь",
-      "english": "",
-      "lesson": 5,
-      "page": 68
+      "hebrew": "רְחוֹב",
+      "transcription": "рехо́в",
+      "translation": "улица",
+      "lesson": 4,
+      "page": 56,
+      "category": "существительные"
     },
     {
       "id": 66,
-      "hebrew": "אָח",
-      "transcription": "ах",
-      "translation": "брат",
-      "english": "",
-      "lesson": 5,
-      "page": 68
+      "hebrew": "בַּנְק",
+      "transcription": "банк",
+      "translation": "банк",
+      "lesson": 4,
+      "page": 57,
+      "category": "существительные"
     },
     {
       "id": 67,
-      "hebrew": "אָחוֹת",
-      "transcription": "ахо́т",
-      "translation": "сестра",
-      "english": "",
-      "lesson": 5,
-      "page": 68
+      "hebrew": "כְּתוֹבֶת",
+      "transcription": "ктове́т",
+      "translation": "адрес",
+      "lesson": 4,
+      "page": 57,
+      "category": "существительные"
     },
     {
       "id": 68,
-      "hebrew": "בַּעַל",
-      "transcription": "ба́аль",
-      "translation": "муж",
-      "english": "",
-      "lesson": 5,
-      "page": 69
+      "hebrew": "תְּשׁוּבָה",
+      "transcription": "тшува́",
+      "translation": "ответ",
+      "lesson": 4,
+      "page": 58,
+      "category": "существительные"
     },
     {
       "id": 69,
-      "hebrew": "אִשָּׁה",
-      "transcription": "иша́",
-      "translation": "жена, женщина",
-      "english": "",
-      "lesson": 5,
-      "page": 69
+      "hebrew": "שְׁאֵלָה",
+      "transcription": "шеэла́",
+      "translation": "вопрос",
+      "lesson": 4,
+      "page": 58,
+      "category": "существительные"
     },
     {
       "id": 70,
-      "hebrew": "יֶלֶד",
-      "transcription": "йе́лед",
-      "translation": "ребёнок (м.р.)",
-      "english": "",
-      "lesson": 5,
-      "page": 69
+      "hebrew": "חָדָשׁ",
+      "transcription": "хада́ш",
+      "translation": "новый",
+      "lesson": 4,
+      "page": 59,
+      "category": "прилагательные"
     },
     {
       "id": 71,
-      "hebrew": "יַלְדָּה",
-      "transcription": "йальда́",
-      "translation": "ребёнок (ж.р.)",
-      "english": "",
-      "lesson": 5,
-      "page": 69
+      "hebrew": "חֲדָשָׁה",
+      "transcription": "хадаша́",
+      "translation": "новая",
+      "lesson": 4,
+      "page": 59,
+      "category": "прилагательные"
     },
     {
       "id": 72,
-      "hebrew": "יְלָדִים",
-      "transcription": "йелади́м",
-      "translation": "дети",
-      "english": "",
-      "lesson": 5,
-      "page": 69
+      "hebrew": "יָפֶה",
+      "transcription": "яфэ́",
+      "translation": "красивый",
+      "lesson": 4,
+      "page": 59,
+      "category": "прилагательные"
     },
     {
       "id": 73,
-      "hebrew": "רוֹפֵא",
-      "transcription": "рофэ́",
-      "translation": "врач",
-      "english": "",
-      "lesson": 5,
-      "page": 70
+      "hebrew": "יָפָה",
+      "transcription": "яфа́",
+      "translation": "красивая",
+      "lesson": 4,
+      "page": 59,
+      "category": "прилагательные"
     },
     {
       "id": 74,
-      "hebrew": "אָחוֹת",
-      "transcription": "ахо́т",
-      "translation": "медсестра",
-      "english": "",
+      "hebrew": "מִשְׁפָּחָה",
+      "transcription": "мишпаха́",
+      "translation": "семья",
       "lesson": 5,
-      "page": 70
+      "page": 66,
+      "category": "существительные"
     },
     {
       "id": 75,
-      "hebrew": "קָטָן",
-      "transcription": "ката́н",
-      "translation": "маленький",
-      "english": "",
+      "hebrew": "אָב",
+      "transcription": "ав",
+      "translation": "отец",
       "lesson": 5,
-      "page": 71
+      "page": 67,
+      "category": "семья"
     },
     {
       "id": 76,
-      "hebrew": "גָּדוֹל",
-      "transcription": "гадо́ль",
-      "translation": "большой",
-      "english": "",
+      "hebrew": "אֵם",
+      "transcription": "эм",
+      "translation": "мать",
       "lesson": 5,
-      "page": 71
+      "page": 67,
+      "category": "семья"
     },
     {
       "id": 77,
-      "hebrew": "נֶחְמָד",
-      "transcription": "нэхма́д",
-      "translation": "милый",
-      "english": "",
+      "hebrew": "אַבָּא",
+      "transcription": "а́ба",
+      "translation": "папа",
       "lesson": 5,
-      "page": 72
+      "page": 67,
+      "category": "семья"
     },
     {
       "id": 78,
-      "hebrew": "חָכָם",
-      "transcription": "хаха́м",
-      "translation": "умный",
-      "english": "",
+      "hebrew": "אִמָּא",
+      "transcription": "и́ма",
+      "translation": "мама",
       "lesson": 5,
-      "page": 72
+      "page": 67,
+      "category": "семья"
     },
     {
       "id": 79,
-      "hebrew": "]‫ לִ ְקטוֹ ף [פ׳‬,‫ָק ַטף‬",
-      "transcription": "",
-      "translation": "собирать урожай (плоды, фрукты, цветы)",
-      "english": "to pick (fruit, flowers)",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "בֵּן",
+      "transcription": "бен",
+      "translation": "сын",
+      "lesson": 5,
+      "page": 68,
+      "category": "семья"
     },
     {
       "id": 80,
-      "hebrew": "]‫ִקידוּם [ז׳‬",
-      "transcription": "",
-      "translation": "продвижение",
-      "english": "promotion",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "בַּת",
+      "transcription": "бат",
+      "translation": "дочь",
+      "lesson": 5,
+      "page": 68,
+      "category": "семья"
     },
     {
       "id": 81,
-      "hebrew": "]‫ידוֹמת [נ׳‬ ֶ ‫ִק‬",
-      "transcription": "",
-      "translation": "телефонный код",
-      "english": "area code",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "בָּנִים",
+      "transcription": "бани́м",
+      "translation": "сыновья",
+      "lesson": 5,
+      "page": 68,
+      "category": "семья"
     },
     {
       "id": 82,
-      "hebrew": "]‫ִקידו ּׁש [ז׳‬",
-      "transcription": "",
-      "translation": "благословение (над вином, хлебом)",
-      "english": "blessing (over wine, bread)",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "בָּנוֹת",
+      "transcription": "бано́т",
+      "translation": "дочери",
+      "lesson": 5,
+      "page": 68,
+      "category": "семья"
     },
     {
       "id": 83,
-      "hebrew": "ֶ ֶ‫ ַקי‬,‫ַק ָ ּיים‬",
-      "transcription": "",
-      "translation": "существующий",
-      "english": "existing",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "אָח",
+      "transcription": "ах",
+      "translation": "брат",
+      "lesson": 5,
+      "page": 68,
+      "category": "семья"
     },
     {
       "id": 84,
-      "hebrew": "]‫ לְ ַק ֵ ּנא [פ׳‬,‫ִקי ֵ ּנא‬",
-      "transcription": "",
-      "translation": "ревновать, завидовать",
-      "english": "to be jealous of, to envy",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "אָחוֹת",
+      "transcription": "ахо́т",
+      "translation": "сестра",
+      "lesson": 5,
+      "page": 68,
+      "category": "семья"
     },
     {
       "id": 85,
-      "hebrew": "]‫ַקיִ ץ [ז׳‬",
-      "transcription": "",
-      "translation": "лето",
-      "english": "summer",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "אַחִים",
+      "transcription": "ахи́м",
+      "translation": "братья",
+      "lesson": 5,
+      "page": 68,
+      "category": "семья"
     },
     {
       "id": 86,
-      "hebrew": "]‫ִקיצוֹ נִ י [ת׳‬",
-      "transcription": "",
-      "translation": "экстремистский, радикальный",
-      "english": "extremist, radical",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "אֲחָיוֹת",
+      "transcription": "ахайо́т",
+      "translation": "сёстры",
+      "lesson": 5,
+      "page": 68,
+      "category": "семья"
     },
     {
       "id": 87,
-      "hebrew": "]‫ִקיר ִקירוֹ ת [ז\"ר‬",
-      "transcription": "",
-      "translation": "стена",
-      "english": "wall",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "בַּעַל",
+      "transcription": "ба́аль",
+      "translation": "муж",
+      "lesson": 5,
+      "page": 69,
+      "category": "семья"
     },
     {
       "id": 88,
-      "hebrew": "]‫ַקל [ת׳‬",
-      "transcription": "",
-      "translation": "лёгкий",
-      "english": "easy, light",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "אִשָּׁה",
+      "transcription": "иша́",
+      "translation": "жена, женщина",
+      "lesson": 5,
+      "page": 69,
+      "category": "семья"
     },
     {
       "id": 89,
-      "hebrew": "ָ ִ‫ְקל‬",
-      "transcription": "",
-      "translation": "абсорбция, понимание",
-      "english": "absorption / comprehension",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "יֶלֶד",
+      "transcription": "йе́лед",
+      "translation": "ребёнок (м.р.)",
+      "lesson": 5,
+      "page": 69,
+      "category": "семья"
     },
     {
       "id": 90,
-      "hebrew": "ָ ּ ִ‫ְקל‬",
-      "transcription": "",
-      "translation": "кожура, скорлупа",
-      "english": "peel, skin",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "יַלְדָּה",
+      "transcription": "йальда́",
+      "translation": "ребёнок (ж.р.)",
+      "lesson": 5,
+      "page": 69,
+      "category": "семья"
     },
     {
       "id": 91,
-      "hebrew": "]‫ ְקלָ ִפים ‫ְקלָ ף [ז׳‬",
-      "transcription": "",
-      "translation": "карта, гадальные карты",
-      "english": "card (s) / tarot",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "יְלָדִים",
+      "transcription": "йелади́м",
+      "translation": "дети",
+      "lesson": 5,
+      "page": 69,
+      "category": "семья"
     },
     {
       "id": 92,
-      "hebrew": "]‫ לָ קוּם [פ׳‬,‫ָקם‬",
-      "transcription": "",
-      "translation": "вставать, подниматься",
-      "english": "to get up",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "הוֹרִים",
+      "transcription": "hори́м",
+      "translation": "родители",
+      "lesson": 5,
+      "page": 69,
+      "category": "семья"
     },
     {
       "id": 93,
-      "hebrew": "]‫ֶק ַמח [ז׳‬",
-      "transcription": "",
-      "translation": "мука",
-      "english": "flour",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "סַבָּא",
+      "transcription": "са́ба",
+      "translation": "дедушка",
+      "lesson": 5,
+      "page": 70,
+      "category": "семья"
     },
     {
       "id": 94,
-      "hebrew": "]‫ַקנְ יוֹ ן [ז׳‬",
-      "transcription": "",
-      "translation": "торговый центр",
-      "english": "mall",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "סָבְתָא",
+      "transcription": "са́вта",
+      "translation": "бабушка",
+      "lesson": 5,
+      "page": 70,
+      "category": "семья"
     },
     {
       "id": 95,
-      "hebrew": "]‫ַקנְ ַקן [ז׳‬",
-      "transcription": "",
-      "translation": "кувшин",
-      "english": "pitcher, jug",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "דּוֹד",
+      "transcription": "дод",
+      "translation": "дядя",
+      "lesson": 5,
+      "page": 70,
+      "category": "семья"
     },
     {
       "id": 96,
-      "hebrew": "]‫ ְק ָס ִמים ‫ֶק ֶסם [ז׳‬",
-      "transcription": "",
-      "translation": "волшебство",
-      "english": "magic",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "דּוֹדָה",
+      "transcription": "до́да",
+      "translation": "тётя",
+      "lesson": 5,
+      "page": 70,
+      "category": "семья"
     },
     {
       "id": 97,
-      "hebrew": "]‫ָק ֶפה [ז׳‬",
-      "transcription": "",
-      "translation": "кофе",
-      "english": "coffee",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "רוֹפֵא",
+      "transcription": "рофэ́",
+      "translation": "врач (м.р.)",
+      "lesson": 5,
+      "page": 71,
+      "category": "профессии"
     },
     {
       "id": 98,
-      "hebrew": "]‫ָק ֶצה [ז׳‬",
-      "transcription": "",
-      "translation": "конец, край",
-      "english": "end, edge",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "רוֹפְאָה",
+      "transcription": "рофа́",
+      "translation": "врач (ж.р.)",
+      "lesson": 5,
+      "page": 71,
+      "category": "профессии"
     },
     {
       "id": 99,
-      "hebrew": "]‫ָק ִצין [ז׳‬",
-      "transcription": "",
-      "translation": "офицер",
-      "english": "officer",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "אָחוֹת",
+      "transcription": "ахо́т",
+      "translation": "медсестра",
+      "lesson": 5,
+      "page": 71,
+      "category": "профессии"
     },
     {
       "id": 100,
-      "hebrew": "]‫ָק ָצר [ת׳‬",
-      "transcription": "",
-      "translation": "короткий",
-      "english": "short",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "קָטָן",
+      "transcription": "ката́н",
+      "translation": "маленький",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
     },
     {
       "id": 101,
-      "hebrew": "]‫ְק ָצת [ת״פ‬",
-      "transcription": "",
-      "translation": "немного",
-      "english": "a little",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "קְטַנָּה",
+      "transcription": "ктана́",
+      "translation": "маленькая",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
     },
     {
       "id": 102,
-      "hebrew": "]‫ַקר [ת׳‬",
-      "transcription": "",
-      "translation": "холодный",
-      "english": "cold",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "גָּדוֹל",
+      "transcription": "гадо́ль",
+      "translation": "большой",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
     },
     {
       "id": 103,
-      "hebrew": "]‫ לִ ְקרוֹ א [פ׳‬,!ּ‫ִק ְראו‬",
-      "transcription": "",
-      "translation": "читайте!",
-      "english": "read!",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "גְּדוֹלָה",
+      "transcription": "гдола́",
+      "translation": "большая",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
     },
     {
       "id": 104,
-      "hebrew": "]‫ְק ָרב ְק ָרבוֹ ת [ז\"ר‬",
-      "transcription": "",
-      "translation": "сражение",
-      "english": "battle",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "נֶחְמָד",
+      "transcription": "нэхма́д",
+      "translation": "милый, приятный",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
     },
     {
       "id": 105,
-      "hebrew": "]‫ָקרוֹב [ז׳‬",
-      "transcription": "",
-      "translation": "родственник",
-      "english": "relative",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "נֶחְמָדָה",
+      "transcription": "нэхмада́",
+      "translation": "милая, приятная",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
     },
     {
       "id": 106,
-      "hebrew": "]‫ ‫ָקרוֹב [ת׳‬",
-      "transcription": "",
-      "translation": "близко, поблизости",
-      "english": "close, nearby",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "חָכָם",
+      "transcription": "хаха́м",
+      "translation": "умный",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
     },
     {
       "id": 107,
-      "hebrew": "]‫ַק ְריֵ ָירה [נ׳‬",
-      "transcription": "",
-      "translation": "карьера",
-      "english": "career",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "חֲכָמָה",
+      "transcription": "хахама́",
+      "translation": "умная",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
     },
     {
       "id": 108,
-      "hebrew": "]‫ָק ׁ ֶשה [ת׳‬",
-      "transcription": "",
-      "translation": "твёрдый, тяжёлый, трудный",
-      "english": "difficult / hard",
-      "lesson": 0,
-      "page": 443
+      "type": "verb",
+      "root": "נ.ש.א",
+      "infinitive": "לְהִנָּשֵׂא",
+      "infinitive_transcription": "лэhинасэ́",
+      "translation": "жениться/выходить замуж",
+      "forms": {
+        "m_sg": {
+          "hebrew": "נָשׂוּי",
+          "transcription": "насу́й"
+        },
+        "f_sg": {
+          "hebrew": "נְשׂוּאָה",
+          "transcription": "нэсуа́"
+        },
+        "m_pl": {
+          "hebrew": "נְשׂוּאִים",
+          "transcription": "нэсуи́м"
+        },
+        "f_pl": {
+          "hebrew": "נְשׂוּאוֹת",
+          "transcription": "нэсуо́т"
+        }
+      },
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы"
     },
     {
       "id": 109,
-      "hebrew": "]‫ֶק ׁ ֶשר [ז׳‬",
-      "transcription": "",
-      "translation": "связь, отношения",
-      "english": "connection, relationship",
-      "lesson": 0,
-      "page": 443
+      "type": "verb",
+      "root": "ט.פ.ל",
+      "infinitive": "לְטַפֵּל",
+      "infinitive_transcription": "лэтапэ́ль",
+      "translation": "заботиться, ухаживать",
+      "forms": {
+        "m_sg": {
+          "hebrew": "מְטַפֵּל",
+          "transcription": "мэтапэ́ль"
+        },
+        "f_sg": {
+          "hebrew": "מְטַפֶּלֶת",
+          "transcription": "мэтапэ́лет"
+        },
+        "m_pl": {
+          "hebrew": "מְטַפְּלִים",
+          "transcription": "мэтапли́м"
+        },
+        "f_pl": {
+          "hebrew": "מְטַפְּלוֹת",
+          "transcription": "мэтапло́т"
+        }
+      },
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы"
     },
     {
       "id": 110,
-      "hebrew": ")‫(בענָ ן‬",
-      "transcription": "",
-      "translation": "радуга",
-      "english": "rainbow",
-      "lesson": 0,
-      "page": 443
+      "type": "verb",
+      "root": "ש.א.ר",
+      "infinitive": "לְהִשָּׁאֵר",
+      "infinitive_transcription": "лэhишаэ́р",
+      "translation": "оставаться",
+      "forms": {
+        "m_sg": {
+          "hebrew": "נִשְׁאָר",
+          "transcription": "ниша́р"
+        },
+        "f_sg": {
+          "hebrew": "נִשְׁאֶרֶת",
+          "transcription": "нишэ́рет"
+        },
+        "m_pl": {
+          "hebrew": "נִשְׁאָרִים",
+          "transcription": "ниша́рим"
+        },
+        "f_pl": {
+          "hebrew": "נִשְׁאָרוֹת",
+          "transcription": "ниша́рот"
+        }
+      },
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы"
     },
     {
       "id": 111,
-      "hebrew": "]‫ְר ִאי [ז׳‬",
-      "transcription": "",
-      "translation": "зеркало",
-      "english": "mirror",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "גַּן יְלָדִים",
+      "transcription": "ган йелади́м",
+      "translation": "детский сад",
+      "lesson": 5,
+      "page": 73,
+      "category": "существительные"
     },
     {
       "id": 112,
-      "hebrew": "]‫ֹאש [ז׳‬ׁ ‫ר‬",
-      "transcription": "",
-      "translation": "голова",
-      "english": "head",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "בֵּית סֵפֶר",
+      "transcription": "бейт сэ́фэр",
+      "translation": "школа",
+      "lesson": 5,
+      "page": 73,
+      "category": "существительные"
     },
     {
       "id": 113,
-      "hebrew": "]‫ֹאש ֶמ ְמ ׁ ָשלָ ה [ז׳‬",
-      "transcription": "",
-      "translation": "премьер-министр",
-      "english": "prime minister",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "כִּתָּה",
+      "transcription": "кита́",
+      "translation": "класс",
+      "lesson": 5,
+      "page": 73,
+      "category": "существительные"
     },
     {
       "id": 114,
-      "hebrew": "‫ֹאש ָק ָטן‬",
-      "transcription": "",
-      "translation": "недалекость",
-      "english": "small-mindedness",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "מִקְצוֹעַ",
+      "transcription": "микцо́а",
+      "translation": "профессия",
+      "lesson": 5,
+      "page": 74,
+      "category": "существительные"
     },
     {
       "id": 115,
-      "hebrew": "]‫אשוֹ ן [ת׳‬",
-      "transcription": "",
-      "translation": "первый",
-      "english": "first",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "בֵּן כַּמָּה",
+      "transcription": "бен ка́ма",
+      "translation": "сколько лет (м.р.)?",
+      "lesson": 5,
+      "page": 74,
+      "category": "выражения"
     },
     {
       "id": 116,
-      "hebrew": ")‫רֹב (רוֹב‬",
-      "transcription": "",
-      "translation": "большинство",
-      "english": "majority, most of",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 117,
-      "hebrew": "‫ ַר ִ ּבי‬/ ‫ַרב‬",
-      "transcription": "",
-      "translation": "раввин",
-      "english": "Rabbi",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 118,
-      "hebrew": "]‫ לָ ִריב [פ׳‬,‫ָרב‬",
-      "transcription": "",
-      "translation": "ссориться с",
-      "english": "to quarrel with",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 119,
-      "hebrew": "]‫ ַרבּ וֹ ת [ת׳‬,‫ ַר ִ ּבים‬,‫ ַר ָ ּבה‬,‫ַרב‬",
-      "transcription": "",
-      "translation": "многочисленн/ый/ая/ые",
-      "english": "much, many",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 120,
-      "hebrew": "]‫ַרבּ וֹ ת [ת׳‬",
-      "transcription": "",
-      "translation": "мн. число, жен. рода 1,2,3 л., наст. вр.",
-      "english": "feminine plural",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 121,
-      "hebrew": "]‫ַר ִ ּבים [ת׳‬",
-      "transcription": "",
-      "translation": "мн. число, муж. рода 1,2,3 л., наст. вр.",
-      "english": "masculine plural",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 122,
-      "hebrew": "]‫ָרגוּע [ת׳‬",
-      "transcription": "",
-      "translation": "спокойный, тихий",
-      "english": "relaxed, calm",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 123,
-      "hebrew": "]‫ֶרגַ ע [ז׳‬",
-      "transcription": "",
-      "translation": "момент, минута",
-      "english": "moment ; just a minute",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 124,
-      "hebrew": "ִ ‫ָר ִהיט ָר ִה‬",
-      "transcription": "",
-      "translation": "мебель",
-      "english": "furniture",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 125,
-      "hebrew": "]‫ לִ ְראוֹ ת [פ׳‬,‫רוֹ ֶאה‬",
-      "transcription": "",
-      "translation": "видеть",
-      "english": "to see",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 126,
-      "hebrew": "]‫רוֹבה [ז׳‬ֶ",
-      "transcription": "",
-      "translation": "винтовка, оружие",
-      "english": "rifle / gun",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 127,
-      "hebrew": "]‫רו ַּח רוּחוֹ ת [נ\"ר‬",
-      "transcription": "",
-      "translation": "ветер",
-      "english": "wind",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 128,
-      "hebrew": "‫רוֹ ָמא‬",
-      "transcription": "",
-      "translation": "Рим",
-      "english": "Rome",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 129,
-      "hebrew": "]‫ ‫רוֹ ָמ ִאי [ת׳‬",
-      "transcription": "",
-      "translation": "римлянин, римляне",
-      "english": "Roman (s)",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 130,
-      "hebrew": "]‫רוֹ ֵע ׁש [ת׳‬",
-      "transcription": "",
-      "translation": "шумный",
-      "english": "loud, noisy",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 131,
-      "hebrew": "]‫רוֹ ֵפא [ז׳‬",
-      "transcription": "",
-      "translation": "врач",
-      "english": "doctor / physician",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 132,
-      "hebrew": "]‫ינּיִ ים [ז׳‬",
-      "transcription": "",
-      "translation": "зубной врач",
-      "english": "dentist",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 133,
-      "hebrew": "]‫ לִ ְרקוֹ ד [פ׳‬,‫רוֹ ֵקד‬",
-      "transcription": "",
-      "translation": "танцевать",
-      "english": "to dance",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 134,
-      "hebrew": "]‫ לִ ְר ׁשוֹ ם [פ׳‬,‫רוֹ ׁ ֵשם‬",
-      "transcription": "",
-      "translation": "записывать, регистрировать",
-      "english": "to write / note / list",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 135,
-      "hebrew": "]‫ רזָ ה [ת׳‬,‫ָרזֶ ה‬",
-      "transcription": "",
-      "translation": "худой",
-      "english": "thin, slim",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 136,
-      "hebrew": "]‫ָר ָחב [ת׳‬",
-      "transcription": "",
-      "translation": "широкий",
-      "english": "wide",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 137,
-      "hebrew": "]‫ְרחוֹב ְרחוֹבוֹ ת [ז\"ר‬",
-      "transcription": "",
-      "translation": "улица",
-      "english": "street",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 138,
-      "hebrew": "]‫ ‫ָרחוֹ ק [ת׳‬",
-      "transcription": "",
-      "translation": "далёкий, далеко",
-      "english": "far",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 139,
-      "hebrew": "]‫ַר ֲח ָצה [נ׳‬",
-      "transcription": "",
-      "translation": "купание",
-      "english": "bathing",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 140,
-      "hebrew": "ָ ‫ֵר‬",
-      "transcription": "",
-      "translation": "интервью",
-      "english": "interview",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 141,
-      "hebrew": "ּ ִ ‫ִר‬",
-      "transcription": "",
-      "translation": "процент",
-      "english": "interest",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 142,
-      "hebrew": "]‫ֵריק [ת׳‬",
-      "transcription": "",
-      "translation": "пустой",
-      "english": "empty",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 143,
-      "hebrew": "]‫ִריקוּד [ז׳‬",
-      "transcription": "",
-      "translation": "танец",
-      "english": "dance",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 144,
-      "hebrew": "ְ ׁ ‫ִר‬",
-      "transcription": "",
-      "translation": "водительские права",
-      "english": "",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 145,
-      "hebrew": "]‫ ַר ָ ּכה [ת׳‬,‫ַר‬",
-      "transcription": "",
-      "translation": "мягкий",
-      "english": "soft",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 146,
-      "hebrew": "]‫ֶרכֶ ב [ז׳‬",
-      "transcription": "",
-      "translation": "транспортное средство",
-      "english": "vehicle",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 147,
-      "hebrew": "]‫ַר ֶ ּכ ֶבת [נ׳‬",
-      "transcription": "",
-      "translation": "поезд",
-      "english": "train",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 148,
-      "hebrew": "]‫ָר ָמה [נ׳‬",
-      "transcription": "",
-      "translation": "уровень",
-      "english": "level",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 149,
-      "hebrew": "]‫ַר ְמזוֹ ר [ז׳‬",
-      "transcription": "",
-      "translation": "светофор",
-      "english": "traffic light",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 150,
-      "hebrew": "]‫ַרע [ת׳‬",
-      "transcription": "",
-      "translation": "плохой",
-      "english": "bad",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 151,
-      "hebrew": "]‫ ‫ָר ֵעב [ת׳‬",
-      "transcription": "",
-      "translation": "голодный",
-      "english": "hungry",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 152,
-      "hebrew": "]‫ַר ֲעיוֹ ן ַר ֲעיוֹ נוֹ ת [ז\"ר‬",
-      "transcription": "",
-      "translation": "идея",
-      "english": "idea",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 153,
-      "hebrew": "]‫ַר ַע ׁש [ז׳‬",
-      "transcription": "",
-      "translation": "шум",
-      "english": "noise",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 154,
-      "hebrew": "]‫ לָ רוּץ [פ׳‬,‫ָרץ‬",
-      "transcription": "",
-      "translation": "бегать",
-      "english": "to run",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 155,
-      "hebrew": "]‫ָרצוֹ ן [ז׳‬",
-      "transcription": "",
-      "translation": "желание",
-      "english": "will",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 156,
-      "hebrew": "]‫ְר ִצינִ י [ת׳‬",
-      "transcription": "",
-      "translation": "серьёзный",
-      "english": "serious",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 157,
-      "hebrew": "]‫ִר ְצ ּ ָפה [נ׳‬",
-      "transcription": "",
-      "translation": "пол",
-      "english": "floor",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 158,
-      "hebrew": "‫ַרק‬",
-      "transcription": "",
-      "translation": "только",
-      "english": "only",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 159,
-      "hebrew": "]‫ַר ְק ָדן [נ׳‬",
-      "transcription": "",
-      "translation": "танцор",
-      "english": "dancer",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 160,
-      "hebrew": "]‫ ‫ָר ׁ ָשע [ז׳‬",
-      "transcription": "",
-      "translation": "злодей",
-      "english": "evil person",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 161,
-      "hebrew": "‫ׁ ֶש‬",
-      "transcription": "",
-      "translation": "который, что, чтобы",
-      "english": "that",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 162,
-      "hebrew": "]‫ׁ ְש ֵאלָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "вопрос",
-      "english": "question",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 163,
-      "hebrew": "]‫ לָ ׁשוּב [פ׳‬,‫ׁ ָשב‬",
-      "transcription": "",
-      "translation": "возвращаться",
-      "english": "to return",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 164,
-      "hebrew": "]‫ׁ ָשבו ַּע ׁ ָשבוּעוֹ ת [ז\"ר‬",
-      "transcription": "",
-      "translation": "неделя",
-      "english": "week",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 165,
-      "hebrew": "]‫ׁ ְש ִביל [ז׳‬",
-      "transcription": "",
-      "translation": "тропинка",
-      "english": "path",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 166,
-      "hebrew": "]‫ש ֵב ַע [ת׳‬",
-      "transcription": "",
-      "translation": "сытый",
-      "english": "full (of food)",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 167,
-      "hebrew": "ׂ ָ ]‫ש ֶדה [ז׳‬ ָׂ",
-      "transcription": "",
-      "translation": "поле",
-      "english": "field",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 168,
-      "hebrew": "ְׂ",
-      "transcription": "",
-      "translation": "аэропорт",
-      "english": "airport",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 169,
-      "hebrew": "]‫ׁשוֹ ָאה [נ׳‬",
-      "transcription": "",
-      "translation": "Холокост",
-      "english": "Holocaust",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 170,
-      "hebrew": "]‫ לִ ׁ ְשאוֹ ל [פ׳‬,‫ׁשוֹ ֵאל‬",
-      "transcription": "",
-      "translation": "спрашивать",
-      "english": "to ask",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 171,
-      "hebrew": "‫ׁשוּב‬",
-      "transcription": "",
-      "translation": "ещё раз, опять",
-      "english": "again, once more",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 172,
-      "hebrew": "ׂ ְ ִ‫ ל‬,‫שׂוֹ ֶחה‬",
-      "transcription": "",
-      "translation": "плавать",
-      "english": "to swim",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 173,
-      "hebrew": "]‫ לְ ׁ ַש ְח ֵרר [פ׳‬,‫ׁשו ְּח ַרר‬",
-      "transcription": "",
-      "translation": "был выпущен / освобождён",
-      "english": "was released / freed",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 174,
-      "hebrew": "]‫ לִ ׁ ְש ַ ּכב [פ׳‬,‫ׁשוֹ כֵ ב‬",
-      "transcription": "",
-      "translation": "ложиться",
-      "english": "to lie down",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 175,
-      "hebrew": "]‫ לִ ׁ ְשכּ וֹ ַח [פ׳‬,‫ׁשוֹ כֵ ַח‬",
-      "transcription": "",
-      "translation": "забывать",
-      "english": "to forget",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 176,
-      "hebrew": "ׂ ְ ִ‫ ל‬,‫שׂוֹ כֵ ר‬",
-      "transcription": "",
-      "translation": "арендовать",
-      "english": "to rent",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 177,
-      "hebrew": "]‫ לִ ׁ ְשלוֹ ַח [פ׳‬,‫ׁשוֹ לֵ ַח‬",
-      "transcription": "",
-      "translation": "посылать",
-      "english": "to send",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 178,
-      "hebrew": "]‫ׁשוּלְ ָחן ׁשוּלְ ָחנוֹ ת [ז\"ר‬",
-      "transcription": "",
-      "translation": "стол",
-      "english": "table",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 179,
-      "hebrew": "]‫ לִ ׁ ְשלוֹ ט [פ׳‬,‫ׁשוֹ לֵ ט‬",
-      "transcription": "",
-      "translation": "управлять",
-      "english": "to rule / control / proficient",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 180,
-      "hebrew": "‫ׁשוּם ָד ָבר‬",
-      "transcription": "",
-      "translation": "ничего",
-      "english": "nothing",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 181,
-      "hebrew": "ֵ ‫ׁש‬",
-      "transcription": "",
-      "translation": "слышать",
-      "english": "to hear",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 182,
-      "hebrew": "ׂ ְ ִ‫ ל‬,‫שׂוֹ נֵ א‬",
-      "transcription": "",
-      "translation": "ненавидеть",
-      "english": "to hate",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 183,
-      "hebrew": "]‫ׁשוֹ נֶ ה [ת׳‬",
-      "transcription": "",
-      "translation": "разный",
-      "english": "different",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 184,
-      "hebrew": "]‫ לִ ׁ ְש ּפוֹ ט [פ׳‬,‫ׁשוֹ ֵפט‬",
-      "transcription": "",
-      "translation": "судить",
-      "english": "to judge",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 185,
-      "hebrew": "]‫ׁשוּק [ז׳‬",
-      "transcription": "",
-      "translation": "рынок",
-      "english": "market",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 186,
-      "hebrew": "]‫ׁשוּק ַה ּ ִפ ׁ ְש ּ ְפ ׁ ִשים [ז׳‬",
-      "transcription": "",
-      "translation": "блошиный рынок",
-      "english": "flea market",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 187,
-      "hebrew": "]‫ׁשוֹ ֶרש [ז׳‬",
-      "transcription": "",
-      "translation": "корень",
-      "english": "root",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 188,
-      "hebrew": "]‫ לִ ׁ ְשתוֹ ת [פ׳‬,‫ׁשוֹ ֶתה‬",
-      "transcription": "",
-      "translation": "пить",
-      "english": "to drink",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 189,
-      "hebrew": "]‫ׁ ָשחוֹ ר [ת׳‬",
-      "transcription": "",
-      "translation": "чёрный",
-      "english": "black",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 190,
-      "hebrew": "]‫ ׁ ְשטוּיוֹ ת [נ׳‬,‫ׁ ְשטוּת‬",
-      "transcription": "",
-      "translation": "глупость",
-      "english": "nonsense",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 191,
-      "hebrew": "ַ ‫ׁ ָש ִט‬",
-      "transcription": "",
-      "translation": "ковёр",
-      "english": "carpet",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 192,
-      "hebrew": "ָׂ",
-      "transcription": "",
-      "translation": "сатана",
-      "english": "Satan",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 193,
-      "hebrew": "ָ ‫ש‬ִׂ",
-      "transcription": "",
-      "translation": "режим ожидания (телефон)",
-      "english": "call waiting",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 194,
-      "hebrew": "ָ ‫ש‬",
-      "transcription": "",
-      "translation": "беседа, разговор",
-      "english": "conversation",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 195,
-      "hebrew": "ָ ‫ׁ ִש‬",
-      "transcription": "",
-      "translation": "система, метод",
-      "english": "method, system",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 196,
-      "hebrew": "ִׂ",
-      "transcription": "",
-      "translation": "обратите внимание!",
-      "english": "pay attention!",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 197,
-      "hebrew": "]‫ׁ ִשימו ִּרים [ז״ר‬",
-      "transcription": "",
-      "translation": "консервы",
-      "english": "conserves/ canned goods",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 198,
-      "hebrew": "]‫ׁ ִשינוּי [ז׳‬",
-      "transcription": "",
-      "translation": "перемена, изменение",
-      "english": "change",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 199,
-      "hebrew": "]‫ׁ ִשיעוּר [ז׳‬",
-      "transcription": "",
-      "translation": "урок",
-      "english": "lesson",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 200,
-      "hebrew": "]‫ׁ ִשיעו ֵּרי ַ ּביִ ת [ז״ר‬",
-      "transcription": "",
-      "translation": "домашние задания",
-      "english": "homework",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 201,
-      "hebrew": "ּ ‫ׁ ִש‬",
-      "transcription": "",
-      "translation": "ремонт",
-      "english": "renovation",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 202,
-      "hebrew": "]‫ׁ ִשיר [ז׳‬",
-      "transcription": "",
-      "translation": "песня",
-      "english": "song",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 203,
-      "hebrew": "]‫ׁ ֵשירוּת [ז׳‬",
-      "transcription": "",
-      "translation": "обслуживание",
-      "english": "service",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 204,
-      "hebrew": "]‫ׁ ֵשירו ִּתים [ז״ר‬",
-      "transcription": "",
-      "translation": "туалет",
-      "english": "toilet",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 205,
-      "hebrew": "]‫ׁ ְשכוּנָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "квартал, микрорайон",
-      "english": "neighborhood",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 206,
-      "hebrew": "]‫ׁ ָשכַ ְח ִּתי [פ׳‬",
-      "transcription": "",
-      "translation": "Я забыл",
-      "english": "I forgot",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 207,
-      "hebrew": "]‫שכֶ ל [ז׳‬ֵׂ",
-      "transcription": "",
-      "translation": "ум, разум",
-      "english": "intelligence / brains",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 208,
-      "hebrew": "]‫ׁ ָשכֵ ן [ז׳‬",
-      "transcription": "",
-      "translation": "сосед",
-      "english": "neighbor",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 209,
-      "hebrew": "]‫ לְ ׁ ַשכְ נֵ ַע [פ׳‬,‫ׁ ִשכְ נֵ ַע‬",
-      "transcription": "",
-      "translation": "убеждать",
-      "english": "to persuade, to convince",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 210,
-      "hebrew": "]‫שכָ ר [ז׳‬ָׂ",
-      "transcription": "",
-      "translation": "заработная плата",
-      "english": "wage, retribution",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 211,
-      "hebrew": "‫ׁ ֶשל‬",
-      "transcription": "",
-      "translation": "предлог, передающий значение",
-      "english": "",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 212,
-      "hebrew": "]‫ׁ ֶשלֶ ג [ז׳‬",
-      "transcription": "",
-      "translation": "снег",
-      "english": "snow",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 213,
-      "hebrew": "‫ׁ ִשלְ גִ יָ ה‬",
-      "transcription": "",
-      "translation": "Снегурочка",
-      "english": "Snow White",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 214,
-      "hebrew": "‫ׁ ָשלוֹ ם‬",
-      "transcription": "",
-      "translation": "привет, до свидания, мир",
-      "english": "hello / goodbye / peace",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 215,
-      "hebrew": "]‫ׁ ֶשלֶ ט [ז׳‬",
-      "transcription": "",
-      "translation": "вывеска, плакат",
-      "english": "sign / placard",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 216,
-      "hebrew": "]‫ ׁ ִשלְ טוֹ נוֹ ת [ז\"ר‬,‫ׁ ִשלְ טוֹ ן‬",
-      "transcription": "",
-      "translation": "власть, власти",
-      "english": "rule / authority",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 217,
-      "hebrew": "ַ ִ‫ׁ ָשל‬",
-      "transcription": "",
-      "translation": "посланец, курьер",
-      "english": "delivery person, messenger",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 218,
-      "hebrew": "ָ ִ‫ׁ ְשל‬",
-      "transcription": "",
-      "translation": "господство, владение",
-      "english": "control, proficiency",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 219,
-      "hebrew": "]‫ׁ ְשלִ ילָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "отрицание",
-      "english": "negating",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 220,
-      "hebrew": "]‫ׁ ְשלִ ילִ י [ת׳‬",
-      "transcription": "",
-      "translation": "отрицательный",
-      "english": "negative",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 221,
-      "hebrew": "ִ ׁ ִ‫ׁ ְשל‬",
-      "transcription": "",
-      "translation": "третий",
-      "english": "third",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 222,
-      "hebrew": "‫ׁ ִשלְ ׁשוֹ ם‬",
-      "transcription": "",
-      "translation": "позавчера",
-      "english": "the day before yesterday",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 223,
-      "hebrew": "]‫ׁ ֵשם ׁ ֵשמוֹ ת [ז\"ר‬",
-      "transcription": "",
-      "translation": "имя",
-      "english": "name",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 224,
-      "hebrew": "‫ׁ ְש ִמי‬",
-      "transcription": "",
-      "translation": "меня зовут",
-      "english": "my name",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 225,
-      "hebrew": "]‫ׁ ֵשם ִמ ׁ ְש ּ ָפ ָחה [ז׳‬",
-      "transcription": "",
-      "translation": "фамилия",
-      "english": "last name",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 226,
-      "hebrew": "]‫ׁ ֵשם ֶע ֶצם [ז׳‬",
-      "transcription": "",
-      "translation": "имя существительное",
-      "english": "noun",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 227,
-      "hebrew": "]‫ׁ ֵשם ּפוֹ ַעל [ז׳‬",
-      "transcription": "",
-      "translation": "инфинитив",
-      "english": "infinitive",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 228,
-      "hebrew": "]‫ׁ ֵשם ּ ְפעוּלָ ה [ז׳‬",
-      "transcription": "",
-      "translation": "герундий, отглагольное",
-      "english": "gerund, verbal noun",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 229,
-      "hebrew": "]‫ׁ ֵשם ּ ְפ ָר ִטי [ז׳‬",
-      "transcription": "",
-      "translation": "личное имя",
-      "english": "first name",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 230,
-      "hebrew": "]‫ׁ ֵשם ּתוֹ ַאר [ז׳‬",
-      "transcription": "",
-      "translation": "имя прилагательное",
-      "english": "adjective",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 231,
-      "hebrew": "‫ׁ ָשם‬",
-      "transcription": "",
-      "translation": "там",
-      "english": "there",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 232,
-      "hebrew": "ׂ ִ ָ‫ ל‬,‫שם‬",
-      "transcription": "",
-      "translation": "положить, класть",
-      "english": "to put",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 233,
-      "hebrew": "]‫שים לֵ ב [פ׳‬ ׂ ִ ָ‫ ל‬,‫שם לֵ ב‬ָׂ",
-      "transcription": "",
-      "translation": "обращать внимание",
-      "english": "to pay attention",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 234,
-      "hebrew": "]‫שמֹאל [ז׳‬",
-      "transcription": "",
-      "translation": "левая сторона",
-      "english": "left",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 235,
-      "hebrew": "‫שמֹאלָ ה‬",
-      "transcription": "",
-      "translation": "налево",
-      "english": "to the left",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 236,
-      "hebrew": "]‫ׁ ָשמוּר [ת׳‬",
-      "transcription": "",
-      "translation": "сохраненный, охраняемый",
-      "english": "guarded, reserved",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 237,
-      "hebrew": "]‫ׁ ְשמו ַּרת ֶט ַבע [נ׳‬",
-      "transcription": "",
-      "translation": "заповедник",
-      "english": "nature reserve",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 238,
-      "hebrew": "]‫ׁ ָש ַמיִ ם [ז״ר‬",
-      "transcription": "",
-      "translation": "небо",
-      "english": "sky",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 239,
-      "hebrew": "]‫ׁ ָש ֵמן [ת׳‬",
-      "transcription": "",
-      "translation": "жирный, толстый",
-      "english": "fat",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 240,
-      "hebrew": "]‫ׁ ֶש ֶמ ׁש [נ׳‬",
-      "transcription": "",
-      "translation": "солнце",
-      "english": "sun",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 241,
-      "hebrew": "]‫ׁ ֵשן ׁ ִשינַ יִ ים [נ\"ר‬",
-      "transcription": "",
-      "translation": "зуб",
-      "english": "tooth",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 242,
-      "hebrew": "]‫ׁ ָשנָ ה ׁ ָשנִ ים [נ\"ר‬",
-      "transcription": "",
-      "translation": "год",
-      "english": "year",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 243,
-      "hebrew": "]‫ׁ ָשנָ ה ְמעו ֶ ּּב ֶרת [נ׳‬",
-      "transcription": "",
-      "translation": "високосный год",
-      "english": "leap year",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 244,
-      "hebrew": "]‫ׁ ֵשנִ י [ת׳‬",
-      "transcription": "",
-      "translation": "второй",
-      "english": "second",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 245,
-      "hebrew": "]‫ׁ ְשנִ יָ יה [נ׳‬",
-      "transcription": "",
-      "translation": "секунда",
-      "english": "second",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 246,
-      "hebrew": "ָ ֵ‫ׁ ְשנַ ת ל‬",
-      "transcription": "",
-      "translation": "год рождения",
-      "english": "year of birth",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 247,
-      "hebrew": "]‫ׁ ָש ָעה [נ׳‬",
-      "transcription": "",
-      "translation": "час, время",
-      "english": "hour",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 248,
-      "hebrew": "]‫ׁ ִש ֲעמוּם [ז׳‬",
-      "transcription": "",
-      "translation": "скука",
-      "english": "boredom",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 249,
-      "hebrew": "ַׂ",
-      "transcription": "",
-      "translation": "волос",
-      "english": "hair",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 250,
-      "hebrew": "]‫ׁ ַש ּ ַפ ַעת [נ׳‬",
-      "transcription": "",
-      "translation": "грипп",
-      "english": "influenza, flu, grippe",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 251,
-      "hebrew": "]‫ׁ ָש ֵקט [ת׳‬",
-      "transcription": "",
-      "translation": "тихий, спокойный",
-      "english": "quiet ; silent",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 252,
-      "hebrew": "]‫ׁ ֶש ֶקט [ז׳‬",
-      "transcription": "",
-      "translation": "тишина, спокойствие",
-      "english": "quite, silence",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 253,
-      "hebrew": "ָ ‫ׁ ְש ִק‬",
-      "transcription": "",
-      "translation": "закат",
-      "english": "sun set",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 254,
-      "hebrew": "]‫ׁ ֶש ֶקל [ז׳‬",
-      "transcription": "",
-      "translation": "Израильская валюта",
-      "english": "Israeli currency",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 255,
-      "hebrew": "]‫שר [ז׳‬ַׂ",
-      "transcription": "",
-      "translation": "министр",
-      "english": "minister",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 256,
-      "hebrew": "]‫ לָ ׁ ִשיר [פ׳‬,‫ׁ ָשר‬",
-      "transcription": "",
-      "translation": "петь",
-      "english": "to sing",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 257,
-      "hebrew": "]‫ׁ ָש ָרב [ז׳‬",
-      "transcription": "",
-      "translation": "зной, суховей",
-      "english": "heat wave",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 258,
-      "hebrew": "]‫ׁ ְש ִריר [ז׳‬",
-      "transcription": "",
-      "translation": "мускул",
-      "english": "muscle",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 259,
-      "hebrew": "]‫ָּתא קוֹ לִ י [ז׳‬",
-      "transcription": "",
-      "translation": "голосовой почтовый ящик",
-      "english": "voice mail",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 260,
-      "hebrew": "]‫ְּתאוֹ ם [ז׳‬",
-      "transcription": "",
-      "translation": "близнец",
-      "english": "twin",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 261,
-      "hebrew": "]‫ְּתאוּנָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "авария",
-      "english": "accident",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 262,
-      "hebrew": "]‫ְּתאוּנַ ת דְּ ָרכִ ים [נ׳‬",
-      "transcription": "",
-      "translation": "дорожная авария",
-      "english": "car accident",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 263,
-      "hebrew": "]‫ְּת ֵאנָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "инжир",
-      "english": "fig",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 264,
-      "hebrew": "]‫ [ז׳‬‫ַּת ֲא ִרי‬",
-      "transcription": "",
-      "translation": "дата",
-      "english": "date",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 265,
-      "hebrew": "]‫ְּתגו ָּבה [נ׳‬",
-      "transcription": "",
-      "translation": "реакция",
-      "english": "response ; reaction",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 266,
-      "hebrew": "]‫ֵּתה [ז׳‬",
-      "transcription": "",
-      "translation": "чай",
-      "english": "tea",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 267,
-      "hebrew": "‫ִּת ְהיֶ ה ָ ּב ִריא‬",
-      "transcription": "",
-      "translation": "будь здоров",
-      "english": "be well",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 268,
-      "hebrew": "]‫ּתוֹ ַאר [ז׳‬",
-      "transcription": "",
-      "translation": "степень, звание",
-      "english": "degree, title",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 269,
-      "hebrew": ")‫ּתוֹ ָדה ַ(ר ָ ּבה‬",
-      "transcription": "",
-      "translation": "спасибо (большое)",
-      "english": "thank you (very mach)",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 270,
-      "hebrew": "]‫תוֹ כְ נָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "программное обеспечение",
-      "english": "software",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 271,
-      "hebrew": "]‫תוֹ כְ נִ ית [נ׳‬",
-      "transcription": "",
-      "translation": "программа, план",
-      "english": "program, plan",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 272,
-      "hebrew": "]‫תוֹ ָצ ָאה [נ׳‬",
-      "transcription": "",
-      "translation": "результат",
-      "english": "result",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 273,
-      "hebrew": "]‫תוֹ ר [ז׳‬",
-      "transcription": "",
-      "translation": "очередь, срок",
-      "english": "line, appointment",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 274,
-      "hebrew": "]‫תוֹ ָרה [נ׳‬",
-      "transcription": "",
-      "translation": "Тора, Пятикнижие",
-      "english": "Torah, Pentateuch",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 275,
-      "hebrew": "]‫תוֹ ׁ ָשב [ז׳‬",
-      "transcription": "",
-      "translation": "житель",
-      "english": "resident, inhabitant",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 276,
-      "hebrew": "]‫ש ֶדה [ז׳‬ׂ ָ ‫תוּת‬",
-      "transcription": "",
-      "translation": "клубника",
-      "english": "strawberry",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 277,
-      "hebrew": "]‫ַת ְח ִ ּביב [ז׳‬",
-      "transcription": "",
-      "translation": "хобби",
-      "english": "hobby",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 278,
-      "hebrew": "‫ְת ִחילָ ה‬",
-      "transcription": "",
-      "translation": "начало",
-      "english": "beginning",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 279,
-      "hebrew": "]‫ַת ֲחנָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "станция, остановка",
-      "english": "station / stop",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 280,
-      "hebrew": "]‫ַת ֲחנָ ה ֶמ ְר ָ ּכזִ ית [נ׳‬",
-      "transcription": "",
-      "translation": "центральная станция",
-      "english": "central station",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 281,
-      "hebrew": "‫ ִמ ַת ַחת ל‬,‫ַת ַחת‬",
-      "transcription": "",
-      "translation": "под",
-      "english": "under",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 282,
-      "hebrew": "]‫ֵתאוֹ ְריָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "теория",
-      "english": "theory",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 283,
-      "hebrew": "]‫ֵת ַא ְטרוֹ ן [ז׳‬",
-      "transcription": "",
-      "translation": "театр",
-      "english": "theater",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 284,
-      "hebrew": "ֵ ‫ֵת ָיבה‬",
-      "transcription": "",
-      "translation": "ящик, Ноев ковчег",
-      "english": "",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 285,
-      "hebrew": "]‫ [ז׳‬ּ‫ִתיוו‬",
-      "transcription": "",
-      "translation": "посредничество",
-      "english": "mediation, brokerage",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 286,
-      "hebrew": "]‫ַתיָ יר [ז׳‬",
-      "transcription": "",
-      "translation": "турист",
-      "english": "tourist",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 287,
-      "hebrew": "]‫ַתיָ ירוּת [נ׳‬",
-      "transcription": "",
-      "translation": "туризм",
-      "english": "tourism",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 288,
-      "hebrew": "]‫ִתינוֹ ק ִתינוֹ קוֹ ת [ז\"ר‬",
-      "transcription": "",
-      "translation": "младенец",
-      "english": "baby",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 289,
-      "hebrew": "]‫ִתיק [ז׳‬",
-      "transcription": "",
-      "translation": "портфель, сумка",
-      "english": "bag",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 290,
-      "hebrew": "ִ ‫ִת‬",
-      "transcription": "",
-      "translation": "папка",
-      "english": "folder",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 291,
-      "hebrew": "]‫ לְ ַתכְ נֵ ן [פ׳‬,‫ִתכְ נֵ ן‬",
-      "transcription": "",
-      "translation": "планировать",
-      "english": "to plan",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 292,
-      "hebrew": "-‫ָתלוּי ְ ּב‬",
-      "transcription": "",
-      "translation": "зависимый от / это зависит",
-      "english": "dependent / it depends",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 293,
-      "hebrew": "-‫ָתלוּי על‬",
-      "transcription": "",
-      "translation": "висящий на, повешенный на",
-      "english": "hanging on, hung on",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 294,
-      "hebrew": "]‫ְתלוּנָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "жалоба",
-      "english": "complaint",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 295,
-      "hebrew": "]‫ַתלְ ִמיד [ז׳‬",
-      "transcription": "",
-      "translation": "ученик",
-      "english": "pupil",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 296,
-      "hebrew": "]‫ְתמוּנָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "картина",
-      "english": "picture",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 297,
-      "hebrew": "‫ ִ ּב ְתמו ָּרה‬,‫ְתמו ָּרה‬",
-      "transcription": "",
-      "translation": "замена, возмещение, взамен",
-      "english": "return, in return",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 298,
-      "hebrew": "‫ָת ִמיד‬",
-      "transcription": "",
-      "translation": "всегда",
-      "english": "always",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 299,
-      "hebrew": "]‫ָת ִמים [ת׳‬",
-      "transcription": "",
-      "translation": "наивный",
-      "english": "naive",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 300,
-      "hebrew": "]‫ [פ׳‬ ֹ‫ לִ ְתמו‬,‫ָת ַמך‬",
-      "transcription": "",
-      "translation": "поддерживать",
-      "english": "to support",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 301,
-      "hebrew": "]‫ [ז׳‬‫ָתנָ ״‬",
-      "transcription": "",
-      "translation": "еврейская Библия",
-      "english": "bible",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 302,
-      "hebrew": "]‫ַתנָ ״כִ י [ת׳‬",
-      "transcription": "",
-      "translation": "библейский",
-      "english": "biblical",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 303,
-      "hebrew": "]‫ְתנַ אי [ז׳‬",
-      "transcription": "",
-      "translation": "условие",
-      "english": "condition",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 304,
-      "hebrew": "]‫ְתנו ָּעה [נ׳‬",
-      "transcription": "",
-      "translation": "гласный звук",
-      "english": "vowel",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 305,
-      "hebrew": "]‫ְתעו ַּדת זֵ הוּת [נ׳‬",
-      "transcription": "",
-      "translation": "удостоверение личности",
-      "english": "identity card",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 306,
-      "hebrew": "]‫ְּתעו ַּדת ַא ְח ָריוּת [נ׳‬",
-      "transcription": "",
-      "translation": "гарантийный документ",
-      "english": "warranty certificate",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 307,
-      "hebrew": "ׂ ִ ‫ַּת ֲע‬",
-      "transcription": "",
-      "translation": "промышленность",
-      "english": "industry",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 308,
-      "hebrew": "]‫ַּת ּפוּז [ז׳‬",
-      "transcription": "",
-      "translation": "апельсин",
-      "english": "orange",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 309,
-      "hebrew": "]‫ַּת ּפו ַּח [ז׳‬",
-      "transcription": "",
-      "translation": "яблоко",
-      "english": "apple",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 310,
-      "hebrew": "ַ ‫ַּת ּפו ַּח‬",
-      "transcription": "",
-      "translation": "картошка",
-      "english": "potato(s)",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 311,
-      "hebrew": "]‫ָתפוּס [ת׳‬",
-      "transcription": "",
-      "translation": "занятый",
-      "english": "occupied, busy, engaged",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 312,
-      "hebrew": "]‫ְת ִפילָ ה [נ׳‬",
-      "transcription": "",
-      "translation": "молитва",
-      "english": "prayer",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 313,
-      "hebrew": "]‫ַת ְפ ִקיד [ז׳‬",
-      "transcription": "",
-      "translation": "должность",
-      "english": "duty, job ; function",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 314,
-      "hebrew": "]‫ִת ְקוָ וה [נ׳‬",
-      "transcription": "",
-      "translation": "надежда",
-      "english": "hope",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 315,
-      "hebrew": "]‫ְתקו ָּפה [נ׳‬",
-      "transcription": "",
-      "translation": "период",
-      "english": "period",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 316,
-      "hebrew": "]‫ַת ְק ִציב [ז׳‬",
-      "transcription": "",
-      "translation": "бюджет",
-      "english": "budget",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 317,
-      "hebrew": "]‫ִת ְק ׁשוֹ ֶרת [נ׳‬",
-      "transcription": "",
-      "translation": "средства связи",
-      "english": "communication",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 318,
-      "hebrew": "]‫ַת ְרבּ וּת [נ׳‬",
-      "transcription": "",
-      "translation": "культура",
-      "english": "culture",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 319,
-      "hebrew": "]‫ַת ְרגִ יל [ז׳‬",
-      "transcription": "",
-      "translation": "упражнение",
-      "english": "exercise",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 320,
-      "hebrew": "]‫ְּתרו ָּפה [נ׳‬",
-      "transcription": "",
-      "translation": "лекарство",
-      "english": "medication",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 321,
-      "hebrew": "]‫ַת ְר ִמיל [ז׳‬",
-      "transcription": "",
-      "translation": "ранец",
-      "english": "satchel / knapsack",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 322,
-      "hebrew": "]‫ַת ְרנְ גוֹ ל [ז׳‬",
-      "transcription": "",
-      "translation": "петух",
-      "english": "rooster",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 323,
-      "hebrew": "]‫ְת ׁשו ָּבה [נ׳‬",
-      "transcription": "",
-      "translation": "ответ",
-      "english": "answer",
-      "lesson": 0,
-      "page": 443
-    },
-    {
-      "id": 324,
-      "hebrew": ")‫ַת ׁ ְשלוּם (בתשלומים‬",
-      "transcription": "",
-      "translation": "оплата (в рассрочку)",
-      "english": "payment (in installments)",
-      "lesson": 0,
-      "page": 443
+      "hebrew": "בַּת כַּמָּה",
+      "transcription": "бат ка́ма",
+      "translation": "сколько лет (ж.р.)?",
+      "lesson": 5,
+      "page": 74,
+      "category": "выражения"
     }
   ]
 }

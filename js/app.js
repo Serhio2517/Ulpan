@@ -8,7 +8,7 @@
 
 const state = {
     vocabulary: [],
-    currentPage: 20,
+    currentLesson: 5,
     availableWords: [],
     learnedWordIds: [],
     currentWord: null,
@@ -31,7 +31,8 @@ const elements = {
     writingScreen: document.getElementById('writing-screen'),
 
     // Home
-    pageInput: document.getElementById('page-input'),
+    lessonSelect: document.getElementById('lesson-select'),
+    lessonHint: document.getElementById('lesson-hint'),
     updateProgress: document.getElementById('update-progress'),
     availableWords: document.getElementById('available-words'),
     learnedWords: document.getElementById('learned-words'),
@@ -88,17 +89,23 @@ function loadProgress() {
     const saved = localStorage.getItem('ulpanProgress');
     if (saved) {
         const progress = JSON.parse(saved);
-        state.currentPage = progress.currentPage || 20;
+        state.currentLesson = progress.currentLesson || 5;
         state.learnedWordIds = progress.learnedWordIds || [];
     }
-    elements.pageInput.value = state.currentPage;
+    elements.lessonSelect.value = state.currentLesson;
+    updateLessonHint();
 }
 
 function saveProgress() {
     localStorage.setItem('ulpanProgress', JSON.stringify({
-        currentPage: state.currentPage,
+        currentLesson: state.currentLesson,
         learnedWordIds: state.learnedWordIds
     }));
+}
+
+function updateLessonHint() {
+    const lesson = state.currentLesson;
+    elements.lessonHint.textContent = `Включает уроки 1-${lesson}`;
 }
 
 // ========================================
@@ -182,16 +189,21 @@ function showScreen(screenName) {
 // ========================================
 
 function handleUpdateProgress() {
-    const newPage = parseInt(elements.pageInput.value);
-    if (newPage >= 1 && newPage <= 264) {
-        state.currentPage = newPage;
+    const newLesson = parseInt(elements.lessonSelect.value);
+    if (newLesson >= 1 && newLesson <= 5) {
+        state.currentLesson = newLesson;
+        updateLessonHint();
         saveProgress();
         updateStats();
     }
 }
 
 function updateStats() {
-    state.availableWords = state.vocabulary.filter(w => w.page <= state.currentPage);
+    // Filter words by lesson (include all lessons up to selected)
+    state.availableWords = state.vocabulary.filter(w => {
+        const wordLesson = w.lesson || (w.type === 'verb' ? w.lesson : 0);
+        return wordLesson > 0 && wordLesson <= state.currentLesson;
+    });
     const learnedCount = state.learnedWordIds.length;
 
     elements.availableWords.textContent = state.availableWords.length;

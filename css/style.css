@@ -114,26 +114,34 @@ body {
     color: var(--text-secondary);
 }
 
-.page-input-wrapper {
+.lesson-select-wrapper {
     display: flex;
     gap: var(--spacing-sm);
 }
 
-.page-input-wrapper input {
+.lesson-select-wrapper select {
     flex: 1;
     padding: var(--spacing-md);
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
     background: var(--bg-card);
     border: 2px solid transparent;
     border-radius: var(--radius-md);
     color: var(--text-primary);
-    text-align: center;
+    cursor: pointer;
+    font-family: 'Inter', 'Noto Sans Hebrew', sans-serif;
 }
 
-.page-input-wrapper input:focus {
+.lesson-select-wrapper select:focus {
     outline: none;
     border-color: var(--accent);
+}
+
+.lesson-hint {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: var(--spacing-sm);
+    text-align: center;
 }
 
 .stats {
