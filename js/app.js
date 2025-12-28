@@ -12,9 +12,10 @@ const state = {
     availableWords: [],
     learnedWordIds: [],
     currentWord: null,
-    currentIndex: 0,
-    sessionWords: [],
-    sessionSize: 10,
+    sessionQueue: [],       // Words remaining in session
+    sessionCompleted: [],   // Words answered correctly this session
+    sessionRetries: 0,      // Number of retry slots remaining
+    maxRetries: 0,          // Max retries (10% of available words)
     currentLetterIndex: 0,
     targetLetters: []
 };
@@ -232,24 +233,29 @@ function updateStats() {
 // ========================================
 
 function startSession() {
-    if (state.availableWords.length < 8) {
-        alert('Недостаточно слов для тренировки. Увеличьте номер страницы.');
+    if (state.availableWords.length < 4) {
+        alert('Недостаточно слов для тренировки. Выберите больше уроков.');
         return;
     }
 
-    // Shuffle and pick words for session
-    state.sessionWords = shuffleArray([...state.availableWords]).slice(0, state.sessionSize);
-    state.currentIndex = 0;
+    // Initialize session with all available words shuffled
+    state.sessionQueue = shuffleArray([...state.availableWords]);
+    state.sessionCompleted = [];
+    state.maxRetries = Math.ceil(state.availableWords.length * 0.1); // 10% extra for retries
+    state.sessionRetries = 0;
 
     showQuizWord();
     showScreen('quiz');
 }
 
 function showQuizWord() {
-    state.currentWord = state.sessionWords[state.currentIndex];
+    // Take next word from queue
+    state.currentWord = state.sessionQueue[0];
 
-    // Update progress indicator
-    elements.quizProgress.textContent = `${state.currentIndex + 1} / ${state.sessionWords.length}`;
+    // Update progress indicator (completed / total including retries)
+    const completed = state.sessionCompleted.length;
+    const total = state.availableWords.length;
+    elements.quizProgress.textContent = `${completed + 1} / ${total}`;
 
     // Show Hebrew word
     elements.hebrewDisplay.textContent = state.currentWord.hebrew;
@@ -301,11 +307,25 @@ function handleOptionClick(selectedOption) {
         }
     });
 
-    // Mark as learned if correct
-    if (isCorrect && !state.learnedWordIds.includes(state.currentWord.id)) {
-        state.learnedWordIds.push(state.currentWord.id);
-        saveProgress();
-        updateStats();
+    // Remove current word from queue
+    state.sessionQueue.shift();
+
+    if (isCorrect) {
+        // Add to completed (won't appear again this session)
+        state.sessionCompleted.push(state.currentWord);
+
+        // Mark as learned globally
+        if (!state.learnedWordIds.includes(state.currentWord.id)) {
+            state.learnedWordIds.push(state.currentWord.id);
+            saveProgress();
+            updateStats();
+        }
+    } else {
+        // Wrong answer: add to end of queue if retries available
+        if (state.sessionRetries < state.maxRetries) {
+            state.sessionQueue.push(state.currentWord);
+            state.sessionRetries++;
+        }
     }
 
     // Show result after delay
@@ -335,11 +355,11 @@ function showResult(isCorrect) {
 }
 
 function nextWord() {
-    state.currentIndex++;
-
-    if (state.currentIndex >= state.sessionWords.length) {
+    if (state.sessionQueue.length === 0) {
         // Session complete
-        alert('Сессия завершена! 🎉');
+        const total = state.availableWords.length;
+        const correct = state.sessionCompleted.length;
+        alert(`Сессия завершена! \nПравильно: ${correct} / ${total} 🎉`);
         showScreen('home');
         return;
     }
