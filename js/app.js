@@ -127,17 +127,17 @@ function setupTouchFeedback() {
     const buttons = document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon');
 
     buttons.forEach(btn => {
+        // Restart animation on each touch
         btn.addEventListener('touchstart', () => {
+            btn.classList.remove('pressed');
+            void btn.offsetWidth; // force reflow to restart animation
             btn.classList.add('pressed');
         }, { passive: true });
 
-        btn.addEventListener('touchend', () => {
-            setTimeout(() => btn.classList.remove('pressed'), 100);
-        }, { passive: true });
-
-        btn.addEventListener('touchcancel', () => {
+        // Remove class after animation ends
+        btn.addEventListener('animationend', () => {
             btn.classList.remove('pressed');
-        }, { passive: true });
+        });
     });
 }
 
@@ -169,12 +169,6 @@ function showScreen(screenName) {
 // ========================================
 
 function handleUpdateProgress() {
-    const btn = elements.updateProgress;
-
-    // Visual feedback - add pressed class
-    btn.classList.add('pressed');
-    setTimeout(() => btn.classList.remove('pressed'), 150);
-
     const newPage = parseInt(elements.pageInput.value);
     if (newPage >= 1 && newPage <= 264) {
         state.currentPage = newPage;
