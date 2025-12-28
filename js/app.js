@@ -148,6 +148,12 @@ function showScreen(screenName) {
 // ========================================
 
 function handleUpdateProgress() {
+    const btn = elements.updateProgress;
+
+    // Visual feedback - add pressed class
+    btn.classList.add('pressed');
+    setTimeout(() => btn.classList.remove('pressed'), 150);
+
     const newPage = parseInt(elements.pageInput.value);
     if (newPage >= 1 && newPage <= 264) {
         state.currentPage = newPage;
