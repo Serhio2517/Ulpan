@@ -124,20 +124,20 @@ function setupEventListeners() {
 }
 
 function setupTouchFeedback() {
-    const buttons = document.querySelectorAll('.btn-secondary, .btn-primary, .btn-icon');
-
-    buttons.forEach(btn => {
-        // Restart animation on each touch
-        btn.addEventListener('touchstart', () => {
+    // Use event delegation on document for iOS Safari compatibility
+    document.addEventListener('touchstart', (e) => {
+        const btn = e.target.closest('.btn-secondary, .btn-primary, .btn-icon');
+        if (btn) {
             btn.classList.remove('pressed');
-            void btn.offsetWidth; // force reflow to restart animation
+            void btn.offsetWidth;
             btn.classList.add('pressed');
-        }, { passive: true });
+        }
+    }, { passive: true });
 
-        // Remove class after animation ends
-        btn.addEventListener('animationend', () => {
-            btn.classList.remove('pressed');
-        });
+    document.addEventListener('animationend', (e) => {
+        if (e.target.classList.contains('pressed')) {
+            e.target.classList.remove('pressed');
+        }
     });
 }
 
