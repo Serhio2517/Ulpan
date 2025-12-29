@@ -391,10 +391,10 @@ function showResult(isCorrect) {
         document.getElementById('form-inf').textContent = word.infinitive || '';
         document.getElementById('form-inf-trans').textContent = word.infinitive_transcription || '';
 
-        verbFormsEl.classList.remove('hidden');
+        verbFormsEl.style.display = 'block';
     } else {
         // Regular word - hide verb forms table
-        verbFormsEl.classList.add('hidden');
+        verbFormsEl.style.display = 'none';
         elements.resultHebrew.textContent = getHebrewDisplay(word);
         elements.resultTranscription.textContent = getTranscription(word);
         elements.resultTranslation.textContent = word.translation;
