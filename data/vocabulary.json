@@ -29,7 +29,7 @@
         "name": "שיעור 5 — Семья"
       }
     },
-    "totalWords": 150,
+    "totalWords": 160,
     "verifiedVia": "Glosbe.com, IRIS dictionary"
   },
   "words": [
@@ -1236,6 +1236,402 @@
       "lesson": 5,
       "page": 74,
       "category": "выражения"
+    },
+    {
+      "id": 117,
+      "hebrew": "אַחַת",
+      "transcription": "аха́т",
+      "translation": "одна",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 118,
+      "hebrew": "שְׁתַּיִם",
+      "transcription": "шта́йим",
+      "translation": "две",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 119,
+      "hebrew": "שְׁלוֹשָׁה",
+      "transcription": "шлоша́",
+      "translation": "три (м.р.)",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 120,
+      "hebrew": "אַרְבָּעָה",
+      "transcription": "арбаа́",
+      "translation": "четыре (м.р.)",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 121,
+      "hebrew": "חֲמִשָּׁה",
+      "transcription": "хамиша́",
+      "translation": "пять (м.р.)",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 122,
+      "hebrew": "שִׁשָּׁה",
+      "transcription": "шиша́",
+      "translation": "шесть (м.р.)",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 123,
+      "hebrew": "שִׁבְעָה",
+      "transcription": "шива́",
+      "translation": "семь (м.р.)",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 124,
+      "hebrew": "שְׁמוֹנָה",
+      "transcription": "шмона́",
+      "translation": "восемь (м.р.)",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 125,
+      "hebrew": "תִּשְׁעָה",
+      "transcription": "тиша́",
+      "translation": "девять (м.р.)",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 126,
+      "hebrew": "עֲשָׂרָה",
+      "transcription": "асара́",
+      "translation": "десять (м.р.)",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 127,
+      "hebrew": "כַּמָּה",
+      "transcription": "ка́ма",
+      "translation": "сколько",
+      "lesson": 3,
+      "page": 48,
+      "category": "вопросы"
+    },
+    {
+      "id": 128,
+      "hebrew": "יוֹם",
+      "transcription": "йом",
+      "translation": "день",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 129,
+      "hebrew": "יָמִים",
+      "transcription": "ями́м",
+      "translation": "дни",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 130,
+      "hebrew": "שָׁבוּעַ",
+      "transcription": "шаву́а",
+      "translation": "неделя",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 131,
+      "hebrew": "שָׁבוּעוֹת",
+      "transcription": "шавуо́т",
+      "translation": "недели",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 132,
+      "hebrew": "חוֹדֶשׁ",
+      "transcription": "хо́деш",
+      "translation": "месяц",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 133,
+      "hebrew": "חֳדָשִׁים",
+      "transcription": "ходаши́м",
+      "translation": "месяцы",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 134,
+      "hebrew": "שָׁנָה",
+      "transcription": "шана́",
+      "translation": "год",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 135,
+      "hebrew": "שָׁנִים",
+      "transcription": "шани́м",
+      "translation": "годы",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 136,
+      "hebrew": "פַּעַם",
+      "transcription": "па́ам",
+      "translation": "раз",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 137,
+      "hebrew": "פְּעָמִים",
+      "transcription": "пъами́м",
+      "translation": "разы",
+      "lesson": 3,
+      "page": 48,
+      "category": "время"
+    },
+    {
+      "id": 138,
+      "hebrew": "אֶפֶס",
+      "transcription": "э́фес",
+      "translation": "ноль",
+      "lesson": 3,
+      "page": 48,
+      "category": "числа"
+    },
+    {
+      "id": 139,
+      "hebrew": "אוֹטוֹבּוּס",
+      "transcription": "отобу́с",
+      "translation": "автобус",
+      "lesson": 3,
+      "page": 42,
+      "category": "транспорт"
+    },
+    {
+      "id": 140,
+      "hebrew": "מוֹנִית",
+      "transcription": "мони́т",
+      "translation": "такси",
+      "lesson": 3,
+      "page": 42,
+      "category": "транспорт"
+    },
+    {
+      "id": 141,
+      "hebrew": "רַכֶּבֶת",
+      "transcription": "раке́вет",
+      "translation": "поезд",
+      "lesson": 3,
+      "page": 42,
+      "category": "транспорт"
+    },
+    {
+      "id": 142,
+      "hebrew": "מְטוֹס",
+      "transcription": "мето́с",
+      "translation": "самолёт",
+      "lesson": 3,
+      "page": 42,
+      "category": "транспорт"
+    },
+    {
+      "id": 143,
+      "hebrew": "אֳנִיָּה",
+      "transcription": "онийа́",
+      "translation": "корабль",
+      "lesson": 3,
+      "page": 42,
+      "category": "транспорт"
+    },
+    {
+      "id": 144,
+      "hebrew": "רֶגֶל",
+      "transcription": "ре́гель",
+      "translation": "нога, пешком",
+      "lesson": 3,
+      "page": 42,
+      "category": "существительные"
+    },
+    {
+      "id": 145,
+      "hebrew": "תֵּל אָבִיב",
+      "transcription": "тель-ави́в",
+      "translation": "Тель-Авив",
+      "lesson": 3,
+      "page": 43,
+      "category": "города"
+    },
+    {
+      "id": 146,
+      "hebrew": "יְרוּשָׁלַיִם",
+      "transcription": "йерушала́йим",
+      "translation": "Иерусалим",
+      "lesson": 3,
+      "page": 43,
+      "category": "города"
+    },
+    {
+      "id": 147,
+      "hebrew": "חֵיפָה",
+      "transcription": "хейфа́",
+      "translation": "Хайфа",
+      "lesson": 3,
+      "page": 43,
+      "category": "города"
+    },
+    {
+      "id": 148,
+      "hebrew": "אֵילַת",
+      "transcription": "эйла́т",
+      "translation": "Эйлат",
+      "lesson": 3,
+      "page": 43,
+      "category": "города"
+    },
+    {
+      "id": 149,
+      "hebrew": "לְ",
+      "transcription": "ле-",
+      "translation": "в, к (предлог направления)",
+      "lesson": 3,
+      "page": 44,
+      "category": "предлоги"
+    },
+    {
+      "id": 150,
+      "hebrew": "מִ",
+      "transcription": "ми-",
+      "translation": "из (предлог)",
+      "lesson": 3,
+      "page": 44,
+      "category": "предлоги"
+    },
+    {
+      "id": 151,
+      "hebrew": "עַד",
+      "transcription": "ад",
+      "translation": "до",
+      "lesson": 3,
+      "page": 44,
+      "category": "предлоги"
+    },
+    {
+      "id": 152,
+      "hebrew": "בְּ",
+      "transcription": "бе-",
+      "translation": "в (предлог места)",
+      "lesson": 3,
+      "page": 49,
+      "category": "предлоги"
+    },
+    {
+      "id": 153,
+      "hebrew": "עַל",
+      "transcription": "аль",
+      "translation": "на, о",
+      "lesson": 3,
+      "page": 49,
+      "category": "предлоги"
+    },
+    {
+      "id": 154,
+      "hebrew": "רַק",
+      "transcription": "рак",
+      "translation": "только",
+      "lesson": 3,
+      "page": 45,
+      "category": "наречия"
+    },
+    {
+      "id": 155,
+      "hebrew": "גַּם",
+      "transcription": "гам",
+      "translation": "тоже, также",
+      "lesson": 3,
+      "page": 45,
+      "category": "наречия"
+    },
+    {
+      "id": 156,
+      "hebrew": "אוֹ",
+      "transcription": "о",
+      "translation": "или",
+      "lesson": 3,
+      "page": 45,
+      "category": "союзы"
+    },
+    {
+      "id": 157,
+      "hebrew": "וְ",
+      "transcription": "ве-",
+      "translation": "и",
+      "lesson": 3,
+      "page": 45,
+      "category": "союзы"
+    },
+    {
+      "id": 158,
+      "hebrew": "עוֹד",
+      "transcription": "од",
+      "translation": "ещё",
+      "lesson": 3,
+      "page": 46,
+      "category": "наречия"
+    },
+    {
+      "id": 159,
+      "hebrew": "בְּעֶרֶךְ",
+      "transcription": "бээ́рех",
+      "translation": "примерно, приблизительно",
+      "lesson": 3,
+      "page": 47,
+      "category": "наречия"
+    },
+    {
+      "id": 160,
+      "hebrew": "בִּכְלָל",
+      "transcription": "бихла́ль",
+      "translation": "вообще",
+      "lesson": 3,
+      "page": 45,
+      "category": "наречия"
     }
   ]
 }

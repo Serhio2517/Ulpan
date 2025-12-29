@@ -12,6 +12,7 @@ const state = {
     availableWords: [],
     learnedWordIds: [],
     currentWord: null,
+    currentVerbForm: null,   // Which verb form is shown in quiz (m_sg or f_sg)
     sessionQueue: [],       // Words remaining in session
     sessionCompleted: [],   // Words answered correctly this session
     sessionRetries: 0,      // Number of retry slots remaining
@@ -232,6 +233,28 @@ function updateStats() {
 // Quiz Mode
 // ========================================
 
+// Helper: get Hebrew text for display
+// For verbs: shows random singular form (m_sg or f_sg)
+// Stores which form was used in state.currentVerbForm
+function getHebrewDisplay(word) {
+    if (word.type === 'verb' && word.forms) {
+        // Pick random singular form for quiz
+        const forms = ['m_sg', 'f_sg'];
+        const formKey = forms[Math.floor(Math.random() * forms.length)];
+        state.currentVerbForm = formKey;
+        return word.forms[formKey]?.hebrew || word.infinitive || '';
+    }
+    return word.hebrew || word.infinitive || '';
+}
+
+// Helper: get transcription for the currently displayed form
+function getTranscription(word) {
+    if (word.type === 'verb' && word.forms && state.currentVerbForm) {
+        return word.forms[state.currentVerbForm]?.transcription || word.infinitive_transcription || '';
+    }
+    return word.transcription || word.infinitive_transcription || '';
+}
+
 function startSession() {
     if (state.availableWords.length < 4) {
         alert('Недостаточно слов для тренировки. Выберите больше уроков.');
@@ -257,8 +280,8 @@ function showQuizWord() {
     const total = state.availableWords.length;
     elements.quizProgress.textContent = `${completed + 1} / ${total}`;
 
-    // Show Hebrew word
-    elements.hebrewDisplay.textContent = state.currentWord.hebrew;
+    // Show Hebrew word (handle verbs with 'infinitive' field)
+    elements.hebrewDisplay.textContent = getHebrewDisplay(state.currentWord);
 
     // Generate options
     const options = generateOptions(state.currentWord);
@@ -345,10 +368,37 @@ function showResult(isCorrect) {
     elements.resultStatus.textContent = isCorrect ? '✓ ПРАВИЛЬНО!' : '✗ НЕПРАВИЛЬНО';
     elements.resultStatus.className = 'result-status ' + (isCorrect ? 'success' : 'error');
 
-    // Update card content
-    elements.resultHebrew.textContent = state.currentWord.hebrew;
-    elements.resultTranscription.textContent = state.currentWord.transcription;
-    elements.resultTranslation.textContent = state.currentWord.translation;
+    const word = state.currentWord;
+    const verbFormsEl = document.getElementById('verb-forms');
+
+    // Check if this is a verb with forms
+    if (word.type === 'verb' && word.forms) {
+        // Show the forms the user saw in quiz at the top
+        const displayedForm = word.forms[state.currentVerbForm];
+        elements.resultHebrew.textContent = displayedForm?.hebrew || word.infinitive;
+        elements.resultTranscription.textContent = displayedForm?.transcription || word.infinitive_transcription;
+        elements.resultTranslation.textContent = word.translation;
+
+        // Populate all 5 verb forms
+        document.getElementById('form-m-sg').textContent = word.forms.m_sg?.hebrew || '';
+        document.getElementById('form-m-sg-trans').textContent = word.forms.m_sg?.transcription || '';
+        document.getElementById('form-f-sg').textContent = word.forms.f_sg?.hebrew || '';
+        document.getElementById('form-f-sg-trans').textContent = word.forms.f_sg?.transcription || '';
+        document.getElementById('form-m-pl').textContent = word.forms.m_pl?.hebrew || '';
+        document.getElementById('form-m-pl-trans').textContent = word.forms.m_pl?.transcription || '';
+        document.getElementById('form-f-pl').textContent = word.forms.f_pl?.hebrew || '';
+        document.getElementById('form-f-pl-trans').textContent = word.forms.f_pl?.transcription || '';
+        document.getElementById('form-inf').textContent = word.infinitive || '';
+        document.getElementById('form-inf-trans').textContent = word.infinitive_transcription || '';
+
+        verbFormsEl.classList.remove('hidden');
+    } else {
+        // Regular word - hide verb forms table
+        verbFormsEl.classList.add('hidden');
+        elements.resultHebrew.textContent = getHebrewDisplay(word);
+        elements.resultTranscription.textContent = getTranscription(word);
+        elements.resultTranslation.textContent = word.translation;
+    }
 
     // Update image (placeholder for now)
     elements.cardImage.innerHTML = '<div class="placeholder-image">🖼️</div>';
@@ -375,12 +425,12 @@ function nextWord() {
 // ========================================
 
 function startWritingMode() {
-    // Extract letters (remove nikud/vowel marks)
-    state.targetLetters = extractLetters(state.currentWord.hebrew);
+    // Extract letters (remove nikud/vowel marks) - handle verbs
+    state.targetLetters = extractLetters(getHebrewDisplay(state.currentWord));
     state.currentLetterIndex = 0;
 
     // Update UI
-    elements.writingTranscription.textContent = state.currentWord.transcription;
+    elements.writingTranscription.textContent = getTranscription(state.currentWord);
     elements.writingImage.innerHTML = '<div class="placeholder-image">🖼️</div>';
 
     // Create letter slots

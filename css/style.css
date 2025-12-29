@@ -415,6 +415,61 @@ body {
     margin-top: 0;
 }
 
+/* Verb Forms Table */
+.verb-forms {
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-md);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    direction: rtl;
+}
+
+.verb-forms.hidden {
+    display: none;
+}
+
+.verb-form-row {
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-xs) 0;
+    border-bottom: 1px solid var(--bg-card);
+    align-items: center;
+}
+
+.verb-form-row:last-child {
+    border-bottom: none;
+}
+
+.verb-form-row.infinitive-row {
+    margin-top: var(--spacing-xs);
+    padding-top: var(--spacing-sm);
+    border-top: 2px solid var(--accent);
+    border-bottom: none;
+}
+
+.form-label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-align: left;
+    direction: ltr;
+}
+
+.form-hebrew {
+    font-family: var(--font-hebrew);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-align: right;
+}
+
+.form-trans {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-align: right;
+    direction: ltr;
+}
+
 /* ========================================
    Writing Screen
    ======================================== */
