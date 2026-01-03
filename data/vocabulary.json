@@ -29,7 +29,7 @@
         "name": "שיעור 5 — Семья"
       }
     },
-    "totalWords": 160,
+    "totalWords": 200,
     "verifiedVia": "Glosbe.com, IRIS dictionary"
   },
   "words": [
@@ -1632,6 +1632,366 @@
       "lesson": 3,
       "page": 45,
       "category": "наречия"
+    },
+    {
+      "id": 161,
+      "hebrew": "מָתַי",
+      "transcription": "мата́й",
+      "translation": "когда",
+      "lesson": 3,
+      "page": 40,
+      "category": "вопросы"
+    },
+    {
+      "id": 162,
+      "hebrew": "לָמָּה",
+      "transcription": "ла́ма",
+      "translation": "почему, зачем",
+      "lesson": 3,
+      "page": 40,
+      "category": "вопросы"
+    },
+    {
+      "id": 163,
+      "hebrew": "אֵיפֹה",
+      "transcription": "э́йфо",
+      "translation": "где",
+      "lesson": 3,
+      "page": 40,
+      "category": "вопросы"
+    },
+    {
+      "id": 164,
+      "hebrew": "אֵיךְ",
+      "transcription": "эйх",
+      "translation": "как",
+      "lesson": 3,
+      "page": 40,
+      "category": "вопросы"
+    },
+    {
+      "id": 165,
+      "hebrew": "אָמֶרִיקָה",
+      "transcription": "амэ́рика",
+      "translation": "Америка",
+      "lesson": 3,
+      "page": 43,
+      "category": "страны"
+    },
+    {
+      "id": 166,
+      "hebrew": "רוּסְיָה",
+      "transcription": "ру́сия",
+      "translation": "Россия",
+      "lesson": 3,
+      "page": 43,
+      "category": "страны"
+    },
+    {
+      "id": 167,
+      "hebrew": "צָרְפַת",
+      "transcription": "царфа́т",
+      "translation": "Франция",
+      "lesson": 3,
+      "page": 43,
+      "category": "страны"
+    },
+    {
+      "id": 168,
+      "hebrew": "אַנְגְלִיָּה",
+      "transcription": "а́нглия",
+      "translation": "Англия",
+      "lesson": 3,
+      "page": 43,
+      "category": "страны"
+    },
+    {
+      "id": 169,
+      "hebrew": "בַּיִת",
+      "transcription": "ба́йит",
+      "translation": "дом",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 170,
+      "hebrew": "חֶדֶר",
+      "transcription": "хэ́дер",
+      "translation": "комната",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 171,
+      "hebrew": "מִטְבָּח",
+      "transcription": "митба́х",
+      "translation": "кухня",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 172,
+      "hebrew": "סָלוֹן",
+      "transcription": "сало́н",
+      "translation": "гостиная",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 173,
+      "hebrew": "חֲדַר שֵׁינָה",
+      "transcription": "хада́р шена́",
+      "translation": "спальня",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 174,
+      "hebrew": "חֲדַר אֲמְבַּטְיָה",
+      "transcription": "хада́р амба́тья",
+      "translation": "ванная комната",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 175,
+      "hebrew": "שֵׁרוּתִים",
+      "transcription": "шерути́м",
+      "translation": "туалет",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 176,
+      "hebrew": "מִרְפֶּסֶת",
+      "transcription": "мирпе́сет",
+      "translation": "балкон",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 177,
+      "hebrew": "דֶּלֶת",
+      "transcription": "дэ́лет",
+      "translation": "дверь",
+      "lesson": 4,
+      "page": 53,
+      "category": "существительные"
+    },
+    {
+      "id": 178,
+      "hebrew": "חַלּוֹן",
+      "transcription": "хало́н",
+      "translation": "окно",
+      "lesson": 4,
+      "page": 53,
+      "category": "существительные"
+    },
+    {
+      "id": 179,
+      "hebrew": "שֻׁלְחָן",
+      "transcription": "шульха́н",
+      "translation": "стол",
+      "lesson": 4,
+      "page": 53,
+      "category": "существительные"
+    },
+    {
+      "id": 180,
+      "hebrew": "כִּסֵּא",
+      "transcription": "кисэ́",
+      "translation": "стул",
+      "lesson": 4,
+      "page": 53,
+      "category": "существительные"
+    },
+    {
+      "id": 181,
+      "hebrew": "מִיטָה",
+      "transcription": "мита́",
+      "translation": "кровать",
+      "lesson": 4,
+      "page": 53,
+      "category": "существительные"
+    },
+    {
+      "id": 182,
+      "hebrew": "אָרוֹן",
+      "transcription": "аро́н",
+      "translation": "шкаф",
+      "lesson": 4,
+      "page": 53,
+      "category": "существительные"
+    },
+    {
+      "id": 183,
+      "hebrew": "מְקָרֵר",
+      "transcription": "мекарэ́р",
+      "translation": "холодильник",
+      "lesson": 4,
+      "page": 53,
+      "category": "существительные"
+    },
+    {
+      "id": 184,
+      "hebrew": "תַּנּוּר",
+      "transcription": "тану́р",
+      "translation": "духовка, печь",
+      "lesson": 4,
+      "page": 53,
+      "category": "существительные"
+    },
+    {
+      "id": 185,
+      "hebrew": "כִּיּוֹר",
+      "transcription": "кию́р",
+      "translation": "раковина",
+      "lesson": 4,
+      "page": 53,
+      "category": "существительные"
+    },
+    {
+      "id": 186,
+      "hebrew": "יֵשׁ",
+      "transcription": "еш",
+      "translation": "есть, имеется",
+      "lesson": 4,
+      "page": 54,
+      "category": "служебные"
+    },
+    {
+      "id": 187,
+      "hebrew": "אֵין",
+      "transcription": "эйн",
+      "translation": "нет (не имеется)",
+      "lesson": 4,
+      "page": 54,
+      "category": "служебные"
+    },
+    {
+      "id": 188,
+      "hebrew": "הַרְבֵּה",
+      "transcription": "hарбэ́",
+      "translation": "много",
+      "lesson": 4,
+      "page": 55,
+      "category": "наречия"
+    },
+    {
+      "id": 189,
+      "hebrew": "מְעַט",
+      "transcription": "мэа́т",
+      "translation": "мало, немного",
+      "lesson": 4,
+      "page": 55,
+      "category": "наречия"
+    },
+    {
+      "id": 190,
+      "hebrew": "כָּל",
+      "transcription": "коль",
+      "translation": "весь, каждый",
+      "lesson": 4,
+      "page": 55,
+      "category": "местоимения"
+    },
+    {
+      "id": 191,
+      "hebrew": "שׁוּם",
+      "transcription": "шум",
+      "translation": "никакой",
+      "lesson": 4,
+      "page": 55,
+      "category": "местоимения"
+    },
+    {
+      "id": 192,
+      "hebrew": "אַף",
+      "transcription": "аф",
+      "translation": "никто, ни один",
+      "lesson": 4,
+      "page": 55,
+      "category": "местоимения"
+    },
+    {
+      "id": 193,
+      "hebrew": "כְּבָר",
+      "transcription": "квар",
+      "translation": "уже",
+      "lesson": 4,
+      "page": 56,
+      "category": "наречия"
+    },
+    {
+      "id": 194,
+      "hebrew": "עֲדַיִן",
+      "transcription": "адаи́н",
+      "translation": "ещё, пока",
+      "lesson": 4,
+      "page": 56,
+      "category": "наречия"
+    },
+    {
+      "id": 195,
+      "hebrew": "תָּמִיד",
+      "transcription": "тами́д",
+      "translation": "всегда",
+      "lesson": 4,
+      "page": 56,
+      "category": "наречия"
+    },
+    {
+      "id": 196,
+      "hebrew": "לִפְעָמִים",
+      "transcription": "лифъами́м",
+      "translation": "иногда",
+      "lesson": 4,
+      "page": 56,
+      "category": "наречия"
+    },
+    {
+      "id": 197,
+      "hebrew": "אַבָּל",
+      "transcription": "ава́ль",
+      "translation": "но",
+      "lesson": 4,
+      "page": 57,
+      "category": "союзы"
+    },
+    {
+      "id": 198,
+      "hebrew": "כִּי",
+      "transcription": "ки",
+      "translation": "потому что",
+      "lesson": 4,
+      "page": 57,
+      "category": "союзы"
+    },
+    {
+      "id": 199,
+      "hebrew": "אִם",
+      "transcription": "им",
+      "translation": "если",
+      "lesson": 4,
+      "page": 57,
+      "category": "союзы"
+    },
+    {
+      "id": 200,
+      "hebrew": "כַּאֲשֶׁר",
+      "transcription": "каашэ́р",
+      "translation": "когда (союз)",
+      "lesson": 4,
+      "page": 57,
+      "category": "союзы"
     }
   ]
 }
