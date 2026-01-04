@@ -539,8 +539,11 @@ function handleBackspace() {
 
 function shuffleArray(array) {
     const shuffled = [...array];
+    // Fisher-Yates shuffle with extra randomization
     for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
+        // Mix in timestamp for better randomness
+        const random = Math.random() + (Date.now() % 1000) / 10000;
+        const j = Math.floor((random % 1) * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
     return shuffled;
