@@ -385,7 +385,7 @@
       "id": 33,
       "hebrew": "אֶחָד",
       "transcription": "эха́д",
-      "translation": "один",
+      "translation": "один (м.р.)",
       "lesson": 3,
       "page": 38,
       "category": "числа"
@@ -394,7 +394,7 @@
       "id": 34,
       "hebrew": "שְׁנַיִם",
       "transcription": "шна́йим",
-      "translation": "два",
+      "translation": "два (м.р.)",
       "lesson": 3,
       "page": 38,
       "category": "числа"
@@ -403,7 +403,7 @@
       "id": 35,
       "hebrew": "שָׁלוֹשׁ",
       "transcription": "шало́ш",
-      "translation": "три",
+      "translation": "три (ж.р.)",
       "lesson": 3,
       "page": 38,
       "category": "числа"
@@ -412,7 +412,7 @@
       "id": 36,
       "hebrew": "אַרְבַּע",
       "transcription": "а́рба",
-      "translation": "четыре",
+      "translation": "четыре (ж.р.)",
       "lesson": 3,
       "page": 38,
       "category": "числа"
@@ -421,7 +421,7 @@
       "id": 37,
       "hebrew": "חָמֵשׁ",
       "transcription": "хаме́ш",
-      "translation": "пять",
+      "translation": "пять (ж.р.)",
       "lesson": 3,
       "page": 38,
       "category": "числа"
@@ -430,7 +430,7 @@
       "id": 38,
       "hebrew": "שֵׁשׁ",
       "transcription": "шеш",
-      "translation": "шесть",
+      "translation": "шесть (ж.р.)",
       "lesson": 3,
       "page": 39,
       "category": "числа"
@@ -439,7 +439,7 @@
       "id": 39,
       "hebrew": "שֶׁבַע",
       "transcription": "ше́ва",
-      "translation": "семь",
+      "translation": "семь (ж.р.)",
       "lesson": 3,
       "page": 39,
       "category": "числа"
@@ -448,7 +448,7 @@
       "id": 40,
       "hebrew": "שְׁמוֹנֶה",
       "transcription": "шмонэ́",
-      "translation": "восемь",
+      "translation": "восемь (ж.р.)",
       "lesson": 3,
       "page": 39,
       "category": "числа"
@@ -457,7 +457,7 @@
       "id": 41,
       "hebrew": "תֵּשַׁע",
       "transcription": "тэ́ша",
-      "translation": "девять",
+      "translation": "девять (ж.р.)",
       "lesson": 3,
       "page": 39,
       "category": "числа"
@@ -466,7 +466,7 @@
       "id": 42,
       "hebrew": "עֶשֶׂר",
       "transcription": "э́сэр",
-      "translation": "десять",
+      "translation": "десять (ж.р.)",
       "lesson": 3,
       "page": 39,
       "category": "числа"
@@ -1241,7 +1241,7 @@
       "id": 117,
       "hebrew": "אַחַת",
       "transcription": "аха́т",
-      "translation": "одна",
+      "translation": "одна (ж.р.)",
       "lesson": 3,
       "page": 48,
       "category": "числа"
@@ -1250,7 +1250,7 @@
       "id": 118,
       "hebrew": "שְׁתַּיִם",
       "transcription": "шта́йим",
-      "translation": "две",
+      "translation": "две (ж.р.)",
       "lesson": 3,
       "page": 48,
       "category": "числа"
