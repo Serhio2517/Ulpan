@@ -2344,6 +2344,222 @@
       "lesson": 4,
       "page": 53,
       "category": "глаголы"
+    },
+    {
+      "id": 229,
+      "hebrew": "פֶּרַח",
+      "transcription": "пэ́рах",
+      "translation": "цветок",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 230,
+      "hebrew": "פְּרָחִים",
+      "transcription": "прахи́м",
+      "translation": "цветы (мн.ч.)",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 231,
+      "hebrew": "מִיטָּה",
+      "transcription": "мита́",
+      "translation": "кровать",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 232,
+      "hebrew": "מִיטּוֹת",
+      "transcription": "мито́т",
+      "translation": "кровати (мн.ч.)",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 233,
+      "hebrew": "מְנוֹרָה",
+      "transcription": "мэнора́",
+      "translation": "светильник, лампа",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 234,
+      "hebrew": "עֵץ",
+      "transcription": "эц",
+      "translation": "дерево",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 235,
+      "hebrew": "עֵצִים",
+      "transcription": "эци́м",
+      "translation": "деревья (мн.ч.)",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 236,
+      "hebrew": "אָרוֹן",
+      "transcription": "аро́н",
+      "translation": "шкаф",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 237,
+      "hebrew": "חַלּוֹן",
+      "transcription": "хало́н",
+      "translation": "окно",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 238,
+      "hebrew": "מִשְׁקְפֵי רְאִיָּה",
+      "transcription": "мишкафэ́й реийя́",
+      "translation": "очки (для зрения)",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 239,
+      "hebrew": "כּוּרְסָה",
+      "transcription": "курса́",
+      "translation": "кресло",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 240,
+      "hebrew": "שָׁטִיחַ",
+      "transcription": "шати́ах",
+      "translation": "ковёр",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 241,
+      "hebrew": "רִצְפָּה",
+      "transcription": "рицпа́",
+      "translation": "пол",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 242,
+      "hebrew": "וִילוֹן",
+      "transcription": "вило́н",
+      "translation": "штора, занавеска",
+      "lesson": 4,
+      "page": 54,
+      "category": "существительные"
+    },
+    {
+      "id": 243,
+      "hebrew": "יָמִין",
+      "transcription": "ями́н",
+      "translation": "правая сторона, право",
+      "lesson": 4,
+      "page": 55,
+      "category": "направления"
+    },
+    {
+      "id": 244,
+      "hebrew": "שְׂמֹאל",
+      "transcription": "смоль",
+      "translation": "левая сторона, лево",
+      "lesson": 4,
+      "page": 55,
+      "category": "направления"
+    },
+    {
+      "id": 245,
+      "hebrew": "מִיָּמִין",
+      "transcription": "миями́н",
+      "translation": "справа",
+      "lesson": 4,
+      "page": 55,
+      "category": "направления"
+    },
+    {
+      "id": 246,
+      "hebrew": "מִשְּׂמֹאל",
+      "transcription": "мисмо́ль",
+      "translation": "слева",
+      "lesson": 4,
+      "page": 55,
+      "category": "направления"
+    },
+    {
+      "id": 247,
+      "hebrew": "יָמִינָה",
+      "transcription": "ями́на",
+      "translation": "направо",
+      "lesson": 4,
+      "page": 55,
+      "category": "направления"
+    },
+    {
+      "id": 248,
+      "hebrew": "שְׂמֹאלָה",
+      "transcription": "смо́ла",
+      "translation": "налево",
+      "lesson": 4,
+      "page": 55,
+      "category": "направления"
+    },
+    {
+      "id": 249,
+      "hebrew": "מֵעַל",
+      "transcription": "меа́ль",
+      "translation": "над, сверху",
+      "lesson": 4,
+      "page": 55,
+      "category": "предлоги"
+    },
+    {
+      "id": 250,
+      "hebrew": "מִתַּחַת",
+      "transcription": "мита́хат",
+      "translation": "под, снизу",
+      "lesson": 4,
+      "page": 55,
+      "category": "предлоги"
+    },
+    {
+      "id": 251,
+      "hebrew": "בֵּין",
+      "transcription": "бейн",
+      "translation": "между",
+      "lesson": 4,
+      "page": 55,
+      "category": "предлоги"
+    },
+    {
+      "id": 252,
+      "hebrew": "מוּל",
+      "transcription": "муль",
+      "translation": "напротив",
+      "lesson": 4,
+      "page": 55,
+      "category": "предлоги"
     }
   ]
 }
