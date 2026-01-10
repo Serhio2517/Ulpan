@@ -1992,6 +1992,186 @@
       "lesson": 4,
       "page": 57,
       "category": "союзы"
+    },
+    {
+      "id": 201,
+      "hebrew": "מָה נִשְׁמָע?",
+      "transcription": "ма нишма́?",
+      "translation": "Как дела? Что слышно?",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 202,
+      "hebrew": "מָה שְׁלוֹמְךָ?",
+      "transcription": "ма шломха́?",
+      "translation": "Как дела? (м.р.)",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 203,
+      "hebrew": "מָה שְׁלוֹמֵךְ?",
+      "transcription": "ма шломэ́х?",
+      "translation": "Как дела? (ж.р.)",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 204,
+      "hebrew": "אֵיךְ אַתָּה?",
+      "transcription": "эйх ата́?",
+      "translation": "Как ты? (м.р.)",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 205,
+      "hebrew": "אֵיךְ אַתְּ?",
+      "transcription": "эйх ат?",
+      "translation": "Как ты? (ж.р.)",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 206,
+      "hebrew": "אֵיךְ אַתְּ מַרְגִּישָׁה?",
+      "transcription": "эйх ат маргиша́?",
+      "translation": "Как ты себя чувствуешь? (ж.р.)",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 207,
+      "hebrew": "מָה קוֹרֶה?",
+      "transcription": "ма корэ́?",
+      "translation": "Что происходит?",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 208,
+      "hebrew": "מָה הוֹלֵךְ?",
+      "transcription": "ма холе́х?",
+      "translation": "Что происходит? Как идёт?",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 209,
+      "hebrew": "אֵיךְ הוֹלֵךְ?",
+      "transcription": "эйх холе́х?",
+      "translation": "Как идёт? Как дела?",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 210,
+      "hebrew": "מָה חָדָשׁ?",
+      "transcription": "ма хада́ш?",
+      "translation": "Что нового?",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 211,
+      "hebrew": "מָה הָעִנְיָנִים?",
+      "transcription": "ма hаиньяни́м?",
+      "translation": "Как дела? (букв: как дела?)",
+      "lesson": 0,
+      "page": 0,
+      "category": "приветствия"
+    },
+    {
+      "id": 212,
+      "hebrew": "הַכֹּל בְּסֵדֶר",
+      "transcription": "hако́ль бэсэ́дэр",
+      "translation": "Всё в порядке",
+      "lesson": 0,
+      "page": 0,
+      "category": "ответы"
+    },
+    {
+      "id": 213,
+      "hebrew": "בְּסֵדֶר גָּמוּר",
+      "transcription": "бэсэ́дэр гаму́р",
+      "translation": "Всё отлично! Полный порядок!",
+      "lesson": 0,
+      "page": 0,
+      "category": "ответы"
+    },
+    {
+      "id": 214,
+      "hebrew": "יִהְיֶה בְּסֵדֶר",
+      "transcription": "йиhйе́ бэсэ́дэр",
+      "translation": "Всё будет хорошо",
+      "lesson": 0,
+      "page": 0,
+      "category": "ответы"
+    },
+    {
+      "id": 215,
+      "hebrew": "כָּכָה כָּכָה",
+      "transcription": "ка́ха ка́ха",
+      "translation": "Так себе, ни то ни сё",
+      "lesson": 0,
+      "page": 0,
+      "category": "ответы"
+    },
+    {
+      "id": 216,
+      "hebrew": "סַבָּבָה",
+      "transcription": "сабба́ба",
+      "translation": "Круто! Класс! (сленг)",
+      "lesson": 0,
+      "page": 0,
+      "category": "ответы"
+    },
+    {
+      "id": 217,
+      "hebrew": "פְּצָצָה",
+      "transcription": "пцаца́",
+      "translation": "Бомба! Супер! (сленг)",
+      "lesson": 0,
+      "page": 0,
+      "category": "ответы"
+    },
+    {
+      "id": 218,
+      "hebrew": "כִּי כָּכָה",
+      "transcription": "ки ка́ха",
+      "translation": "Потому что так",
+      "lesson": 0,
+      "page": 0,
+      "category": "ответы"
+    },
+    {
+      "id": 219,
+      "hebrew": "עַל הַפָּנִים",
+      "transcription": "аль hапани́м",
+      "translation": "Ужасно (сленг, букв: на лицо)",
+      "lesson": 0,
+      "page": 0,
+      "category": "ответы"
+    },
+    {
+      "id": 220,
+      "hebrew": "אַל תִּשְׁאַל",
+      "transcription": "аль тишъа́ль",
+      "translation": "Не спрашивай (= ужасно)",
+      "lesson": 0,
+      "page": 0,
+      "category": "ответы"
     }
   ]
 }

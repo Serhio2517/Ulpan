@@ -219,9 +219,11 @@ function applyLessons() {
 
 function updateStats() {
     // Filter words by selected lessons
+    // lesson: 0 = common phrases, included in ALL selections
     state.availableWords = state.vocabulary.filter(w => {
-        const wordLesson = w.lesson || 0;
-        return wordLesson > 0 && state.selectedLessons.includes(wordLesson);
+        const wordLesson = w.lesson;
+        // Include if: lesson is 0 (common) OR lesson is in selected list
+        return wordLesson === 0 || state.selectedLessons.includes(wordLesson);
     });
     const learnedCount = state.learnedWordIds.length;
 
