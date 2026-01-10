@@ -2560,6 +2560,33 @@
       "lesson": 4,
       "page": 55,
       "category": "предлоги"
+    },
+    {
+      "id": 253,
+      "hebrew": "בַּחוּץ",
+      "transcription": "баху́ц",
+      "translation": "на улице, снаружи",
+      "lesson": 4,
+      "page": 55,
+      "category": "предлоги"
+    },
+    {
+      "id": 254,
+      "hebrew": "מִחוּץ לְ...",
+      "transcription": "миху́ц ле...",
+      "translation": "снаружи от..., за пределами...",
+      "lesson": 4,
+      "page": 55,
+      "category": "предлоги"
+    },
+    {
+      "id": 255,
+      "hebrew": "מִבַּחוּץ",
+      "transcription": "мибаху́ц",
+      "translation": "снаружи (как описание)",
+      "lesson": 4,
+      "page": 55,
+      "category": "предлоги"
     }
   ]
 }
