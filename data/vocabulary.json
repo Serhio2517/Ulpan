@@ -2172,6 +2172,178 @@
       "lesson": 0,
       "page": 0,
       "category": "ответы"
+    },
+    {
+      "id": 221,
+      "hebrew": "כִּסֵּא",
+      "transcription": "кисэ́",
+      "translation": "стул",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 222,
+      "hebrew": "שֻׁלְחָן",
+      "transcription": "шульха́н",
+      "translation": "стол",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 223,
+      "hebrew": "תְּמוּנָה",
+      "transcription": "тмуна́",
+      "translation": "картина, изображение",
+      "lesson": 4,
+      "page": 52,
+      "category": "существительные"
+    },
+    {
+      "id": 224,
+      "type": "verb",
+      "root": "א.כ.ל",
+      "infinitive": "לֶאֱכוֹל",
+      "infinitive_transcription": "леэхо́ль",
+      "translation": "есть, кушать",
+      "forms": {
+        "m_sg": {
+          "hebrew": "אוֹכֵל",
+          "transcription": "охэ́ль"
+        },
+        "f_sg": {
+          "hebrew": "אוֹכֶלֶת",
+          "transcription": "охэ́лет"
+        },
+        "m_pl": {
+          "hebrew": "אוֹכְלִים",
+          "transcription": "охли́м"
+        },
+        "f_pl": {
+          "hebrew": "אוֹכְלוֹת",
+          "transcription": "охло́т"
+        }
+      },
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы"
+    },
+    {
+      "id": 225,
+      "type": "verb",
+      "root": "י.ש.ב",
+      "infinitive": "לָשֶׁבֶת",
+      "infinitive_transcription": "лаше́вет",
+      "translation": "сидеть",
+      "forms": {
+        "m_sg": {
+          "hebrew": "יוֹשֵׁב",
+          "transcription": "йоше́в"
+        },
+        "f_sg": {
+          "hebrew": "יוֹשֶׁבֶת",
+          "transcription": "йоше́вет"
+        },
+        "m_pl": {
+          "hebrew": "יוֹשְׁבִים",
+          "transcription": "йошви́м"
+        },
+        "f_pl": {
+          "hebrew": "יוֹשְׁבוֹת",
+          "transcription": "йошво́т"
+        }
+      },
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы"
+    },
+    {
+      "id": 226,
+      "type": "verb",
+      "root": "ש.ח.ק",
+      "infinitive": "לְשַׂחֵק",
+      "infinitive_transcription": "лесахэ́к",
+      "translation": "играть",
+      "forms": {
+        "m_sg": {
+          "hebrew": "מְשַׂחֵק",
+          "transcription": "месахэ́к"
+        },
+        "f_sg": {
+          "hebrew": "מְשַׂחֶקֶת",
+          "transcription": "месахэ́кет"
+        },
+        "m_pl": {
+          "hebrew": "מְשַׂחֲקִים",
+          "transcription": "месахаки́м"
+        },
+        "f_pl": {
+          "hebrew": "מְשַׂחֲקוֹת",
+          "transcription": "месахако́т"
+        }
+      },
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы"
+    },
+    {
+      "id": 227,
+      "type": "verb",
+      "root": "ב.ו.א",
+      "infinitive": "לָבוֹא",
+      "infinitive_transcription": "лаво́",
+      "translation": "приходить, приезжать",
+      "forms": {
+        "m_sg": {
+          "hebrew": "בָּא",
+          "transcription": "ба"
+        },
+        "f_sg": {
+          "hebrew": "בָּאָה",
+          "transcription": "ба́а"
+        },
+        "m_pl": {
+          "hebrew": "בָּאִים",
+          "transcription": "баи́м"
+        },
+        "f_pl": {
+          "hebrew": "בָּאוֹת",
+          "transcription": "бао́т"
+        }
+      },
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы"
+    },
+    {
+      "id": 228,
+      "type": "verb",
+      "root": "מ.צ.א",
+      "infinitive": "לְהִמָּצֵא",
+      "infinitive_transcription": "леhимацэ́",
+      "translation": "находиться, быть расположенным",
+      "forms": {
+        "m_sg": {
+          "hebrew": "נִמְצָא",
+          "transcription": "нимца́"
+        },
+        "f_sg": {
+          "hebrew": "נִמְצֵאת",
+          "transcription": "нимцэ́т"
+        },
+        "m_pl": {
+          "hebrew": "נִמְצָאִים",
+          "transcription": "нимцаи́м"
+        },
+        "f_pl": {
+          "hebrew": "נִמְצָאוֹת",
+          "transcription": "нимцао́т"
+        }
+      },
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы"
     }
   ]
 }
