@@ -2668,6 +2668,24 @@
       "lesson": 5,
       "page": 66,
       "category": "прилагательные"
+    },
+    {
+      "id": 265,
+      "hebrew": "מַזְכִּירָה",
+      "transcription": "мазкира́",
+      "translation": "секретарь (женщина)",
+      "lesson": 5,
+      "page": 66,
+      "category": "профессии"
+    },
+    {
+      "id": 266,
+      "hebrew": "מִשְׂרַד הַקְּלִיטָה",
+      "transcription": "мисра́д hаклита́",
+      "translation": "Министерство абсорбции",
+      "lesson": 5,
+      "page": 66,
+      "category": "существительные"
     }
   ]
 }
