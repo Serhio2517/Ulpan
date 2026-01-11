@@ -2596,6 +2596,69 @@
       "lesson": 4,
       "page": 55,
       "category": "предлоги"
+    },
+    {
+      "id": 257,
+      "hebrew": "טִיּוּל",
+      "transcription": "тию́ль",
+      "translation": "прогулка, поездка, экскурсия",
+      "lesson": 5,
+      "page": 66,
+      "category": "существительные"
+    },
+    {
+      "id": 258,
+      "hebrew": "בְּרֶגֶל",
+      "transcription": "бэре́гель",
+      "translation": "пешком",
+      "lesson": 5,
+      "page": 66,
+      "category": "наречия"
+    },
+    {
+      "id": 259,
+      "hebrew": "מָחָר",
+      "transcription": "маха́р",
+      "translation": "завтра",
+      "lesson": 5,
+      "page": 66,
+      "category": "наречия"
+    },
+    {
+      "id": 260,
+      "hebrew": "חוֹלֶה",
+      "transcription": "холэ́",
+      "translation": "больной (м.р.)",
+      "lesson": 5,
+      "page": 66,
+      "category": "прилагательные"
+    },
+    {
+      "id": 261,
+      "hebrew": "חוֹלָה",
+      "transcription": "хола́",
+      "translation": "больная (ж.р.)",
+      "lesson": 5,
+      "page": 66,
+      "category": "прилагательные"
+    },
+    {
+      "id": 262,
+      "hebrew": "מִפְעָל",
+      "transcription": "мифъа́ль",
+      "translation": "завод, предприятие",
+      "lesson": 5,
+      "page": 66,
+      "category": "существительные"
+    },
+    {
+      "id": 263,
+      "hebrew": "מְהַנְדֶּסֶת",
+      "transcription": "меhандэ́сет",
+      "translation": "инженер (женщина)",
+      "lesson": 5,
+      "page": 66,
+      "category": "профессии"
     }
   ]
 }
