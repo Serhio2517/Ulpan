@@ -9,10 +9,10 @@
 const state = {
     vocabulary: [],
     selectedLessons: [1, 2, 3, 4, 5],
+    difficultyLevel: 1,     // 1 = with nikud, 2 = without nikud
     availableWords: [],
     learnedWordIds: [],
     currentWord: null,
-    currentVerbForm: null,   // Which verb form is shown in quiz (m_sg or f_sg)
     sessionQueue: [],       // Words remaining in session
     sessionCompleted: [],   // Words answered correctly this session
     sessionRetries: 0,      // Number of retry slots remaining
@@ -122,6 +122,11 @@ function setupEventListeners() {
     elements.applyLessonsBtn.addEventListener('click', applyLessons);
     elements.startBtn.addEventListener('click', startSession);
     elements.backHome.addEventListener('click', () => showScreen('home'));
+
+    // Difficulty selector
+    document.querySelectorAll('.difficulty-btn').forEach(btn => {
+        btn.addEventListener('click', () => selectDifficulty(parseInt(btn.dataset.level)));
+    });
 
     // Result
     elements.writingBtn.addEventListener('click', startWritingMode);
@@ -235,26 +240,38 @@ function updateStats() {
 // Quiz Mode
 // ========================================
 
-// Helper: get Hebrew text for display
-// For verbs: shows random singular form (m_sg or f_sg)
-// Stores which form was used in state.currentVerbForm
-function getHebrewDisplay(word) {
-    if (word.type === 'verb' && word.forms) {
-        // Pick random singular form for quiz
-        const forms = ['m_sg', 'f_sg'];
-        const formKey = forms[Math.floor(Math.random() * forms.length)];
-        state.currentVerbForm = formKey;
-        return word.forms[formKey]?.hebrew || word.infinitive || '';
-    }
-    return word.hebrew || word.infinitive || '';
+// Difficulty selection
+function selectDifficulty(level) {
+    state.difficultyLevel = level;
+
+    // Update button UI
+    document.querySelectorAll('.difficulty-btn').forEach(btn => {
+        btn.classList.toggle('active', parseInt(btn.dataset.level) === level);
+    });
 }
 
-// Helper: get transcription for the currently displayed form
-function getTranscription(word) {
-    if (word.type === 'verb' && word.forms && state.currentVerbForm) {
-        return word.forms[state.currentVerbForm]?.transcription || word.infinitive_transcription || '';
+// Remove nikud (vowel marks) from Hebrew text
+function removeNikud(text) {
+    // Hebrew nikud range: U+0591 to U+05C7
+    // This includes: cantillation marks, vowels, dagesh, etc.
+    return text.replace(/[\u0591-\u05C7]/g, '');
+}
+
+// Helper: get Hebrew text for display (applies difficulty)
+function getHebrewDisplay(word) {
+    const hebrew = word.hebrew || '';
+
+    // Level 2 = remove nikud
+    if (state.difficultyLevel >= 2) {
+        return removeNikud(hebrew);
     }
-    return word.transcription || word.infinitive_transcription || '';
+
+    return hebrew;
+}
+
+// Helper: get transcription
+function getTranscription(word) {
+    return word.transcription || '';
 }
 
 function startSession() {
@@ -373,33 +390,40 @@ function showResult(isCorrect) {
     const word = state.currentWord;
     const verbFormsEl = document.getElementById('verb-forms');
 
-    // Check if this is a verb with forms
-    if (word.type === 'verb' && word.forms) {
-        // Show the forms the user saw in quiz at the top
-        const displayedForm = word.forms[state.currentVerbForm];
-        elements.resultHebrew.textContent = displayedForm?.hebrew || word.infinitive;
-        elements.resultTranscription.textContent = displayedForm?.transcription || word.infinitive_transcription;
-        elements.resultTranslation.textContent = word.translation;
+    // Show word info
+    elements.resultHebrew.textContent = word.hebrew;
+    elements.resultTranscription.textContent = word.transcription;
+    elements.resultTranslation.textContent = word.translation;
 
-        // Populate all 5 verb forms
-        document.getElementById('form-m-sg').textContent = word.forms.m_sg?.hebrew || '';
-        document.getElementById('form-m-sg-trans').textContent = word.forms.m_sg?.transcription || '';
-        document.getElementById('form-f-sg').textContent = word.forms.f_sg?.hebrew || '';
-        document.getElementById('form-f-sg-trans').textContent = word.forms.f_sg?.transcription || '';
-        document.getElementById('form-m-pl').textContent = word.forms.m_pl?.hebrew || '';
-        document.getElementById('form-m-pl-trans').textContent = word.forms.m_pl?.transcription || '';
-        document.getElementById('form-f-pl').textContent = word.forms.f_pl?.hebrew || '';
-        document.getElementById('form-f-pl-trans').textContent = word.forms.f_pl?.transcription || '';
-        document.getElementById('form-inf').textContent = word.infinitive || '';
-        document.getElementById('form-inf-trans').textContent = word.infinitive_transcription || '';
+    // Check if this word is part of a verb group
+    if (word.verbGroup) {
+        // Find all forms of this verb
+        const verbForms = state.vocabulary.filter(w => w.verbGroup === word.verbGroup);
+
+        // Populate verb forms table
+        const findForm = (formType) => verbForms.find(v => v.verbForm === formType);
+
+        const mSg = findForm('m_sg');
+        const fSg = findForm('f_sg');
+        const mPl = findForm('m_pl');
+        const fPl = findForm('f_pl');
+        const inf = findForm('infinitive');
+
+        document.getElementById('form-m-sg').textContent = mSg?.hebrew || '';
+        document.getElementById('form-m-sg-trans').textContent = mSg?.transcription || '';
+        document.getElementById('form-f-sg').textContent = fSg?.hebrew || '';
+        document.getElementById('form-f-sg-trans').textContent = fSg?.transcription || '';
+        document.getElementById('form-m-pl').textContent = mPl?.hebrew || '';
+        document.getElementById('form-m-pl-trans').textContent = mPl?.transcription || '';
+        document.getElementById('form-f-pl').textContent = fPl?.hebrew || '';
+        document.getElementById('form-f-pl-trans').textContent = fPl?.transcription || '';
+        document.getElementById('form-inf').textContent = inf?.hebrew || '';
+        document.getElementById('form-inf-trans').textContent = inf?.transcription || '';
 
         verbFormsEl.style.display = 'block';
     } else {
         // Regular word - hide verb forms table
         verbFormsEl.style.display = 'none';
-        elements.resultHebrew.textContent = getHebrewDisplay(word);
-        elements.resultTranscription.textContent = getTranscription(word);
-        elements.resultTranslation.textContent = word.translation;
     }
 
     // Update image (placeholder for now)

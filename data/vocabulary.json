@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Ulpan Ivrit Vol. 1 by Tsipi Ben-Ami",
-    "pages": "1-60",
+    "pages": "1-73",
     "lessons": {
       "1": {
         "start": 18,
@@ -29,7 +29,7 @@
         "name": "שיעור 5 — Семья"
       }
     },
-    "totalWords": 200,
+    "totalWords": 378,
     "verifiedVia": "Glosbe.com, IRIS dictionary"
   },
   "words": [
@@ -179,90 +179,36 @@
     },
     {
       "id": 17,
-      "type": "verb",
-      "root": "ל.מ.ד",
-      "infinitive": "לִלְמוֹד",
-      "infinitive_transcription": "лильмо́д",
+      "hebrew": "לִלְמוֹד",
+      "transcription": "лильмо́д",
       "translation": "учить, изучать",
-      "forms": {
-        "m_sg": {
-          "hebrew": "לוֹמֵד",
-          "transcription": "ломе́д"
-        },
-        "f_sg": {
-          "hebrew": "לוֹמֶדֶת",
-          "transcription": "ломе́дет"
-        },
-        "m_pl": {
-          "hebrew": "לוֹמְדִים",
-          "transcription": "ломди́м"
-        },
-        "f_pl": {
-          "hebrew": "לוֹמְדוֹת",
-          "transcription": "ломдо́т"
-        }
-      },
       "lesson": 2,
       "page": 28,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "ל.מ.ד",
+      "verbForm": "infinitive"
     },
     {
       "id": 18,
-      "type": "verb",
-      "root": "ע.ב.ד",
-      "infinitive": "לַעֲבוֹד",
-      "infinitive_transcription": "лаавод́",
+      "hebrew": "לַעֲבוֹד",
+      "transcription": "лаавод́",
       "translation": "работать",
-      "forms": {
-        "m_sg": {
-          "hebrew": "עוֹבֵד",
-          "transcription": "ове́д"
-        },
-        "f_sg": {
-          "hebrew": "עוֹבֶדֶת",
-          "transcription": "ове́дет"
-        },
-        "m_pl": {
-          "hebrew": "עוֹבְדִים",
-          "transcription": "овди́м"
-        },
-        "f_pl": {
-          "hebrew": "עוֹבְדוֹת",
-          "transcription": "овдо́т"
-        }
-      },
       "lesson": 2,
       "page": 28,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "ע.ב.ד",
+      "verbForm": "infinitive"
     },
     {
       "id": 19,
-      "type": "verb",
-      "root": "ג.ו.ר",
-      "infinitive": "לָגוּר",
-      "infinitive_transcription": "лагу́р",
+      "hebrew": "לָגוּר",
+      "transcription": "лагу́р",
       "translation": "жить, проживать",
-      "forms": {
-        "m_sg": {
-          "hebrew": "גָּר",
-          "transcription": "гар"
-        },
-        "f_sg": {
-          "hebrew": "גָּרָה",
-          "transcription": "гара́"
-        },
-        "m_pl": {
-          "hebrew": "גָּרִים",
-          "transcription": "гари́м"
-        },
-        "f_pl": {
-          "hebrew": "גָּרוֹת",
-          "transcription": "гаро́т"
-        }
-      },
       "lesson": 2,
       "page": 29,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "ג.ו.ר",
+      "verbForm": "infinitive"
     },
     {
       "id": 20,
@@ -518,61 +464,25 @@
     },
     {
       "id": 48,
-      "type": "verb",
-      "root": "נ.ס.ע",
-      "infinitive": "לִנְסוֹעַ",
-      "infinitive_transcription": "линсо́а",
+      "hebrew": "לִנְסוֹעַ",
+      "transcription": "линсо́а",
       "translation": "ехать",
-      "forms": {
-        "m_sg": {
-          "hebrew": "נוֹסֵעַ",
-          "transcription": "носэ́а"
-        },
-        "f_sg": {
-          "hebrew": "נוֹסַעַת",
-          "transcription": "носа́ат"
-        },
-        "m_pl": {
-          "hebrew": "נוֹסְעִים",
-          "transcription": "носъи́м"
-        },
-        "f_pl": {
-          "hebrew": "נוֹסְעוֹת",
-          "transcription": "носъо́т"
-        }
-      },
       "lesson": 3,
       "page": 42,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "נ.ס.ע",
+      "verbForm": "infinitive"
     },
     {
       "id": 49,
-      "type": "verb",
-      "root": "ה.ל.כ",
-      "infinitive": "לָלֶכֶת",
-      "infinitive_transcription": "лале́хет",
+      "hebrew": "לָלֶכֶת",
+      "transcription": "лале́хет",
       "translation": "идти, ходить",
-      "forms": {
-        "m_sg": {
-          "hebrew": "הוֹלֵךְ",
-          "transcription": "hоле́х"
-        },
-        "f_sg": {
-          "hebrew": "הוֹלֶכֶת",
-          "transcription": "hоле́хет"
-        },
-        "m_pl": {
-          "hebrew": "הוֹלְכִים",
-          "transcription": "hольхи́м"
-        },
-        "f_pl": {
-          "hebrew": "הוֹלְכוֹת",
-          "transcription": "hольхо́т"
-        }
-      },
       "lesson": 3,
       "page": 44,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "ה.ל.כ",
+      "verbForm": "infinitive"
     },
     {
       "id": 50,
@@ -1098,90 +1008,36 @@
     },
     {
       "id": 108,
-      "type": "verb",
-      "root": "נ.ש.א",
-      "infinitive": "לְהִנָּשֵׂא",
-      "infinitive_transcription": "лэhинасэ́",
+      "hebrew": "לְהִנָּשֵׂא",
+      "transcription": "лэhинасэ́",
       "translation": "жениться/выходить замуж",
-      "forms": {
-        "m_sg": {
-          "hebrew": "נָשׂוּי",
-          "transcription": "насу́й"
-        },
-        "f_sg": {
-          "hebrew": "נְשׂוּאָה",
-          "transcription": "нэсуа́"
-        },
-        "m_pl": {
-          "hebrew": "נְשׂוּאִים",
-          "transcription": "нэсуи́м"
-        },
-        "f_pl": {
-          "hebrew": "נְשׂוּאוֹת",
-          "transcription": "нэсуо́т"
-        }
-      },
       "lesson": 5,
       "page": 73,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "נ.ש.א",
+      "verbForm": "infinitive"
     },
     {
       "id": 109,
-      "type": "verb",
-      "root": "ט.פ.ל",
-      "infinitive": "לְטַפֵּל",
-      "infinitive_transcription": "лэтапэ́ль",
+      "hebrew": "לְטַפֵּל",
+      "transcription": "лэтапэ́ль",
       "translation": "заботиться, ухаживать",
-      "forms": {
-        "m_sg": {
-          "hebrew": "מְטַפֵּל",
-          "transcription": "мэтапэ́ль"
-        },
-        "f_sg": {
-          "hebrew": "מְטַפֶּלֶת",
-          "transcription": "мэтапэ́лет"
-        },
-        "m_pl": {
-          "hebrew": "מְטַפְּלִים",
-          "transcription": "мэтапли́м"
-        },
-        "f_pl": {
-          "hebrew": "מְטַפְּלוֹת",
-          "transcription": "мэтапло́т"
-        }
-      },
       "lesson": 5,
       "page": 73,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "ט.פ.ל",
+      "verbForm": "infinitive"
     },
     {
       "id": 110,
-      "type": "verb",
-      "root": "ש.א.ר",
-      "infinitive": "לְהִשָּׁאֵר",
-      "infinitive_transcription": "лэhишаэ́р",
+      "hebrew": "לְהִשָּׁאֵר",
+      "transcription": "лэhишаэ́р",
       "translation": "оставаться",
-      "forms": {
-        "m_sg": {
-          "hebrew": "נִשְׁאָר",
-          "transcription": "ниша́р"
-        },
-        "f_sg": {
-          "hebrew": "נִשְׁאֶרֶת",
-          "transcription": "нишэ́рет"
-        },
-        "m_pl": {
-          "hebrew": "נִשְׁאָרִים",
-          "transcription": "ниша́рим"
-        },
-        "f_pl": {
-          "hebrew": "נִשְׁאָרוֹת",
-          "transcription": "ниша́рот"
-        }
-      },
       "lesson": 5,
       "page": 73,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "ש.א.ר",
+      "verbForm": "infinitive"
     },
     {
       "id": 111,
@@ -2202,148 +2058,58 @@
     },
     {
       "id": 224,
-      "type": "verb",
-      "root": "א.כ.ל",
-      "infinitive": "לֶאֱכוֹל",
-      "infinitive_transcription": "леэхо́ль",
+      "hebrew": "לֶאֱכוֹל",
+      "transcription": "леэхо́ль",
       "translation": "есть, кушать",
-      "forms": {
-        "m_sg": {
-          "hebrew": "אוֹכֵל",
-          "transcription": "охэ́ль"
-        },
-        "f_sg": {
-          "hebrew": "אוֹכֶלֶת",
-          "transcription": "охэ́лет"
-        },
-        "m_pl": {
-          "hebrew": "אוֹכְלִים",
-          "transcription": "охли́м"
-        },
-        "f_pl": {
-          "hebrew": "אוֹכְלוֹת",
-          "transcription": "охло́т"
-        }
-      },
       "lesson": 4,
       "page": 53,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "א.כ.ל",
+      "verbForm": "infinitive"
     },
     {
       "id": 225,
-      "type": "verb",
-      "root": "י.ש.ב",
-      "infinitive": "לָשֶׁבֶת",
-      "infinitive_transcription": "лаше́вет",
+      "hebrew": "לָשֶׁבֶת",
+      "transcription": "лаше́вет",
       "translation": "сидеть",
-      "forms": {
-        "m_sg": {
-          "hebrew": "יוֹשֵׁב",
-          "transcription": "йоше́в"
-        },
-        "f_sg": {
-          "hebrew": "יוֹשֶׁבֶת",
-          "transcription": "йоше́вет"
-        },
-        "m_pl": {
-          "hebrew": "יוֹשְׁבִים",
-          "transcription": "йошви́м"
-        },
-        "f_pl": {
-          "hebrew": "יוֹשְׁבוֹת",
-          "transcription": "йошво́т"
-        }
-      },
       "lesson": 4,
       "page": 53,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "י.ש.ב",
+      "verbForm": "infinitive"
     },
     {
       "id": 226,
-      "type": "verb",
-      "root": "ש.ח.ק",
-      "infinitive": "לְשַׂחֵק",
-      "infinitive_transcription": "лесахэ́к",
+      "hebrew": "לְשַׂחֵק",
+      "transcription": "лесахэ́к",
       "translation": "играть",
-      "forms": {
-        "m_sg": {
-          "hebrew": "מְשַׂחֵק",
-          "transcription": "месахэ́к"
-        },
-        "f_sg": {
-          "hebrew": "מְשַׂחֶקֶת",
-          "transcription": "месахэ́кет"
-        },
-        "m_pl": {
-          "hebrew": "מְשַׂחֲקִים",
-          "transcription": "месахаки́м"
-        },
-        "f_pl": {
-          "hebrew": "מְשַׂחֲקוֹת",
-          "transcription": "месахако́т"
-        }
-      },
       "lesson": 4,
       "page": 53,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "ש.ח.ק",
+      "verbForm": "infinitive"
     },
     {
       "id": 227,
-      "type": "verb",
-      "root": "ב.ו.א",
-      "infinitive": "לָבוֹא",
-      "infinitive_transcription": "лаво́",
+      "hebrew": "לָבוֹא",
+      "transcription": "лаво́",
       "translation": "приходить, приезжать",
-      "forms": {
-        "m_sg": {
-          "hebrew": "בָּא",
-          "transcription": "ба"
-        },
-        "f_sg": {
-          "hebrew": "בָּאָה",
-          "transcription": "ба́а"
-        },
-        "m_pl": {
-          "hebrew": "בָּאִים",
-          "transcription": "баи́м"
-        },
-        "f_pl": {
-          "hebrew": "בָּאוֹת",
-          "transcription": "бао́т"
-        }
-      },
       "lesson": 4,
       "page": 53,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "ב.ו.א",
+      "verbForm": "infinitive"
     },
     {
       "id": 228,
-      "type": "verb",
-      "root": "מ.צ.א",
-      "infinitive": "לְהִמָּצֵא",
-      "infinitive_transcription": "леhимацэ́",
+      "hebrew": "לְהִמָּצֵא",
+      "transcription": "леhимацэ́",
       "translation": "находиться, быть расположенным",
-      "forms": {
-        "m_sg": {
-          "hebrew": "נִמְצָא",
-          "transcription": "нимца́"
-        },
-        "f_sg": {
-          "hebrew": "נִמְצֵאת",
-          "transcription": "нимцэ́т"
-        },
-        "m_pl": {
-          "hebrew": "נִמְצָאִים",
-          "transcription": "нимцаи́м"
-        },
-        "f_pl": {
-          "hebrew": "נִמְצָאוֹת",
-          "transcription": "нимцао́т"
-        }
-      },
       "lesson": 4,
       "page": 53,
-      "category": "глаголы"
+      "category": "глаголы",
+      "verbGroup": "מ.צ.א",
+      "verbForm": "infinitive"
     },
     {
       "id": 229,
@@ -2685,6 +2451,1148 @@
       "translation": "Министерство абсорбции",
       "lesson": 5,
       "page": 66,
+      "category": "существительные"
+    },
+    {
+      "id": 267,
+      "hebrew": "לוֹמֵד",
+      "transcription": "ломе́д",
+      "translation": "учит (он)",
+      "lesson": 2,
+      "page": 28,
+      "category": "глаголы",
+      "verbGroup": "ל.מ.ד",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 268,
+      "hebrew": "לוֹמֶדֶת",
+      "transcription": "ломе́дет",
+      "translation": "учит (она)",
+      "lesson": 2,
+      "page": 28,
+      "category": "глаголы",
+      "verbGroup": "ל.מ.ד",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 269,
+      "hebrew": "לוֹמְדִים",
+      "transcription": "ломди́м",
+      "translation": "учат (они м.р.)",
+      "lesson": 2,
+      "page": 28,
+      "category": "глаголы",
+      "verbGroup": "ל.מ.ד",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 270,
+      "hebrew": "לוֹמְדוֹת",
+      "transcription": "ломдо́т",
+      "translation": "учат (они ж.р.)",
+      "lesson": 2,
+      "page": 28,
+      "category": "глаголы",
+      "verbGroup": "ל.מ.ד",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 271,
+      "hebrew": "עוֹבֵד",
+      "transcription": "ове́д",
+      "translation": "работает (он)",
+      "lesson": 2,
+      "page": 28,
+      "category": "глаголы",
+      "verbGroup": "ע.ב.ד",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 272,
+      "hebrew": "עוֹבֶדֶת",
+      "transcription": "ове́дет",
+      "translation": "работает (она)",
+      "lesson": 2,
+      "page": 28,
+      "category": "глаголы",
+      "verbGroup": "ע.ב.ד",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 273,
+      "hebrew": "עוֹבְדִים",
+      "transcription": "овди́м",
+      "translation": "работают (они м.р.)",
+      "lesson": 2,
+      "page": 28,
+      "category": "глаголы",
+      "verbGroup": "ע.ב.ד",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 274,
+      "hebrew": "עוֹבְדוֹת",
+      "transcription": "овдо́т",
+      "translation": "работают (они ж.р.)",
+      "lesson": 2,
+      "page": 28,
+      "category": "глаголы",
+      "verbGroup": "ע.ב.ד",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 275,
+      "hebrew": "גָּר",
+      "transcription": "гар",
+      "translation": "живёт (он)",
+      "lesson": 2,
+      "page": 29,
+      "category": "глаголы",
+      "verbGroup": "ג.ו.ר",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 276,
+      "hebrew": "גָּרָה",
+      "transcription": "гара́",
+      "translation": "живёт (она)",
+      "lesson": 2,
+      "page": 29,
+      "category": "глаголы",
+      "verbGroup": "ג.ו.ר",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 277,
+      "hebrew": "גָּרִים",
+      "transcription": "гари́м",
+      "translation": "живут (они м.р.)",
+      "lesson": 2,
+      "page": 29,
+      "category": "глаголы",
+      "verbGroup": "ג.ו.ר",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 278,
+      "hebrew": "גָּרוֹת",
+      "transcription": "гаро́т",
+      "translation": "живут (они ж.р.)",
+      "lesson": 2,
+      "page": 29,
+      "category": "глаголы",
+      "verbGroup": "ג.ו.ר",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 279,
+      "hebrew": "נוֹסֵעַ",
+      "transcription": "носэ́а",
+      "translation": "едет (он)",
+      "lesson": 3,
+      "page": 42,
+      "category": "глаголы",
+      "verbGroup": "נ.ס.ע",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 280,
+      "hebrew": "נוֹסַעַת",
+      "transcription": "носа́ат",
+      "translation": "едет (она)",
+      "lesson": 3,
+      "page": 42,
+      "category": "глаголы",
+      "verbGroup": "נ.ס.ע",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 281,
+      "hebrew": "נוֹסְעִים",
+      "transcription": "носъи́м",
+      "translation": "едут (они м.р.)",
+      "lesson": 3,
+      "page": 42,
+      "category": "глаголы",
+      "verbGroup": "נ.ס.ע",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 282,
+      "hebrew": "נוֹסְעוֹת",
+      "transcription": "носъо́т",
+      "translation": "едут (они ж.р.)",
+      "lesson": 3,
+      "page": 42,
+      "category": "глаголы",
+      "verbGroup": "נ.ס.ע",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 283,
+      "hebrew": "הוֹלֵךְ",
+      "transcription": "hоле́х",
+      "translation": "идёт (он)",
+      "lesson": 3,
+      "page": 44,
+      "category": "глаголы",
+      "verbGroup": "ה.ל.כ",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 284,
+      "hebrew": "הוֹלֶכֶת",
+      "transcription": "hоле́хет",
+      "translation": "идёт (она)",
+      "lesson": 3,
+      "page": 44,
+      "category": "глаголы",
+      "verbGroup": "ה.ל.כ",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 285,
+      "hebrew": "הוֹלְכִים",
+      "transcription": "hольхи́м",
+      "translation": "идут (они м.р.)",
+      "lesson": 3,
+      "page": 44,
+      "category": "глаголы",
+      "verbGroup": "ה.ל.כ",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 286,
+      "hebrew": "הוֹלְכוֹת",
+      "transcription": "hольхо́т",
+      "translation": "идут (они ж.р.)",
+      "lesson": 3,
+      "page": 44,
+      "category": "глаголы",
+      "verbGroup": "ה.ל.כ",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 287,
+      "hebrew": "נָשׂוּי",
+      "transcription": "насу́й",
+      "translation": "женат/замужем (он)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "נ.ש.א",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 288,
+      "hebrew": "נְשׂוּאָה",
+      "transcription": "нэсуа́",
+      "translation": "женат/замужем (она)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "נ.ש.א",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 289,
+      "hebrew": "נְשׂוּאִים",
+      "transcription": "нэсуи́м",
+      "translation": "женаты/замужем (они м.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "נ.ש.א",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 290,
+      "hebrew": "נְשׂוּאוֹת",
+      "transcription": "нэсуо́т",
+      "translation": "женаты/замужем (они ж.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "נ.ש.א",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 291,
+      "hebrew": "מְטַפֵּל",
+      "transcription": "мэтапэ́ль",
+      "translation": "заботится (он)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ט.פ.ל",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 292,
+      "hebrew": "מְטַפֶּלֶת",
+      "transcription": "мэтапэ́лет",
+      "translation": "заботится (она)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ט.פ.ל",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 293,
+      "hebrew": "מְטַפְּלִים",
+      "transcription": "мэтапли́м",
+      "translation": "заботятся (они м.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ט.פ.ל",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 294,
+      "hebrew": "מְטַפְּלוֹת",
+      "transcription": "мэтапло́т",
+      "translation": "заботятся (они ж.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ט.פ.ל",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 295,
+      "hebrew": "נִשְׁאָר",
+      "transcription": "ниша́р",
+      "translation": "остаётся (он)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ש.א.ר",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 296,
+      "hebrew": "נִשְׁאֶרֶת",
+      "transcription": "нишэ́рет",
+      "translation": "остаётся (она)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ש.א.ר",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 297,
+      "hebrew": "נִשְׁאָרִים",
+      "transcription": "ниша́рим",
+      "translation": "остаются (они м.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ש.א.ר",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 298,
+      "hebrew": "נִשְׁאָרוֹת",
+      "transcription": "ниша́рот",
+      "translation": "остаются (они ж.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ש.א.ר",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 299,
+      "hebrew": "אוֹכֵל",
+      "transcription": "охэ́ль",
+      "translation": "ест (он)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "א.כ.ל",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 300,
+      "hebrew": "אוֹכֶלֶת",
+      "transcription": "охэ́лет",
+      "translation": "ест (она)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "א.כ.ל",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 301,
+      "hebrew": "אוֹכְלִים",
+      "transcription": "охли́м",
+      "translation": "едят (они м.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "א.כ.ל",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 302,
+      "hebrew": "אוֹכְלוֹת",
+      "transcription": "охло́т",
+      "translation": "едят (они ж.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "א.כ.ל",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 303,
+      "hebrew": "יוֹשֵׁב",
+      "transcription": "йоше́в",
+      "translation": "сидит (он)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "י.ש.ב",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 304,
+      "hebrew": "יוֹשֶׁבֶת",
+      "transcription": "йоше́вет",
+      "translation": "сидит (она)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "י.ש.ב",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 305,
+      "hebrew": "יוֹשְׁבִים",
+      "transcription": "йошви́м",
+      "translation": "сидят (они м.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "י.ש.ב",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 306,
+      "hebrew": "יוֹשְׁבוֹת",
+      "transcription": "йошво́т",
+      "translation": "сидят (они ж.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "י.ש.ב",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 307,
+      "hebrew": "מְשַׂחֵק",
+      "transcription": "месахэ́к",
+      "translation": "играет (он)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "ש.ח.ק",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 308,
+      "hebrew": "מְשַׂחֶקֶת",
+      "transcription": "месахэ́кет",
+      "translation": "играет (она)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "ש.ח.ק",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 309,
+      "hebrew": "מְשַׂחֲקִים",
+      "transcription": "месахаки́м",
+      "translation": "играют (они м.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "ש.ח.ק",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 310,
+      "hebrew": "מְשַׂחֲקוֹת",
+      "transcription": "месахако́т",
+      "translation": "играют (они ж.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "ש.ח.ק",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 311,
+      "hebrew": "בָּא",
+      "transcription": "ба",
+      "translation": "приходит (он)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "ב.ו.א",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 312,
+      "hebrew": "בָּאָה",
+      "transcription": "ба́а",
+      "translation": "приходит (она)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "ב.ו.א",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 313,
+      "hebrew": "בָּאִים",
+      "transcription": "баи́м",
+      "translation": "приходят (они м.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "ב.ו.א",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 314,
+      "hebrew": "בָּאוֹת",
+      "transcription": "бао́т",
+      "translation": "приходят (они ж.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "ב.ו.א",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 315,
+      "hebrew": "נִמְצָא",
+      "transcription": "нимца́",
+      "translation": "находится (он)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "מ.צ.א",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 316,
+      "hebrew": "נִמְצֵאת",
+      "transcription": "нимцэ́т",
+      "translation": "находится (она)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "מ.צ.א",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 317,
+      "hebrew": "נִמְצָאִים",
+      "transcription": "нимцаи́м",
+      "translation": "находятся (они м.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "מ.צ.א",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 318,
+      "hebrew": "נִמְצָאוֹת",
+      "transcription": "нимцао́т",
+      "translation": "находятся (они ж.р.)",
+      "lesson": 4,
+      "page": 53,
+      "category": "глаголы",
+      "verbGroup": "מ.צ.א",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 319,
+      "hebrew": "זָקֵן",
+      "transcription": "закэ́н",
+      "translation": "старый (о человеке)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 320,
+      "hebrew": "זְקֵנָה",
+      "transcription": "зкена́",
+      "translation": "старая (о человеке)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 321,
+      "hebrew": "זְקֵנִים",
+      "transcription": "зкени́м",
+      "translation": "старые (м.р.)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 322,
+      "hebrew": "זְקֵנוֹת",
+      "transcription": "зкено́т",
+      "translation": "старые (ж.р.)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 323,
+      "hebrew": "צָעִיר",
+      "transcription": "цаи́р",
+      "translation": "молодой",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 324,
+      "hebrew": "צְעִירָה",
+      "transcription": "цеира́",
+      "translation": "молодая",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 325,
+      "hebrew": "צְעִירִים",
+      "transcription": "цеири́м",
+      "translation": "молодые (м.р.)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 326,
+      "hebrew": "צְעִירוֹת",
+      "transcription": "цеиро́т",
+      "translation": "молодые (ж.р.)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 327,
+      "hebrew": "יָשָׁן",
+      "transcription": "яша́н",
+      "translation": "старый (о вещах)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 328,
+      "hebrew": "יְשָׁנָה",
+      "transcription": "йешана́",
+      "translation": "старая (о вещах)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 329,
+      "hebrew": "יְשָׁנִים",
+      "transcription": "йешани́м",
+      "translation": "старые (о вещах, м.р.)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 330,
+      "hebrew": "יְשָׁנוֹת",
+      "transcription": "йешано́т",
+      "translation": "старые (о вещах, ж.р.)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 331,
+      "hebrew": "וָתִיק",
+      "transcription": "вати́к",
+      "translation": "опытный, ветеран",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 332,
+      "hebrew": "וָתִיקָה",
+      "transcription": "ватика́",
+      "translation": "опытная",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 333,
+      "hebrew": "וְתִיקִים",
+      "transcription": "ветики́м",
+      "translation": "опытные (м.р.)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 334,
+      "hebrew": "וְתִיקוֹת",
+      "transcription": "ветико́т",
+      "translation": "опытные (ж.р.)",
+      "lesson": 5,
+      "page": 72,
+      "category": "прилагательные"
+    },
+    {
+      "id": 335,
+      "hebrew": "וֶטֶרִינָר",
+      "transcription": "ветерина́р",
+      "translation": "ветеринар",
+      "lesson": 5,
+      "page": 69,
+      "category": "профессии"
+    },
+    {
+      "id": 336,
+      "hebrew": "כֶּלֶב",
+      "transcription": "кэ́лев",
+      "translation": "собака",
+      "lesson": 5,
+      "page": 69,
+      "category": "существительные"
+    },
+    {
+      "id": 337,
+      "hebrew": "כְּלָבִים",
+      "transcription": "клави́м",
+      "translation": "собаки",
+      "lesson": 5,
+      "page": 69,
+      "category": "существительные"
+    },
+    {
+      "id": 338,
+      "hebrew": "חָתוּל",
+      "transcription": "хату́ль",
+      "translation": "кошка, кот",
+      "lesson": 5,
+      "page": 69,
+      "category": "существительные"
+    },
+    {
+      "id": 339,
+      "hebrew": "חֲתוּלִים",
+      "transcription": "хатули́м",
+      "translation": "кошки, коты",
+      "lesson": 5,
+      "page": 69,
+      "category": "существительные"
+    },
+    {
+      "id": 340,
+      "hebrew": "תִּינוֹק",
+      "transcription": "тино́к",
+      "translation": "младенец",
+      "lesson": 5,
+      "page": 69,
+      "category": "семья"
+    },
+    {
+      "id": 341,
+      "hebrew": "מְנַהֵל",
+      "transcription": "менаhэ́ль",
+      "translation": "директор, управляющий",
+      "lesson": 5,
+      "page": 69,
+      "category": "профессии"
+    },
+    {
+      "id": 342,
+      "hebrew": "מְנַהֶלֶת",
+      "transcription": "менаhэ́лет",
+      "translation": "директор (ж.р.)",
+      "lesson": 5,
+      "page": 69,
+      "category": "профессии"
+    },
+    {
+      "id": 343,
+      "hebrew": "פְּגִישָׁה",
+      "transcription": "пгиша́",
+      "translation": "встреча",
+      "lesson": 5,
+      "page": 69,
+      "category": "существительные"
+    },
+    {
+      "id": 344,
+      "hebrew": "חֶשְׁבּוֹן",
+      "transcription": "хешбо́н",
+      "translation": "счёт",
+      "lesson": 5,
+      "page": 69,
+      "category": "существительные"
+    },
+    {
+      "id": 345,
+      "hebrew": "סְטוּדֶנְט",
+      "transcription": "студэ́нт",
+      "translation": "студент",
+      "lesson": 5,
+      "page": 70,
+      "category": "профессии"
+    },
+    {
+      "id": 346,
+      "hebrew": "סְטוּדֶנְטִית",
+      "transcription": "студэ́нтит",
+      "translation": "студентка",
+      "lesson": 5,
+      "page": 70,
+      "category": "профессии"
+    },
+    {
+      "id": 347,
+      "hebrew": "קִיבּוּץ",
+      "transcription": "кибу́ц",
+      "translation": "кибуц",
+      "lesson": 5,
+      "page": 70,
+      "category": "существительные"
+    },
+    {
+      "id": 348,
+      "hebrew": "מוֹשָׁב",
+      "transcription": "моша́в",
+      "translation": "мошав",
+      "lesson": 5,
+      "page": 70,
+      "category": "существительные"
+    },
+    {
+      "id": 349,
+      "hebrew": "חַיָּל",
+      "transcription": "хайя́ль",
+      "translation": "солдат",
+      "lesson": 5,
+      "page": 70,
+      "category": "профессии"
+    },
+    {
+      "id": 350,
+      "hebrew": "חַיֶּלֶת",
+      "transcription": "хайе́лет",
+      "translation": "солдатка",
+      "lesson": 5,
+      "page": 70,
+      "category": "профессии"
+    },
+    {
+      "id": 351,
+      "hebrew": "צָבָא",
+      "transcription": "цава́",
+      "translation": "армия",
+      "lesson": 5,
+      "page": 70,
+      "category": "существительные"
+    },
+    {
+      "id": 352,
+      "hebrew": "צה\"ל",
+      "transcription": "цаhа́ль",
+      "translation": "ЦАХАЛ (армия Израиля)",
+      "lesson": 5,
+      "page": 70,
+      "category": "существительные"
+    },
+    {
+      "id": 353,
+      "hebrew": "לִקְנוֹת",
+      "transcription": "ликно́т",
+      "translation": "покупать",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ק.נ.ה",
+      "verbForm": "infinitive"
+    },
+    {
+      "id": 354,
+      "hebrew": "לִרְאוֹת",
+      "transcription": "лиръо́т",
+      "translation": "видеть, смотреть",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ר.א.ה",
+      "verbForm": "infinitive"
+    },
+    {
+      "id": 355,
+      "hebrew": "לַעֲשׂוֹת",
+      "transcription": "лаасо́т",
+      "translation": "делать",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ע.ש.ה",
+      "verbForm": "infinitive"
+    },
+    {
+      "id": 356,
+      "hebrew": "קוֹנֶה",
+      "transcription": "коне́",
+      "translation": "покупает (он)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ק.נ.ה",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 357,
+      "hebrew": "קוֹנָה",
+      "transcription": "кона́",
+      "translation": "покупает (она)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ק.נ.ה",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 358,
+      "hebrew": "קוֹנִים",
+      "transcription": "кони́м",
+      "translation": "покупают (они м.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ק.נ.ה",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 359,
+      "hebrew": "קוֹנוֹת",
+      "transcription": "коно́т",
+      "translation": "покупают (они ж.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ק.נ.ה",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 360,
+      "hebrew": "רוֹאֶה",
+      "transcription": "роэ́",
+      "translation": "видит (он)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ר.א.ה",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 361,
+      "hebrew": "רוֹאָה",
+      "transcription": "роа́",
+      "translation": "видит (она)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ר.א.ה",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 362,
+      "hebrew": "רוֹאִים",
+      "transcription": "рои́м",
+      "translation": "видят (они м.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ר.א.ה",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 363,
+      "hebrew": "רוֹאוֹת",
+      "transcription": "роо́т",
+      "translation": "видят (они ж.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ר.א.ה",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 364,
+      "hebrew": "עוֹשֶׂה",
+      "transcription": "осэ́",
+      "translation": "делает (он)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ע.ש.ה",
+      "verbForm": "m_sg"
+    },
+    {
+      "id": 365,
+      "hebrew": "עוֹשָׂה",
+      "transcription": "оса́",
+      "translation": "делает (она)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ע.ש.ה",
+      "verbForm": "f_sg"
+    },
+    {
+      "id": 366,
+      "hebrew": "עוֹשִׂים",
+      "transcription": "оси́м",
+      "translation": "делают (они м.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ע.ש.ה",
+      "verbForm": "m_pl"
+    },
+    {
+      "id": 367,
+      "hebrew": "עוֹשׂוֹת",
+      "transcription": "осо́т",
+      "translation": "делают (они ж.р.)",
+      "lesson": 5,
+      "page": 73,
+      "category": "глаголы",
+      "verbGroup": "ע.ש.ה",
+      "verbForm": "f_pl"
+    },
+    {
+      "id": 368,
+      "hebrew": "יְרָקוֹת",
+      "transcription": "йерако́т",
+      "translation": "овощи",
+      "lesson": 5,
+      "page": 73,
+      "category": "существительные"
+    },
+    {
+      "id": 369,
+      "hebrew": "פֵּרוֹת",
+      "transcription": "пейро́т",
+      "translation": "фрукты",
+      "lesson": 5,
+      "page": 73,
+      "category": "существительные"
+    },
+    {
+      "id": 370,
+      "hebrew": "שׁוּק",
+      "transcription": "шук",
+      "translation": "рынок",
+      "lesson": 5,
+      "page": 73,
+      "category": "существительные"
+    },
+    {
+      "id": 371,
+      "hebrew": "עִתּוֹן",
+      "transcription": "ито́н",
+      "translation": "газета",
+      "lesson": 5,
+      "page": 73,
+      "category": "существительные"
+    },
+    {
+      "id": 372,
+      "hebrew": "דָּתִי",
+      "transcription": "дати́",
+      "translation": "религиозный",
+      "lesson": 5,
+      "page": 73,
+      "category": "прилагательные"
+    },
+    {
+      "id": 373,
+      "hebrew": "קִיר",
+      "transcription": "кир",
+      "translation": "стена",
+      "lesson": 4,
+      "page": 60,
+      "category": "существительные"
+    },
+    {
+      "id": 374,
+      "hebrew": "נָשִׂיא",
+      "transcription": "наси́",
+      "translation": "президент",
+      "lesson": 4,
+      "page": 60,
+      "category": "существительные"
+    },
+    {
+      "id": 375,
+      "hebrew": "רֹאשׁ הַמֶּמְשָׁלָה",
+      "transcription": "рош hамемшала́",
+      "translation": "глава правительства",
+      "lesson": 4,
+      "page": 60,
+      "category": "существительные"
+    },
+    {
+      "id": 376,
+      "hebrew": "מַפָּה",
+      "transcription": "мапа́",
+      "translation": "карта",
+      "lesson": 4,
+      "page": 60,
+      "category": "существительные"
+    },
+    {
+      "id": 377,
+      "hebrew": "לוּחַ",
+      "transcription": "лу́ах",
+      "translation": "доска",
+      "lesson": 4,
+      "page": 60,
+      "category": "существительные"
+    },
+    {
+      "id": 378,
+      "hebrew": "הַפְסָקָה",
+      "transcription": "hафсака́",
+      "translation": "перерыв",
+      "lesson": 4,
+      "page": 60,
       "category": "существительные"
     }
   ]
